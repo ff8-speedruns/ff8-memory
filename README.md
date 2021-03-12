@@ -5,11 +5,12 @@ Game details: Steam 2013 PC version (English)
 ## Table of Contents
 - [General Memory](#general-memory)
 - [Draw Points](#draw-points)
-- [Locations Reference](locations.md)
-- [Magic Reference](magic.md)
-- [Maps Reference](maps.md)
-- [Story Progress Reference](story-progress.md)
-- [Triple Triad Reference](triple-triad.md)
+- Reference Material
+    + [Locations Reference](locations.md)
+    + [Magic Reference](magic.md)
+    + [Maps Reference](maps.md)
+    + [Story Progress Reference](story-progress.md)
+    + [Triple Triad Reference](triple-triad.md)
 
 # General Memory
 
