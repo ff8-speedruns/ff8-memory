@@ -14,9 +14,71 @@ Game details: Steam 2013 PC version (English)
 
 # General Memory
 
-|Offset (EN)|Offset (FR)|Type|Description|
-|-----------|-----------|----|-----------|
-|To|Be|Filled|In|
+|Offset (EN)|Offset (FR)|Length |Description|
+|-----------|-----------|-------|-----------|
+|0x19CD798  |           |1 Byte |Triple Triad - In Game? (0/1)|
+|0x18FEA0C  |           |2 Bytes|Last Map ID (i.e. the map/screen you were on just before where you are now)|
+|0x1927D98  |           |4 Bytes|In Battle: Enemy HP in position 1|
+|0x1927E68  |           |4 Bytes|In Battle: Enemy HP in position 2|
+|0x1927F38  |           |4 Bytes|In Battle: Enemy HP in position 3|
+|0x1928008  |           |4 Bytes|In Battle: Enemy HP in position 4|
+|0x18FF5C0  |           |2 Bytes|In Battle: AP Earned|
+|0x18FF574  |           |2 Bytes|In Battle: XP Earned|
+|0x1928F18  |           |4 Bytes|In Battle: Enemy 1 Draw 1 [Spell ID](magic.md)|
+|0x1928F1C  |           |4 Bytes|In Battle: Enemy 1 Draw 2 [Spell ID](magic.md)|
+|0x1928F20  |           |4 Bytes|In Battle: Enemy 1 Draw 3 [Spell ID](magic.md)|
+|0x1928F24  |           |4 Bytes|In Battle: Enemy 1 Draw 4 [Spell ID](magic.md)|
+|0x1928F5F  |           |4 Bytes|In Battle: Enemy 2 Draw 1 [Spell ID](magic.md)|
+|0x1928F63  |           |4 Bytes|In Battle: Enemy 2 Draw 2 [Spell ID](magic.md)|
+|0x1928F67  |           |4 Bytes|In Battle: Enemy 2 Draw 3 [Spell ID](magic.md)|
+|0x1928F6B  |           |4 Bytes|In Battle: Enemy 2 Draw 4 [Spell ID](magic.md)|
+|0x1928FA6  |           |4 Bytes|In Battle: Enemy 3 Draw 1 [Spell ID](magic.md)|
+|0x1928FAA  |           |4 Bytes|In Battle: Enemy 3 Draw 2 [Spell ID](magic.md)|
+|0x1928FAE  |           |4 Bytes|In Battle: Enemy 3 Draw 3 [Spell ID](magic.md)|
+|0x1928FB2  |           |4 Bytes|In Battle: Enemy 3 Draw 4 [Spell ID](magic.md)|
+|0x1928FED  |           |4 Bytes|In Battle: Enemy 4 Draw 1 [Spell ID](magic.md)|
+|0x1928FF1  |           |4 Bytes|In Battle: Enemy 4 Draw 2 [Spell ID](magic.md)|
+|0x1928FF5  |           |4 Bytes|In Battle: Enemy 4 Draw 3 [Spell ID](magic.md)|
+|0x1928FFF  |           |4 Bytes|In Battle: Enemy 4 Draw 4 [Spell ID](magic.md)|
+|0x1927B24  |           |2 Bytes|In Battle: Party Slot 1 Current ATB Value|
+|0x1927B28  |           |2 Bytes|In Battle: Party Slot 1 Current HP|
+|0x1927B2C  |           |2 Bytes|In Battle: Party Slot 1 Max HP|
+|0x1927BF4  |           |2 Bytes|In Battle: Party Slot 2 Current ATB Value|
+|0x1927BF8  |           |2 Bytes|In Battle: Party Slot 2 Current HP|
+|0x1927BFC  |           |2 Bytes|In Battle: Party Slot 2 Max HP|
+|0x1927CC4  |           |2 Bytes|In Battle: Party Slot 3 Current ATB Value|
+|0x1927CC8  |           |2 Bytes|In Battle: Party Slot 3 Current HP|
+|0x1927CCC  |           |2 Bytes|In Battle: Party Slot 3 Max HP|
+|0x18FEAC8  |           |1 Byte |Triple Triad: Balamb [Play Rules](triple-triad.md)|
+|0x18FEAC9  |           |1 Byte |Triple Triad: Galbadia [Play Rules](triple-triad.md)|
+|0x18FEACA  |           |1 Byte |Triple Triad: Trabia [Play Rules](triple-triad.md)|
+|0x18FEACB  |           |1 Byte |Triple Triad: Centra [Play Rules](triple-triad.md)|
+|0x18FEACC  |           |1 Byte |Triple Triad: Dollet [Play Rules](triple-triad.md)|
+|0x18FEACD  |           |1 Byte |Triple Triad: FH [Play Rules](triple-triad.md)|
+|0x18FEACE  |           |1 Byte |Triple Triad: Space [Play Rules](triple-triad.md)|
+|0x18FEACF  |           |1 Byte |Triple Triad: Esthar [Play Rules](triple-triad.md)|
+|0x18FEAD0  |           |1 Byte |Triple Triad: Balamb [Trade Rule](triple-triad.md)|
+|0x18FEAD1  |           |1 Byte |Triple Triad: Galbadia [Trade Rule](triple-triad.md)|
+|0x18FEAD2  |           |1 Byte |Triple Triad: Trabia [Trade Rule](triple-triad.md)|
+|0x18FEAD3  |           |1 Byte |Triple Triad: Centra [Trade Rule](triple-triad.md)|
+|0x18FEAD4  |           |1 Byte |Triple Triad: Dollet [Trade Rule](triple-triad.md)|
+|0x18FEAD5  |           |1 Byte |Triple Triad: FH [Trade Rule](triple-triad.md)|
+|0x18FEAD6  |           |1 Byte |Triple Triad: Space [Trade Rule](triple-triad.md)|
+|0x18FEAD7  |           |1 Byte |Triple Triad: Esthar [Trade Rule](triple-triad.md)|
+|0x18FEADA  |           |1 Byte |Triple Triad: Last Region Played|
+|0x18FEADB  |           |1 Byte |Triple Triad: Second Last Region Played|
+|0x18FEFAC  |           |1 Byte |Triple Triad: Total Wins|
+|0x18FEFAE  |           |1 Byte |Triple Triad: Total Losses|
+|0x18FEFB0  |           |1 Byte |Triple Triad: Total Draws|
+|0x18FE9C8  |           |2 Bytes|SeeD Pts (every 100 = rank up)|
+|0x18FE764  |           |4 Bytes|Total Gil|
+|0x18FE9CC  |           |2 Bytes|Battles Won|
+|0x18FE9D2  |           |2 Bytes|Battles Escaped|
+|0x18FE928  |           |4 Bytes|Play Time|
+|0x18FEAB8  |           |2 Bytes|[Story Progress](story-progress.md)|
+|0x18FE940  |           |1 Byte |Centra Tonberry Kills|
+|0x1C3ED2C  |           |2 Bytes|In Town: This will be 0 on world map and 1 in local/dungeon maps EXCEPT, it will also be 1 when in menu.|
+|0x18D2FC0  |           |2 Bytes|Current [Map ID](maps.md)|
 
 # Draw Points
 Each draw point byte in the game's memory actually contains information for FOUR distinct draw points.
