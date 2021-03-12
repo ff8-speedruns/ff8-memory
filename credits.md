@@ -1,9 +1,8 @@
 The following resources were used in some fashion in addition to my own memory digging to generate the information in this repository:
 
 - [FF8 - Caraway Code retro-engineering (Amshagar)](https://docs.google.com/document/d/1k0wViIjYPa6oakFvcwXxwmXj_2O_Q8FL9Ab5XRfsA6I/)
-- https://github.com/myst6re/hyne
-- https://github.com/myst6re/deling
-- https://www.cheatengine.org/
-- http://wiki.ffrtt.ru/index.php/FF8/Tools
-- http://forums.qhimm.com/
-- https://guides.gamercorner.net/ffviii/
+- [Hyne savegame editor for Final Fantasy VIII](https://github.com/myst6re/hyne)
+- [Deling Final Fantasy VIII field archive editor](https://github.com/myst6re/deling)
+- [FF8/Tools Wiki - ffrtt.ru](http://wiki.ffrtt.ru/index.php/FF8/Tools)
+- [Qhimm.com Forums](http://forums.qhimm.com/)
+- [FFVIII - Game Corner Guides](https://guides.gamercorner.net/ffviii/)
