@@ -1,4 +1,4 @@
-The following resources were used in some fashion to generate the information in this repository:
+The following resources were used in some fashion in addition to my own memory digging to generate the information in this repository:
 
 - [FF8 - Caraway Code retro-engineering (Amshagar)](https://docs.google.com/document/d/1k0wViIjYPa6oakFvcwXxwmXj_2O_Q8FL9Ab5XRfsA6I/)
 - https://github.com/myst6re/hyne
