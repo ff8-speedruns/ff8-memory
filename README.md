@@ -49,6 +49,7 @@ Game details: Steam 2013 PC version (English)
 |0x1927CC4  |           |2 Bytes|In Battle: Party Slot 3 Current ATB Value|
 |0x1927CC8  |           |2 Bytes|In Battle: Party Slot 3 Current HP|
 |0x1927CCC  |           |2 Bytes|In Battle: Party Slot 3 Max HP|
+|0x1C9CEF0  |           |1 Byte |In Battle: Current GF Boost (0-255)|
 |0x18FEAC8  |           |1 Byte |Triple Triad: Balamb [Play Rules](triple-triad.md)|
 |0x18FEAC9  |           |1 Byte |Triple Triad: Galbadia [Play Rules](triple-triad.md)|
 |0x18FEACA  |           |1 Byte |Triple Triad: Trabia [Play Rules](triple-triad.md)|
@@ -71,10 +72,10 @@ Game details: Steam 2013 PC version (English)
 |0x18FEFAE  |           |1 Byte |Triple Triad: Total Losses|
 |0x18FEFB0  |           |1 Byte |Triple Triad: Total Draws|
 |0x18FE9C8  |           |2 Bytes|SeeD Pts (every 100 = rank up)|
-|0x18FE764  |           |4 Bytes|Total Gil|
+|0x18FE764  |           |4 Bytes|Current Gil|
 |0x18FE9CC  |           |2 Bytes|Battles Won|
 |0x18FE9D2  |           |2 Bytes|Battles Escaped|
-|0x18FE928  |           |4 Bytes|Play Time|
+|0x18FE928  |           |4 Bytes|Play Time (Seconds)|
 |0x18FEAB8  |           |2 Bytes|[Story Progress](story-progress.md)|
 |0x18FE940  |           |1 Byte |Centra Tonberry Kills|
 |0x1C3ED2C  |           |2 Bytes|In Town: This will be 0 on world map and 1 in local/dungeon maps EXCEPT, it will also be 1 when in menu.|
