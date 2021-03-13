@@ -18,18 +18,22 @@ Game details: Steam 2013 PC version (English)
 |-----------|-----------|-------|-----------|
 |0x19CD798  |           |1 Byte |Triple Triad - In Game? (0/1)|
 |0x18FEA0C  |           |2 Bytes|Last Map ID (i.e. the map/screen you were on just before where you are now)|
-|0x1927D98  |           |4 Bytes|In Battle: Enemy Current HP in position 1|
-|0x1927D9C  |           |4 Bytes|In Battle: Enemy Max HP in position 1|
-|0x1927D94  |           |2 Bytes|In Battle: Enemy ATB in position 1|
-|0x1927E68  |           |4 Bytes|In Battle: Enemy Current HP in position 2|
-|0x1927E6C  |           |4 Bytes|In Battle: Enemy Max HP in position 2|
-|0x1927E64  |           |2 Bytes|In Battle: Enemy ATB in position 2|
-|0x1927F38  |           |4 Bytes|In Battle: Enemy Current HP in position 3|
-|0x1927F3C  |           |4 Bytes|In Battle: Enemy Max HP in position 3|
-|0x1927F34  |           |2 Bytes|In Battle: Enemy ATB in position 3|
-|0x1928008  |           |4 Bytes|In Battle: Enemy Current HP in position 4|
-|0x192800C  |           |4 Bytes|In Battle: Enemy Max HP in position 4|
-|0x1928004  |           |2 Bytes|In Battle: Enemy ATB in position 4|
+|0x1927D90  |           |2 Bytes|In Battle: Enemy (Position 1) Max ATB|
+|0x1927D94  |           |2 Bytes|In Battle: Enemy (Position 1) Current ATB|
+|0x1927D98  |           |4 Bytes|In Battle: Enemy (Position 1) Current HP|
+|0x1927D9C  |           |4 Bytes|In Battle: Enemy (Position 1) Max HP|
+|0x1927E60  |           |2 Bytes|In Battle: Enemy (Position 2) Max ATB|
+|0x1927E64  |           |2 Bytes|In Battle: Enemy (Position 2) Current ATB|
+|0x1927E68  |           |4 Bytes|In Battle: Enemy (Position 2) Current HP|
+|0x1927E6C  |           |4 Bytes|In Battle: Enemy (Position 2) Max HP|
+|0x1927F30  |           |2 Bytes|In Battle: Enemy (Position 3) Max ATB|
+|0x1927F34  |           |2 Bytes|In Battle: Enemy (Position 3) Current ATB|
+|0x1927F38  |           |4 Bytes|In Battle: Enemy (Position 3) Current HP|
+|0x1927F3C  |           |4 Bytes|In Battle: Enemy (Position 3) Max HP|
+|0x1928000  |           |2 Bytes|In Battle: Enemy (Position 4) Max ATB|
+|0x1928004  |           |2 Bytes|In Battle: Enemy (Position 4) Current ATB|
+|0x1928008  |           |4 Bytes|In Battle: Enemy (Position 4) Current HP|
+|0x192800C  |           |4 Bytes|In Battle: Enemy (Position 4) Max HP|
 |0x18FF5C0  |           |2 Bytes|In Battle: AP Earned|
 |0x18FF574  |           |2 Bytes|In Battle: XP Earned|
 |0x1928F18  |           |4 Bytes|In Battle: Enemy 1 Draw 1 [Spell ID](magic.md)|
