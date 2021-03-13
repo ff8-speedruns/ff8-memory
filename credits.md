@@ -1,5 +1,6 @@
 The following resources were used in some fashion in addition to my own memory digging to generate the information in this repository:
 
+- [Kaivel](https://www.twitch.tv/kaivel)
 - [FF8 - Caraway Code retro-engineering (Amshagar)](https://docs.google.com/document/d/1k0wViIjYPa6oakFvcwXxwmXj_2O_Q8FL9Ab5XRfsA6I/)
 - [Hyne savegame editor for Final Fantasy VIII](https://github.com/myst6re/hyne)
 - [Deling Final Fantasy VIII field archive editor](https://github.com/myst6re/deling)
