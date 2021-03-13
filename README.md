@@ -18,10 +18,18 @@ Game details: Steam 2013 PC version (English)
 |-----------|-----------|-------|-----------|
 |0x19CD798  |           |1 Byte |Triple Triad - In Game? (0/1)|
 |0x18FEA0C  |           |2 Bytes|Last Map ID (i.e. the map/screen you were on just before where you are now)|
-|0x1927D98  |           |4 Bytes|In Battle: Enemy HP in position 1|
-|0x1927E68  |           |4 Bytes|In Battle: Enemy HP in position 2|
-|0x1927F38  |           |4 Bytes|In Battle: Enemy HP in position 3|
-|0x1928008  |           |4 Bytes|In Battle: Enemy HP in position 4|
+|0x1927D98  |           |4 Bytes|In Battle: Enemy Current HP in position 1|
+|0x1927D9C  |           |4 Bytes|In Battle: Enemy Max HP in position 1|
+|0x1927D94  |           |4 Bytes|In Battle: Enemy ATB in position 1|
+|0x1927E68  |           |4 Bytes|In Battle: Enemy Current HP in position 2|
+|0x1927E6C  |           |4 Bytes|In Battle: Enemy Max HP in position 2|
+|0x1927E64  |           |4 Bytes|In Battle: Enemy ATB in position 2|
+|0x1927F38  |           |4 Bytes|In Battle: Enemy Current HP in position 3|
+|0x1927F3C  |           |4 Bytes|In Battle: Enemy Max HP in position 3|
+|0x1927F34  |           |4 Bytes|In Battle: Enemy ATB HP in position 3|
+|0x1928008  |           |4 Bytes|In Battle: Enemy Current HP in position 4|
+|0x192800C  |           |4 Bytes|In Battle: Enemy Max HP in position 4|
+|0x1928004  |           |4 Bytes|In Battle: Enemy ATB HP in position 4|
 |0x18FF5C0  |           |2 Bytes|In Battle: AP Earned|
 |0x18FF574  |           |2 Bytes|In Battle: XP Earned|
 |0x1928F18  |           |4 Bytes|In Battle: Enemy 1 Draw 1 [Spell ID](magic.md)|
@@ -40,13 +48,13 @@ Game details: Steam 2013 PC version (English)
 |0x1928FF1  |           |4 Bytes|In Battle: Enemy 4 Draw 2 [Spell ID](magic.md)|
 |0x1928FF5  |           |4 Bytes|In Battle: Enemy 4 Draw 3 [Spell ID](magic.md)|
 |0x1928FFF  |           |4 Bytes|In Battle: Enemy 4 Draw 4 [Spell ID](magic.md)|
-|0x1927B24  |           |2 Bytes|In Battle: Party Slot 1 Current ATB Value|
+|0x1927B24  |           |2 Bytes|In Battle: Party Slot 1 Current ATB Value (Max = [BattleSpeed * 4000](https://gamefaqs.gamespot.com/ps/197343-final-fantasy-viii/faqs/58936))|
 |0x1927B28  |           |2 Bytes|In Battle: Party Slot 1 Current HP|
 |0x1927B2C  |           |2 Bytes|In Battle: Party Slot 1 Max HP|
-|0x1927BF4  |           |2 Bytes|In Battle: Party Slot 2 Current ATB Value|
+|0x1927BF4  |           |2 Bytes|In Battle: Party Slot 2 Current ATB Value (Max = [BattleSpeed * 4000](https://gamefaqs.gamespot.com/ps/197343-final-fantasy-viii/faqs/58936))|
 |0x1927BF8  |           |2 Bytes|In Battle: Party Slot 2 Current HP|
 |0x1927BFC  |           |2 Bytes|In Battle: Party Slot 2 Max HP|
-|0x1927CC4  |           |2 Bytes|In Battle: Party Slot 3 Current ATB Value|
+|0x1927CC4  |           |2 Bytes|In Battle: Party Slot 3 Current ATB Value (Max = [BattleSpeed * 4000](https://gamefaqs.gamespot.com/ps/197343-final-fantasy-viii/faqs/58936))|
 |0x1927CC8  |           |2 Bytes|In Battle: Party Slot 3 Current HP|
 |0x1927CCC  |           |2 Bytes|In Battle: Party Slot 3 Max HP|
 |0x1C9CEF0  |           |1 Byte |In Battle: Current GF Boost (0-255)|
