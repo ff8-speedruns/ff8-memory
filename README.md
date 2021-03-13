@@ -97,7 +97,7 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |18E490B  |           |1 Byte |Game is Savable (i.e. save anywhere). Lock to 1 to save anywhere. Save points set this value to 3.|
 |1996DA8  |           |2 Bytes|Current/Most Recent [Encounter ID](encounter-ids.md)|
 |18DC74A  |           |1 Byte |Danger Value (except World Map)|
-|1C40A5E  |           |1 Byte |Danger Value (in World Map) (add 12 if in forest; 128 if on hell/heaven islands; 2 everywhere else)|
+|1C40A5E  |           |1 Byte |Danger Value (in World Map) (+3 per step; +4 per diagonal step or up/downhill) (add 12 if in forest; 128 if on hell/heaven islands; 2 everywhere else)|
 
 # Draw Points
 Each draw point byte in the game's memory actually contains information for FOUR distinct draw points.
