@@ -14,10 +14,12 @@ Game details: Steam 2013 PC version (English)
 
 # General Memory
 
+It looks like the FR offsets are ( EN Offset - 328). Needs verification, however.
+
 |Offset (EN)|Offset (FR)|Length |Description|
 |-----------|-----------|-------|-----------|
-|19CD798  |           |1 Byte |Triple Triad - In Game? (0/1)|
-|18FEA0C  |           |2 Bytes|Last Map ID (i.e. the map/screen you were on just before where you are now)|
+|19CD798  |           |1 Byte |Triple Triad - In Game: 1 yes; 0 no|
+|18FEA0C  |           |2 Bytes|Previous Screen's [Map ID](maps.md)|
 |1927D90  |           |2 Bytes|In Battle: Enemy (Position 1) Max ATB|
 |1927D94  |           |4 Bytes|In Battle: Enemy (Position 1) Current ATB|
 |1927D98  |           |4 Bytes|In Battle: Enemy (Position 1) Current HP|
@@ -52,13 +54,13 @@ Game details: Steam 2013 PC version (English)
 |1928FF1  |           |4 Bytes|In Battle: Enemy 4 Draw 2 [Spell ID](magic.md)|
 |1928FF5  |           |4 Bytes|In Battle: Enemy 4 Draw 3 [Spell ID](magic.md)|
 |1928FFF  |           |4 Bytes|In Battle: Enemy 4 Draw 4 [Spell ID](magic.md)|
-|1927B24  |           |2 Bytes|In Battle: Party Slot 1 Current ATB Value (Max = [BattleSpeed * 4000](https://gamefaqs.gamespot.com/ps/197343-final-fantasy-viii/faqs/58936))|
+|1927B24  |           |2 Bytes|In Battle: Party Slot 1 Current ATB Value|
 |1927B28  |           |2 Bytes|In Battle: Party Slot 1 Current HP|
 |1927B2C  |           |2 Bytes|In Battle: Party Slot 1 Max HP|
-|1927BF4  |           |2 Bytes|In Battle: Party Slot 2 Current ATB Value (Max = [BattleSpeed * 4000](https://gamefaqs.gamespot.com/ps/197343-final-fantasy-viii/faqs/58936))|
+|1927BF4  |           |2 Bytes|In Battle: Party Slot 2 Current ATB Value|
 |1927BF8  |           |2 Bytes|In Battle: Party Slot 2 Current HP|
 |1927BFC  |           |2 Bytes|In Battle: Party Slot 2 Max HP|
-|1927CC4  |           |2 Bytes|In Battle: Party Slot 3 Current ATB Value (Max = [BattleSpeed * 4000](https://gamefaqs.gamespot.com/ps/197343-final-fantasy-viii/faqs/58936))|
+|1927CC4  |           |2 Bytes|In Battle: Party Slot 3 Current ATB Value|
 |1927CC8  |           |2 Bytes|In Battle: Party Slot 3 Current HP|
 |1927CCC  |           |2 Bytes|In Battle: Party Slot 3 Max HP|
 |1C9CEF0  |           |1 Byte |In Battle: Current GF Boost (0-255)|
@@ -90,10 +92,12 @@ Game details: Steam 2013 PC version (English)
 |18FE928  |           |4 Bytes|Play Time (Seconds)|
 |18FEAB8  |           |2 Bytes|[Story Progress](story-progress.md)|
 |18FE940  |           |1 Byte |Centra Tonberry Kills|
-|1C3ED2C  |           |2 Bytes|In Town: This will be 0 on world map and 1 in local/dungeon maps EXCEPT, it will also be 1 when in menu.|
+|1C3ED2C  |           |2 Bytes|In Town: 0 on world map; 1 in local/dungeon maps; 1 in menu; 1 in battle.|
 |18D2FC0  |           |2 Bytes|Current [Map ID](maps.md)|
 |18E490B  |           |1 Byte |Game is Savable (i.e. save anywhere). Lock to 1 to save anywhere. Save points set this value to 3.|
 |1996DA8  |           |2 Bytes|Current/Most Recent [Encounter ID](encounter-ids.md)|
+|18DC74A  |           |1 Byte |Danger Value (except World Map)|
+|1C40A5E  |           |1 Byte |Danger Value (in World Map) (add 12 if in forest; 128 if on hell/heaven islands; 2 everywhere else)|
 
 # Draw Points
 Each draw point byte in the game's memory actually contains information for FOUR distinct draw points.
