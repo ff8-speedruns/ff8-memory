@@ -92,7 +92,8 @@ Game details: Steam 2013 PC version (English)
 |18FE940  |           |1 Byte |Centra Tonberry Kills|
 |1C3ED2C  |           |2 Bytes|In Town: This will be 0 on world map and 1 in local/dungeon maps EXCEPT, it will also be 1 when in menu.|
 |18D2FC0  |           |2 Bytes|Current [Map ID](maps.md)|
-|18E490B  |           |1 Byte |Game is savable (i.e. save anywhere). Lock to 1 to save anywhere. Save points set this value to 3.|
+|18E490B  |           |1 Byte |Game is Savable (i.e. save anywhere). Lock to 1 to save anywhere. Save points set this value to 3.|
+|1996DA8  |           |2 Bytes|Current/Most Recent [Encounter ID](encounter-ids.md)|
 
 # Draw Points
 Each draw point byte in the game's memory actually contains information for FOUR distinct draw points.
