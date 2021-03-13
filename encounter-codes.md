@@ -925,4 +925,8 @@ These encounters are in the game but are never used in the story.
 |914|Dummy|Snow Valley|
 |915|Dummy|Esthar Presidential Palace (red sky)|
 
+# Notes
+In the first Edea battle (136), if anyone but Squall is in the party, the game crashes.
+In the Odin battle (317), if no timer is set, it thinks the timer ran out and he will Zantetsuken you immediately.
+
 Source: [Qhimm Wiki (down)](http://wiki.qhimm.com/view/FF8/Encounter_Codes)
