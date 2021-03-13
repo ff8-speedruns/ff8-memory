@@ -1,3 +1,4 @@
+# Usable Encounters
 |Encounter ID|Description|Location|
 |---|---|---|
 |000|G-Soldier|Dollet|
@@ -829,10 +830,11 @@
 |842|Grendel|Missile Base Catwalk|
 |843|SAM08G + Geezard|Missile Base Overlook|
 |844|Belhelmel|Missile Base Overlook|
-|Test/Buggy Encounters|
-|These encounters are in the game but are never used in the story.|
-||
+
+# Test/Buggy Encounters
+These encounters are in the game but are never used in the story.
 |Encounter ID|Description|Location|
+|----|----|----|
 |508|Ultimecia (test)| ????|
 |509|Griever (test)| ????|
 |510|Grievermecia (test, buggy)| ????|
