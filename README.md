@@ -98,6 +98,23 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |1996DA8  |           |2 Bytes|Current/Most Recent [Encounter ID](encounter-ids.md)|
 |18DC74A  |           |1 Byte |Danger Value (except World Map)|
 |1C40A5E  |           |1 Byte |Danger Value (in World Map) [See section 10.1 here](https://gamefaqs.gamespot.com/ps/197343-final-fantasy-viii/faqs/58936)|
+|18FE9BC  |           |4 Bytes|Total steps taken|
+|18FE9C1  |           |1 Byte |SeeD Payout Timer (increments every ~6 running steps; more research needed) |
+|18FE9C0  |           |1 Byte |SeeD Payout RNG (changes every step; more research needed)|
+|18FE9D4  |           |2 Bytes|Squall's Kill Count|
+|18FE9D6  |           |2 Bytes|Zell's Kill Count|
+|18FE9D8  |           |2 Bytes|Irvine's Kill Count|
+|18FE9DA  |           |2 Bytes|Quistis's Kill Count|
+|18FE9DC  |           |2 Bytes|Rinoa's Kill Count|
+|18FE9DE  |           |2 Bytes|Selphie's Kill Count|
+|18FE9E4  |           |2 Bytes|Squall's Death Count|
+|18FE9E6  |           |2 Bytes|Zell's Death Count|
+|18FE9E8  |           |2 Bytes|Irvine's Death Count|
+|18FE9EA  |           |2 Bytes|Quistis's Death Count|
+|18FE9EC  |           |2 Bytes|Rinoa's Death Count|
+|18FE9EE  |           |2 Bytes|Selphie's Death Count|
+|18FE9FC  |           |4 Bytes|Total Enemies Killed|
+|18FEB32  |           |1 Byte |Centra Ruins Timer|
 
 # Draw Points
 Each draw point byte in the game's memory actually contains information for FOUR distinct draw points.
