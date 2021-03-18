@@ -1,4 +1,4 @@
-This is my list of known RAM offsets for FFVIII, compiled from various sources and my own research.
+This is my list of known RAM offsets for FFVIII, compiled from [various sources](credits.md) and my own research.
 
 Game details: Steam 2013 PC version (English)
 
