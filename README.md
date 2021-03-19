@@ -490,22 +490,22 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |FF8_EN.exe+1928004||4 Bytes|In Battle: Enemy (Position 4) Current ATB|
 |FF8_EN.exe+1928008||4 Bytes|In Battle: Enemy (Position 4) Current HP|
 |FF8_EN.exe+192800C||4 Bytes|In Battle: Enemy (Position 4) Max HP|
-|FF8_EN.exe+1928F18||4 Bytes|In Battle: Enemy 1 Draw 1 [Spell ID](magic.md)|
-|FF8_EN.exe+1928F1C||4 Bytes|In Battle: Enemy 1 Draw 2 [Spell ID](magic.md)|
-|FF8_EN.exe+1928F20||4 Bytes|In Battle: Enemy 1 Draw 3 [Spell ID](magic.md)|
-|FF8_EN.exe+1928F24||4 Bytes|In Battle: Enemy 1 Draw 4 [Spell ID](magic.md)|
-|FF8_EN.exe+1928F5F||4 Bytes|In Battle: Enemy 2 Draw 1 [Spell ID](magic.md)|
-|FF8_EN.exe+1928F63||4 Bytes|In Battle: Enemy 2 Draw 2 [Spell ID](magic.md)|
-|FF8_EN.exe+1928F67||4 Bytes|In Battle: Enemy 2 Draw 3 [Spell ID](magic.md)|
-|FF8_EN.exe+1928F6B||4 Bytes|In Battle: Enemy 2 Draw 4 [Spell ID](magic.md)|
-|FF8_EN.exe+1928FA6||4 Bytes|In Battle: Enemy 3 Draw 1 [Spell ID](magic.md)|
-|FF8_EN.exe+1928FAA||4 Bytes|In Battle: Enemy 3 Draw 2 [Spell ID](magic.md)|
-|FF8_EN.exe+1928FAE||4 Bytes|In Battle: Enemy 3 Draw 3 [Spell ID](magic.md)|
-|FF8_EN.exe+1928FB2||4 Bytes|In Battle: Enemy 3 Draw 4 [Spell ID](magic.md)|
-|FF8_EN.exe+1928FED||4 Bytes|In Battle: Enemy 4 Draw 1 [Spell ID](magic.md)|
-|FF8_EN.exe+1928FF1||4 Bytes|In Battle: Enemy 4 Draw 2 [Spell ID](magic.md)|
-|FF8_EN.exe+1928FF5||4 Bytes|In Battle: Enemy 4 Draw 3 [Spell ID](magic.md)|
-|FF8_EN.exe+1928FFF||4 Bytes|In Battle: Enemy 4 Draw 4 [Spell ID](magic.md)|
+|FF8_EN.exe+1928F18||1 Byte |In Battle: Enemy 1 Draw 1 [Spell ID](magic.md)|
+|FF8_EN.exe+1928F1C||1 Byte |In Battle: Enemy 1 Draw 2 [Spell ID](magic.md)|
+|FF8_EN.exe+1928F20||1 Byte |In Battle: Enemy 1 Draw 3 [Spell ID](magic.md)|
+|FF8_EN.exe+1928F24||1 Byte |In Battle: Enemy 1 Draw 4 [Spell ID](magic.md)|
+|FF8_EN.exe+1928F5F||1 Byte |In Battle: Enemy 2 Draw 1 [Spell ID](magic.md)|
+|FF8_EN.exe+1928F63||1 Byte |In Battle: Enemy 2 Draw 2 [Spell ID](magic.md)|
+|FF8_EN.exe+1928F67||1 Byte |In Battle: Enemy 2 Draw 3 [Spell ID](magic.md)|
+|FF8_EN.exe+1928F6B||1 Byte |In Battle: Enemy 2 Draw 4 [Spell ID](magic.md)|
+|FF8_EN.exe+1928FA6||1 Byte |In Battle: Enemy 3 Draw 1 [Spell ID](magic.md)|
+|FF8_EN.exe+1928FAA||1 Byte |In Battle: Enemy 3 Draw 2 [Spell ID](magic.md)|
+|FF8_EN.exe+1928FAE||1 Byte |In Battle: Enemy 3 Draw 3 [Spell ID](magic.md)|
+|FF8_EN.exe+1928FB2||1 Byte |In Battle: Enemy 3 Draw 4 [Spell ID](magic.md)|
+|FF8_EN.exe+1928FED||1 Byte |In Battle: Enemy 4 Draw 1 [Spell ID](magic.md)|
+|FF8_EN.exe+1928FF1||1 Byte |In Battle: Enemy 4 Draw 2 [Spell ID](magic.md)|
+|FF8_EN.exe+1928FF5||1 Byte |In Battle: Enemy 4 Draw 3 [Spell ID](magic.md)|
+|FF8_EN.exe+1928FFF||1 Byte |In Battle: Enemy 4 Draw 4 [Spell ID](magic.md)|
 |FF8_EN.exe+1996DA8||2 Bytes|Current/Most Recent [Encounter ID](encounter-ids.md)|
 |FF8_EN.exe+19CD798||1 Byte|Triple Triad - In Game: 1 yes; 0 no|
 |FF8_EN.exe+1C3ED02||2 Bytes|Camera direction in World Map (0/North - 4095)|
