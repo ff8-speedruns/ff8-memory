@@ -486,6 +486,7 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |FF8_EN.exe+1927F34||4 Bytes|In Battle: Enemy (Position 3) Current ATB|
 |FF8_EN.exe+1927F38||4 Bytes|In Battle: Enemy (Position 3) Current HP|
 |FF8_EN.exe+1927F3C||4 Bytes|In Battle: Enemy (Position 3) Max HP|
+|FF8_EN.exe+1927F58||1 Byte |Ultimecia Death Animation - changes from 0 to 1 when Ultimecia receives final hit|
 |FF8_EN.exe+1928000||4 Bytes|In Battle: Enemy (Position 4) Max ATB|
 |FF8_EN.exe+1928004||4 Bytes|In Battle: Enemy (Position 4) Current ATB|
 |FF8_EN.exe+1928008||4 Bytes|In Battle: Enemy (Position 4) Current HP|
