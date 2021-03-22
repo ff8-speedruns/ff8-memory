@@ -357,7 +357,7 @@
 |3496|188|Edea's House - Flower Field||
 |3498|188|Edea's House - Flower Field||
 |3500|188|Edea's House - Flower Field||
-|3600|183|Edea's House|Presidential Palace - Office unlocks|
+|3600|183|Edea's House|Presidential Palace - Office door unlocks|
 |3601|166|Presidential Palace - Office||
 |3602|166|Presidential Palace - Office||
 |3604|166|Presidential Palace - Office||
