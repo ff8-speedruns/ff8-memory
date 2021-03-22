@@ -18,7 +18,7 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
-|FF8_EN.exe+18D2FC0||2 Bytes|Current [Map ID](maps.md)|
+|FF8_EN.exe+18D2FC0|FF8_FR.exe+18D2C98|2 Bytes|Current [Map ID](maps.md)|
 |FF8_EN.exe+18DC74A||1 Byte|Danger Value (except World Map)|
 |FF8_EN.exe+18E490B||1 Byte|Game is Savable (i.e. save anywhere). Lock to 1 to save anywhere. Save points set this value to 3.|
 |FF8_EN.exe+18FE764||4 Bytes|Current Gil|
