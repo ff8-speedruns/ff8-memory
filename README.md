@@ -440,7 +440,7 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |FF8_EN.exe+18FE9EE||2 Bytes|Selphie's Death Count|
 |FF8_EN.exe+18FE9FC||4 Bytes|Total Enemies Killed|
 |FF8_EN.exe+18FEA0C||2 Bytes|Previous Screen's [Map ID](maps.md)|
-|FF8_EN.exe+18FEAB8||2 Bytes|[Story Progress](story-progress.md)|
+|FF8_EN.exe+18FEAB8|FF8_FR.exe+18FE790|2 Bytes|[Story Progress](story-progress.md)|
 |FF8_EN.exe+18FEAC8||1 Byte|Triple Triad: Balamb [Play Rules](triple-triad.md)|
 |FF8_EN.exe+18FEAC9||1 Byte|Triple Triad: Galbadia [Play Rules](triple-triad.md)|
 |FF8_EN.exe+18FEACA||1 Byte|Triple Triad: Trabia [Play Rules](triple-triad.md)|
