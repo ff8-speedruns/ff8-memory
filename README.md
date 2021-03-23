@@ -460,6 +460,7 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |FF8_EN.exe+18FEADA||1 Byte|Triple Triad: Last Region Played|
 |FF8_EN.exe+18FEADB||1 Byte|Triple Triad: Second Last Region Played|
 |FF8_EN.exe+18FEB32||1 Byte|Centra Ruins Timer|
+|FF8_EN.exe+18FEC90|FF8_FR.exe+18FE968|1 Byte|Caraway Mansion Code (correct only when on the map with the soldier)|
 |FF8_EN.exe+18FEFAC||1 Byte|Triple Triad: Total Wins|
 |FF8_EN.exe+18FEFAE||1 Byte|Triple Triad: Total Losses|
 |FF8_EN.exe+18FEFB0||1 Byte|Triple Triad: Total Draws|
