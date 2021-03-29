@@ -9,3 +9,4 @@ The following resources were used in some fashion in addition to my own memory d
     + [FF8 ID item's list](http://forums.qhimm.com/index.php?topic=17034.0)
 - [FFVIII - Game Corner Guides](https://guides.gamercorner.net/ffviii/)
 - [Final Fantasy VIII Cheat Table](https://fearlessrevolution.com/viewtopic.php?t=1029)
+- [Maps and Locations | FF8 - Game8](https://game8.co/games/Final_Fantasy_VIII/archives/270984)
