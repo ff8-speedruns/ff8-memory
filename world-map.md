@@ -21,7 +21,7 @@ Z = 200 appears to be sea level.
 |-23150|62853|-648|Edea's House|
 |4887|51285|-480|White SeeD Ship|
 |49888|-2683|-333|Great Salt Lake|
-|57011|-2295|-297|Esther|
+|57011|-2295|-297|Esthar|
 |79521|-9135|-570|Lunatic Pandora Lab|
 |88021|7865|-328|Lunar Gate|
 |81521|11865|-460|Sorceress Memorial|
