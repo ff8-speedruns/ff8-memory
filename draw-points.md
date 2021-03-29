@@ -280,3 +280,4 @@ Binary: 1 1 0 0 0 0 0 0
 
 ## Draw Map (WM)
 ![Chocobo Forests](img/wm/draw.png)
+<sup>[Source](https://game8.co/games/Final_Fantasy_VIII/archives/270984)</sup>
