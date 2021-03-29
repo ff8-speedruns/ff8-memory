@@ -48,12 +48,15 @@ Z = 200 appears to be sea level.
 
 ## World Map Locations
 ![World Map](img/wm/wm.png)
+
 <sup>[Source](https://game8.co/games/Final_Fantasy_VIII/archives/270984)</sup>
 
 ## Chocobo Forests
 ![Chocobo Forests](img/wm/chocobo.png)
+
 <sup>[Source](https://game8.co/games/Final_Fantasy_VIII/archives/270984)</sup>
 
 ## UFO Locations
 ![UFO Locations](img/wm/ufo.png)
+
 <sup>[Source](https://game8.co/games/Final_Fantasy_VIII/archives/270984)</sup>
