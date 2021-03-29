@@ -1491,8 +1491,8 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |FF8_EN.exe+18FE02D||1 Byte |Cactaur Unlocked|
 |FF8_EN.exe+18FE05C||1 Byte |Cactaur [Skill](skills.md) Selected to Learn|
 |FF8_EN.exe+18FE071||1 Byte |Tonberry Unlocked|
-|FF8_EN.exe+18FE071||1 Byte |Eden Unlocked|
 |FF8_EN.exe+18FE0A0||1 Byte |Tonberry [Skill](skills.md) Selected to Learn|
+|FF8_EN.exe+18FE0B5||1 Byte |Eden Unlocked|
 |FF8_EN.exe+18FE0E4||1 Byte |Eden [Skill](skills.md) Selected to Learn|
 |FF8_EN.exe+18FF618||2 Bytes|Quezacotl Current HP|
 |FF8_EN.exe+18FF61A||2 Bytes|Quezacotl Max HP|
