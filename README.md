@@ -48,9 +48,9 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |FF8_EN.exe+1C3ED2C||2 Bytes|In Town: 0 on world map; 1 in local/dungeon maps; 1 in menu; 1 in battle.|
 |FF8_EN.exe+1C3ED30||1 Byte |[Button Presses](buttons.md) (Byte 1)|
 |FF8_EN.exe+1C3ED31||1 Byte |[Button Presses](buttons.md) (Byte 2)|
-|FF8_EN.exe+1C3EE80||4 Bytes|World Map Coord X|
-|FF8_EN.exe+1C3EE84||4 Bytes|World Map Coord Y|
-|FF8_EN.exe+1C3EE88||4 Bytes|World Map Coord Z|
+|FF8_EN.exe+1C3EE80||4 Bytes|[World Map](world-map.md) Coord X|
+|FF8_EN.exe+1C3EE84||4 Bytes|[World Map](world-map.md) Coord Y|
+|FF8_EN.exe+1C3EE88||4 Bytes|[World Map](world-map.md) Coord Z|
 |FF8_EN.exe+1C40A5E||1 Byte |Danger Value (in World Map) [See section 10.1 here](https://gamefaqs.gamespot.com/ps/197343-final-fantasy-viii/faqs/58936)|
 
 ## Battles
