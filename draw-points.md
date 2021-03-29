@@ -276,3 +276,7 @@ Binary: 1 1 0 0 0 0 0 0
 |FF8_EN.exe+18FEA6B|2|47|Esthar - Sollet Mountains|15|Flare|
 |FF8_EN.exe+18FEA6B|3|48|Esthar - Abadan Plains|19|Ultima|
 |FF8_EN.exe+18FEA6B|4|-1|???|50|Scan|
+
+
+## Draw Map (WM)
+![Chocobo Forests](img/wm/draw.png)

@@ -45,3 +45,12 @@ Z = 200 appears to be sea level.
 |48893|-57979|-800|Trabia Garden|
 |4887|51285|-480|White SeeD Ship|
 |-50285|6320|-385|Winhill|
+
+## World Map Locations
+![World Map](img/wm/wm.png)
+
+## Chocobo Forests
+![Chocobo Forests](img/wm/chocobo.png)
+
+## UFO Locations
+![UFO Locations](img/wm/ufo.png)
