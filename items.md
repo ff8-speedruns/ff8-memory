@@ -1,5 +1,5 @@
 # Items (Reference)
-|Item ID|Item Name|
+|ID|Name|
 |----|----|
 |00|None|
 |01|Potion|
