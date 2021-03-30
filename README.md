@@ -41,7 +41,7 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |FF8_EN.exe+18FEA0C||2 Bytes|Previous Screen's [Map ID](maps.md)|
 |FF8_EN.exe+18FEAB8|FF8_FR.exe+18FE790|2 Bytes|[Story Progress](story-progress.md)|
 |FF8_EN.exe+18FEB32||1 Byte |Centra Ruins Timer|
-|FF8_EN.exe+18FEC90|FF8_FR.exe+18FE968|1 Byte |Caraway Mansion Code (correct only when on the map with the soldier)|
+|FF8_EN.exe+18FEC90|FF8_FR.exe+18FE968|1 Byte |Caraway Mansion Code (correct only when on [map](maps.md) 761|
 |FF8_EN.exe+1996DA8||2 Bytes|Current/Most Recent [Encounter ID](encounter-ids.md)|
 |FF8_EN.exe+1C3ED02||2 Bytes|Camera direction in World Map (0/North - 4095)|
 |FF8_EN.exe+1C3ED08||2 Bytes|Something to do with Camera Tilt in World Map|
