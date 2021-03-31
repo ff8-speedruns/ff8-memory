@@ -11,3 +11,4 @@ The following resources were used in some fashion in addition to my own memory d
 - [Final Fantasy VIII Cheat Table](https://fearlessrevolution.com/viewtopic.php?t=1029)
 - [Maps and Locations | FF8 - Game8](https://game8.co/games/Final_Fantasy_VIII/archives/270984)
 - [Final Fantasy VIII (F) RAM MAP Par Beuj, Kaivel, Ony, KartSeven, AmShagar](https://docs.google.com/document/d/1unjgx4zAUUcIroed8ahxmD-9yhMHZQESjrjWuzFnML8)
+- [czardragon](https://gamehacking.org/czardragon/)
