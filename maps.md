@@ -970,7 +970,7 @@
 |966|fhtown24|147|FH - Residential Area|
 |967|rgcock4|208|Ragnarok - Cockpit|
 |968|rgcock5|208|Ragnarok - Cockpit|
-|969|ffhole1a|228|Wilderness|
+|969|ffhole1a|228|Chain leading to Ultemecia Castle|
 |970|ehblan1a|185|Edea's House - Bedroom|
 |971|ehenter3|183|Edea's House|
 |972|ehroom1a|184|Edea's House - Playroom|
