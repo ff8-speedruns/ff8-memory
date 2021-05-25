@@ -35,8 +35,8 @@ It looks like the FR offsets are ( EN Offset - 328). Needs verification, however
 |FF8_EN.exe+18FE92C||2 Bytes|Time remaining (seconds) (If there's an active timer)|
 |FF8_EN.exe+18FE940||1 Byte |Centra Tonberry Kills|
 |FF8_EN.exe+18FE9BC||4 Bytes|Total steps taken|
-|FF8_EN.exe+18FE9C0||1 Byte |SeeD Payout RNG (changes every step; more research needed)|
-|FF8_EN.exe+18FE9C1||1 Byte |SeeD Payout Timer (increments every ~6 running steps; more research needed)|
+|FF8_EN.exe+18FE9C0||1 Byte |SeeD Payout RNG (increments as you step, loops over at 255; like real step id)|
+|FF8_EN.exe+18FE9C1||1 Byte |SeeD Payout Timer (Payout when >= 96) (Increments 1 for every time SeeD Payout RNG passes 255)|
 |FF8_EN.exe+18FE9C8||2 Bytes|SeeD Pts (every 100 = rank up)|
 |FF8_EN.exe+18FEA0C||2 Bytes|Previous Screen's [Map ID](maps.md)|
 |FF8_EN.exe+18FEAB8|FF8_FR.exe+18FE790|2 Bytes|[Story Progress](story-progress.md)|
