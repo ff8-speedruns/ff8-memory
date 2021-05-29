@@ -1,6 +1,7 @@
 # Ultemecia Castle Seals
 1. FF8_EN.exe+18FE73F / FF8_FR.exe+18FE417 (In Map)
 2. FF8_EN.exe+18FF6E8 / FF8_FR.exe+18FF3C0 (In Battle)
+3. FF8_EN.exe+18FF6E8 / FF8_FR.exe+18FE7DE (Unlocked Options - Controls post-battle choice list)
 
 Examples:
 * 3 = Item(1) + Magic(2) locked. Everything else unlocked.
