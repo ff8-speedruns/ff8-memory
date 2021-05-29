@@ -86,8 +86,6 @@
 |082|1 Paratrooper|Balamb Garden 2f Classroom|
 |083|Raijin + 2 G-Soldier (boss)|Balamb Hotel (outside)|
 |084|Raijin + Fujin (boss)|Balamb Hotel|
-|085|Red Propagator|Ragnarok|
-|085|Red Propagator|Ragnarok|
 |085|Red Propagator|Ragnarok Cargo Bay|
 |086|Red Propagator|Ragnarok Cargo Bay (door)|
 |087|1 Buel|Fire Cavern|
