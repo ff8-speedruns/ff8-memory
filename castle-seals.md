@@ -7,7 +7,7 @@ Examples:
 * 3 = Item(1) + Magic(2) locked. Everything else unlocked.
 * 77 = Item(1) + GF(4) + Draw(8) + Resurrection(64) locked. Everything else unlocked.
 
-To save anywhere in the castle, Address #1's value must be less than 128 (you also still need to enable the save-anywhere option, too) (Credit: [AwesomeWaves](https://twitch.tv/awesomewaves)).
+To save anywhere in the castle, Address #1's value must be less than 128 (you still need to enable the save-anywhere option as well) (Credit: [AwesomeWaves](https://twitch.tv/awesomewaves)).
 
 
 |Seal|Description|
