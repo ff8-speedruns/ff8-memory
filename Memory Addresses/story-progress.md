@@ -1,6 +1,33 @@
 # Story Progress (Reference)
 |Progress Value|Location ID|Location Name|Description|
 |-------|-----------|-----------|-----------|
+|0||Game Start||
+|7|71|B-Garden - Infirmary|After seeing Ellone for the first time.|
+|12|80|B-Garden - Hallway|After camera shift when walking with Quistis.|
+|14|66|B-Garden - Classroom|When Quistis says "Field exam participants, I will see you all later."|
+|16|66|B-Garden - Classroom|After talking to Quistis after class.|
+|17|69|B-Garden - 2F Hallway|Leaving class (Selphie tour checks for this).|
+|20|92|Fire Cavern|Fire Cavern Junction Tutorial.|
+|21|92|Fire Cavern|Begin Fire Cavern test (saying you're ready to Garden faculty in front of cave).|
+|22|92|Fire Cavern|First screen Quistis dialogue.|
+|23|92|Fire Cavern|Second screen Quistis dialogue.|
+|24|92|Fire Cavern|Fourth screen Quistis dialogue.|
+|30|92|Fire Cavern|Ifrit Defeated (Garden faculty removed from FC entrance).|
+|33|65|B Garden - Front Gate|After GF tutorial. Allows Squall to change uniforms in dorm.|
+|34|72|B Garden - Dormitory Double|After Squall changes. Triggers Dollet mission brief.|
+|36|70|B Garden - Hall|After Cid's Dollet mission briefing.|
+|38|75|B-Garden - Parking Lot|After Squall exits mission briefing scene (and teleports to parking lot).|
+|40|-|World Map|After driving tutorial.|
+|45|-|Boat|After entering boat to Dollet.|
+|55|-|Boat|After Xu's introduction.|
+|60|-|Boat|After Xu's briefing.|
+|65|94|Dollet - Lapin Beach|After Seifer says "Let's move out!"|
+|70|99|Dollet - Comm Tower|Begin first soldier battle (map name is a misnomer).|
+|75|93|Dollet - Town Square|After second soldier battle.|
+|80|93|Dollet - Town Square|Seifer says "The [Central Square] is up ahead."|
+|81|93|Dollet - Town Square|After third soldier battle.|
+|82|93|Dollet - Town Square|After fourth soldier battle.|
+|82|93|Dollet - Town Square|After talking to Seifer when all battles completed.|
 |83|93|Dollet - Town Square||
 |84|93|Dollet - Town Square||
 |92|93|Dollet - Town Square||
