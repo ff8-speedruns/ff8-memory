@@ -6,3 +6,5 @@ I credit as much as possible; if I've missed you in the credits of a project ple
 
 * [FF8 Memory Addresses](https://github.com/brofar/ff8/tree/main/Memory%20Addresses)
 * [FF8 Encounter Calculator](./EncounterCalculator)
+
+[Github Pages](https://brofar.github.io/ff8)
