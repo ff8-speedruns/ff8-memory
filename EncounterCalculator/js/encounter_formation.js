@@ -24,7 +24,6 @@ start();
 const prevEncFormationInput = document.getElementById("prev-enc-formation");
 const prevEncNumberInput = document.getElementById("prev-enc-number");
 const mapIdInput = document.getElementById("map-id");
-const submitButton = document.getElementById('submit-button');
 const resultsDiv = document.getElementById('results');
 
 const nextEncFormation = (a) => {
@@ -44,11 +43,21 @@ const nextEncFormation = (a) => {
     }
 }
 
-submitButton.addEventListener('click', () => {
+const calculateFormation = () => {
     if (prevEncNumberInput.value === "") {
-        alert("Enter a previous encounter number")
+        resultsDiv.innerHTML = `<h2>Enter a previous encounter number.</h2>`
     } else {
         const result = nextEncFormation(parseInt(prevEncNumberInput.value));
         resultsDiv.innerHTML = `<h1>Formation: ${resultFormation}</h1>`
     }
+}
+
+prevEncFormationInput.addEventListener('change', () => {
+    calculateFormation();
+});
+prevEncNumberInput.addEventListener('change', () => {
+    calculateFormation();
+});
+mapIdInput.addEventListener('change', () => {
+    calculateFormation();
 });
