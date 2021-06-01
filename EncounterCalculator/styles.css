@@ -1,0 +1,18 @@
+html {
+    background-color: aliceblue;
+}
+
+* {
+    font-family: 'Mate SC', serif;
+}
+
+input {
+    margin: 0 0 1.5rem 1rem;
+    padding: 0.7rem 0.5rem;
+}
+
+#submit-button {
+    margin-left: 1rem;
+    padding: 0.5rem 3rem;
+    display: block;
+}

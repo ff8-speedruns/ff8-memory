@@ -1,0 +1,4912 @@
+[{
+    "0": {
+        "name": "wm00",
+        "locationId": "-",
+        "location": "???"
+    },
+    "1": {
+        "name": "wm01",
+        "locationId": "-",
+        "location": "???"
+    },
+    "2": {
+        "name": "wm02",
+        "locationId": "-",
+        "location": "???"
+    },
+    "3": {
+        "name": "wm03",
+        "locationId": "-",
+        "location": "???"
+    },
+    "4": {
+        "name": "wm04",
+        "locationId": "-",
+        "location": "???"
+    },
+    "5": {
+        "name": "wm05",
+        "locationId": "-",
+        "location": "???"
+    },
+    "6": {
+        "name": "wm06",
+        "locationId": "-",
+        "location": "???"
+    },
+    "7": {
+        "name": "wm07",
+        "locationId": "-",
+        "location": "???"
+    },
+    "8": {
+        "name": "wm08",
+        "locationId": "-",
+        "location": "???"
+    },
+    "9": {
+        "name": "wm09",
+        "locationId": "-",
+        "location": "???"
+    },
+    "10": {
+        "name": "wm10",
+        "locationId": "-",
+        "location": "???"
+    },
+    "11": {
+        "name": "wm11",
+        "locationId": "-",
+        "location": "???"
+    },
+    "12": {
+        "name": "wm12",
+        "locationId": "-",
+        "location": "???"
+    },
+    "13": {
+        "name": "wm13",
+        "locationId": "-",
+        "location": "???"
+    },
+    "14": {
+        "name": "wm14",
+        "locationId": "-",
+        "location": "???"
+    },
+    "15": {
+        "name": "wm15",
+        "locationId": "-",
+        "location": "???"
+    },
+    "16": {
+        "name": "wm16",
+        "locationId": "-",
+        "location": "???"
+    },
+    "17": {
+        "name": "wm17",
+        "locationId": "-",
+        "location": "???"
+    },
+    "18": {
+        "name": "wm18",
+        "locationId": "-",
+        "location": "???"
+    },
+    "19": {
+        "name": "wm19",
+        "locationId": "-",
+        "location": "???"
+    },
+    "20": {
+        "name": "wm20",
+        "locationId": "-",
+        "location": "???"
+    },
+    "21": {
+        "name": "wm21",
+        "locationId": "-",
+        "location": "???"
+    },
+    "22": {
+        "name": "wm22",
+        "locationId": "-",
+        "location": "???"
+    },
+    "23": {
+        "name": "wm23",
+        "locationId": "-",
+        "location": "???"
+    },
+    "24": {
+        "name": "wm24",
+        "locationId": "-",
+        "location": "???"
+    },
+    "25": {
+        "name": "wm25",
+        "locationId": "-",
+        "location": "???"
+    },
+    "26": {
+        "name": "wm26",
+        "locationId": "-",
+        "location": "???"
+    },
+    "27": {
+        "name": "wm27",
+        "locationId": "-",
+        "location": "???"
+    },
+    "28": {
+        "name": "wm28",
+        "locationId": "-",
+        "location": "???"
+    },
+    "29": {
+        "name": "wm29",
+        "locationId": "-",
+        "location": "???"
+    },
+    "30": {
+        "name": "wm30",
+        "locationId": "-",
+        "location": "???"
+    },
+    "31": {
+        "name": "wm31",
+        "locationId": "-",
+        "location": "???"
+    },
+    "32": {
+        "name": "wm32",
+        "locationId": "-",
+        "location": "???"
+    },
+    "33": {
+        "name": "wm33",
+        "locationId": "-",
+        "location": "???"
+    },
+    "34": {
+        "name": "wm34",
+        "locationId": "-",
+        "location": "???"
+    },
+    "35": {
+        "name": "wm35",
+        "locationId": "-",
+        "location": "???"
+    },
+    "36": {
+        "name": "wm36",
+        "locationId": "-",
+        "location": "???"
+    },
+    "37": {
+        "name": "wm37",
+        "locationId": "-",
+        "location": "???"
+    },
+    "38": {
+        "name": "wm38",
+        "locationId": "-",
+        "location": "???"
+    },
+    "39": {
+        "name": "wm39",
+        "locationId": "-",
+        "location": "???"
+    },
+    "40": {
+        "name": "wm40",
+        "locationId": "-",
+        "location": "???"
+    },
+    "41": {
+        "name": "wm41",
+        "locationId": "-",
+        "location": "???"
+    },
+    "42": {
+        "name": "wm42",
+        "locationId": "-",
+        "location": "???"
+    },
+    "43": {
+        "name": "wm43",
+        "locationId": "-",
+        "location": "???"
+    },
+    "44": {
+        "name": "wm44",
+        "locationId": "-",
+        "location": "???"
+    },
+    "45": {
+        "name": "wm45",
+        "locationId": "-",
+        "location": "???"
+    },
+    "46": {
+        "name": "wm46",
+        "locationId": "-",
+        "location": "???"
+    },
+    "47": {
+        "name": "wm47",
+        "locationId": "-",
+        "location": "???"
+    },
+    "48": {
+        "name": "wm48",
+        "locationId": "-",
+        "location": "???"
+    },
+    "49": {
+        "name": "wm49",
+        "locationId": "-",
+        "location": "???"
+    },
+    "50": {
+        "name": "wm50",
+        "locationId": "-",
+        "location": "???"
+    },
+    "51": {
+        "name": "wm51",
+        "locationId": "-",
+        "location": "???"
+    },
+    "52": {
+        "name": "wm52",
+        "locationId": "-",
+        "location": "???"
+    },
+    "53": {
+        "name": "wm53",
+        "locationId": "-",
+        "location": "???"
+    },
+    "54": {
+        "name": "wm54",
+        "locationId": "-",
+        "location": "???"
+    },
+    "55": {
+        "name": "wm55",
+        "locationId": "-",
+        "location": "???"
+    },
+    "56": {
+        "name": "wm56",
+        "locationId": "-",
+        "location": "???"
+    },
+    "57": {
+        "name": "wm57",
+        "locationId": "-",
+        "location": "???"
+    },
+    "58": {
+        "name": "wm58",
+        "locationId": "-",
+        "location": "???"
+    },
+    "59": {
+        "name": "wm59",
+        "locationId": "-",
+        "location": "???"
+    },
+    "60": {
+        "name": "wm60",
+        "locationId": "-",
+        "location": "???"
+    },
+    "61": {
+        "name": "wm61",
+        "locationId": "-",
+        "location": "???"
+    },
+    "62": {
+        "name": "wm62",
+        "locationId": "-",
+        "location": "???"
+    },
+    "63": {
+        "name": "wm63",
+        "locationId": "-",
+        "location": "???"
+    },
+    "64": {
+        "name": "wm64",
+        "locationId": "-",
+        "location": "???"
+    },
+    "65": {
+        "name": "wm65",
+        "locationId": "-",
+        "location": "???"
+    },
+    "66": {
+        "name": "wm66",
+        "locationId": "-",
+        "location": "???"
+    },
+    "67": {
+        "name": "wm67",
+        "locationId": "-",
+        "location": "???"
+    },
+    "68": {
+        "name": "wm68",
+        "locationId": "-",
+        "location": "???"
+    },
+    "69": {
+        "name": "wm69",
+        "locationId": "-",
+        "location": "???"
+    },
+    "70": {
+        "name": "wm70",
+        "locationId": "-",
+        "location": "???"
+    },
+    "71": {
+        "name": "wm71",
+        "locationId": "-",
+        "location": "???"
+    },
+    "72": {
+        "name": "testno",
+        "locationId": "-",
+        "location": "???"
+    },
+    "73": {
+        "name": "start",
+        "locationId": "-",
+        "location": "???"
+    },
+    "74": {
+        "name": "start0",
+        "locationId": "-",
+        "location": "???"
+    },
+    "75": {
+        "name": "gover",
+        "locationId": "-",
+        "location": "???"
+    },
+    "76": {
+        "name": "ending",
+        "locationId": "-",
+        "location": "???"
+    },
+    "77": {
+        "name": "test",
+        "locationId": "-",
+        "location": "???"
+    },
+    "78": {
+        "name": "test1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "79": {
+        "name": "test2",
+        "locationId": "-",
+        "location": "???"
+    },
+    "80": {
+        "name": "test3",
+        "locationId": "-",
+        "location": "???"
+    },
+    "81": {
+        "name": "test4",
+        "locationId": "-",
+        "location": "???"
+    },
+    "82": {
+        "name": "test5",
+        "locationId": "-",
+        "location": "???"
+    },
+    "83": {
+        "name": "test6",
+        "locationId": "-",
+        "location": "???"
+    },
+    "84": {
+        "name": "test7",
+        "locationId": "-",
+        "location": "???"
+    },
+    "85": {
+        "name": "test8",
+        "locationId": "-",
+        "location": "???"
+    },
+    "86": {
+        "name": "test9",
+        "locationId": "-",
+        "location": "???"
+    },
+    "87": {
+        "name": "test13",
+        "locationId": "-",
+        "location": "???"
+    },
+    "88": {
+        "name": "test14",
+        "locationId": "-",
+        "location": "???"
+    },
+    "89": {
+        "name": "testbl0",
+        "locationId": "-",
+        "location": "???"
+    },
+    "90": {
+        "name": "testbl1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "91": {
+        "name": "testbl2",
+        "locationId": "-",
+        "location": "???"
+    },
+    "92": {
+        "name": "testbl3",
+        "locationId": "-",
+        "location": "???"
+    },
+    "93": {
+        "name": "testbl4",
+        "locationId": "-",
+        "location": "???"
+    },
+    "94": {
+        "name": "testbl5",
+        "locationId": "-",
+        "location": "???"
+    },
+    "95": {
+        "name": "testbl6",
+        "locationId": "-",
+        "location": "???"
+    },
+    "96": {
+        "name": "testbl7",
+        "locationId": "-",
+        "location": "???"
+    },
+    "97": {
+        "name": "testbl8",
+        "locationId": "-",
+        "location": "???"
+    },
+    "98": {
+        "name": "testbl9",
+        "locationId": "-",
+        "location": "???"
+    },
+    "99": {
+        "name": "testbl13",
+        "locationId": "-",
+        "location": "???"
+    },
+    "100": {
+        "name": "testbl14",
+        "locationId": "-",
+        "location": "???"
+    },
+    "101": {
+        "name": "testmv",
+        "locationId": "-",
+        "location": "???"
+    },
+    "102": {
+        "name": "bccent_1",
+        "locationId": "85",
+        "location": "Balamb - Town Square"
+    },
+    "103": {
+        "name": "bccent1a",
+        "locationId": "85",
+        "location": "Balamb - Town Square"
+    },
+    "104": {
+        "name": "bcform_1",
+        "locationId": "86",
+        "location": "Balamb - Station Yard"
+    },
+    "105": {
+        "name": "bcform1a",
+        "locationId": "86",
+        "location": "Balamb - Station Yard"
+    },
+    "106": {
+        "name": "bcgate_1",
+        "locationId": "85",
+        "location": "Balamb - Town Square"
+    },
+    "107": {
+        "name": "bcgate1a",
+        "locationId": "85",
+        "location": "Balamb - Town Square"
+    },
+    "108": {
+        "name": "bchtl_1",
+        "locationId": "84",
+        "location": "Balamb Hotel"
+    },
+    "109": {
+        "name": "bchtl1a",
+        "locationId": "84",
+        "location": "Balamb Hotel"
+    },
+    "110": {
+        "name": "bchtr_1",
+        "locationId": "84",
+        "location": "Balamb Hotel"
+    },
+    "111": {
+        "name": "bchtr1a",
+        "locationId": "84",
+        "location": "Balamb Hotel"
+    },
+    "112": {
+        "name": "bcmin1_1",
+        "locationId": "88",
+        "location": "Balamb - Residence"
+    },
+    "113": {
+        "name": "bcmin11a",
+        "locationId": "88",
+        "location": "Balamb - Residence"
+    },
+    "114": {
+        "name": "bcmin2_1",
+        "locationId": "83",
+        "location": "Balamb - The Dincht's"
+    },
+    "115": {
+        "name": "bcmin21a",
+        "locationId": "83",
+        "location": "Balamb - The Dincht's"
+    },
+    "116": {
+        "name": "bcmin2_2",
+        "locationId": "83",
+        "location": "Balamb - The Dincht's"
+    },
+    "117": {
+        "name": "bcmin22a",
+        "locationId": "83",
+        "location": "Balamb - The Dincht's"
+    },
+    "118": {
+        "name": "bcmin2_3",
+        "locationId": "83",
+        "location": "Balamb - The Dincht's"
+    },
+    "119": {
+        "name": "bcmin23a",
+        "locationId": "83",
+        "location": "Balamb - The Dincht's"
+    },
+    "120": {
+        "name": "bcport_1",
+        "locationId": "87",
+        "location": "Balamb Harbor"
+    },
+    "121": {
+        "name": "bcport1a",
+        "locationId": "87",
+        "location": "Balamb Harbor"
+    },
+    "122": {
+        "name": "bcport1b",
+        "locationId": "87",
+        "location": "Balamb Harbor"
+    },
+    "123": {
+        "name": "bcport_2",
+        "locationId": "87",
+        "location": "Balamb Harbor"
+    },
+    "124": {
+        "name": "bcport2a",
+        "locationId": "87",
+        "location": "Balamb Harbor"
+    },
+    "125": {
+        "name": "bcsaka_1",
+        "locationId": "85",
+        "location": "Balamb - Town Square"
+    },
+    "126": {
+        "name": "bcsaka1a",
+        "locationId": "87",
+        "location": "Balamb Harbor"
+    },
+    "127": {
+        "name": "bcsta_1",
+        "locationId": "85",
+        "location": "Balamb - Town Square"
+    },
+    "128": {
+        "name": "bcsta1a",
+        "locationId": "85",
+        "location": "Balamb - Town Square"
+    },
+    "129": {
+        "name": "bdenter1",
+        "locationId": "92",
+        "location": "Fire Cavern"
+    },
+    "130": {
+        "name": "bdifrit1",
+        "locationId": "92",
+        "location": "Fire Cavern"
+    },
+    "131": {
+        "name": "bdin1",
+        "locationId": "92",
+        "location": "Fire Cavern"
+    },
+    "132": {
+        "name": "bdin2",
+        "locationId": "92",
+        "location": "Fire Cavern"
+    },
+    "133": {
+        "name": "bdin3",
+        "locationId": "92",
+        "location": "Fire Cavern"
+    },
+    "134": {
+        "name": "bdin4",
+        "locationId": "92",
+        "location": "Fire Cavern"
+    },
+    "135": {
+        "name": "bdin5",
+        "locationId": "92",
+        "location": "Fire Cavern"
+    },
+    "136": {
+        "name": "bdview1",
+        "locationId": "92",
+        "location": "Fire Cavern"
+    },
+    "137": {
+        "name": "bg2f_1",
+        "locationId": "69",
+        "location": "B-Garden - 2F Hallway"
+    },
+    "138": {
+        "name": "bg2f_11",
+        "locationId": "69",
+        "location": "B-Garden - 2F Hallway"
+    },
+    "139": {
+        "name": "bg2f_2",
+        "locationId": "69",
+        "location": "B-Garden - 2F Hallway"
+    },
+    "140": {
+        "name": "bg2f_21",
+        "locationId": "69",
+        "location": "B-Garden - 2F Hallway"
+    },
+    "141": {
+        "name": "bg2f_4",
+        "locationId": "69",
+        "location": "B-Garden - 2F Hallway"
+    },
+    "142": {
+        "name": "bg2f_22",
+        "locationId": "69",
+        "location": "B-Garden - 2F Hallway"
+    },
+    "143": {
+        "name": "bg2f_3",
+        "locationId": "69",
+        "location": "B-Garden - 2F Hallway"
+    },
+    "144": {
+        "name": "bg2f_31",
+        "locationId": "69",
+        "location": "B-Garden - 2F Hallway"
+    },
+    "145": {
+        "name": "bgbook_1",
+        "locationId": "64",
+        "location": "B-Garden - Library"
+    },
+    "146": {
+        "name": "bgbook1a",
+        "locationId": "64",
+        "location": "B-Garden - Library"
+    },
+    "147": {
+        "name": "bgbook1b",
+        "locationId": "64",
+        "location": "B-Garden - Library"
+    },
+    "148": {
+        "name": "bgbook_2",
+        "locationId": "64",
+        "location": "B-Garden - Library"
+    },
+    "149": {
+        "name": "bgbook2a",
+        "locationId": "64",
+        "location": "B-Garden - Library"
+    },
+    "150": {
+        "name": "bgbook_3",
+        "locationId": "64",
+        "location": "B-Garden - Library"
+    },
+    "151": {
+        "name": "bgbook3a",
+        "locationId": "64",
+        "location": "B-Garden - Library"
+    },
+    "152": {
+        "name": "bgbtl_1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "153": {
+        "name": "bgcrash1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "154": {
+        "name": "bgeat_1",
+        "locationId": "67",
+        "location": "B-Garden - Cafeteria"
+    },
+    "155": {
+        "name": "bgeat1a",
+        "locationId": "67",
+        "location": "B-Garden - Cafeteria"
+    },
+    "156": {
+        "name": "bgeat_2",
+        "locationId": "67",
+        "location": "B-Garden - Cafeteria"
+    },
+    "157": {
+        "name": "bgeat2a",
+        "locationId": "67",
+        "location": "B-Garden - Cafeteria"
+    },
+    "158": {
+        "name": "bgeat_3",
+        "locationId": "67",
+        "location": "B-Garden - Cafeteria"
+    },
+    "159": {
+        "name": "bggate_1",
+        "locationId": "65",
+        "location": "B-Garden - Front Gate"
+    },
+    "160": {
+        "name": "bggate_2",
+        "locationId": "65",
+        "location": "B-Garden - Front Gate"
+    },
+    "161": {
+        "name": "bggate_4",
+        "locationId": "65",
+        "location": "B-Garden - Front Gate"
+    },
+    "162": {
+        "name": "bggate_5",
+        "locationId": "65",
+        "location": "B-Garden - Front Gate"
+    },
+    "163": {
+        "name": "bggate_6",
+        "locationId": "65",
+        "location": "B-Garden - Front Gate"
+    },
+    "164": {
+        "name": "bggate6a",
+        "locationId": "65",
+        "location": "B-Garden - Front Gate"
+    },
+    "165": {
+        "name": "bghall_1",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "166": {
+        "name": "bghall1a",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "167": {
+        "name": "bghall1b",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "168": {
+        "name": "bghall_2",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "169": {
+        "name": "bghall2a",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "170": {
+        "name": "bghall_3",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "171": {
+        "name": "bghall3a",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "172": {
+        "name": "bghall_4",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "173": {
+        "name": "bghall4a",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "174": {
+        "name": "bghall_5",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "175": {
+        "name": "bghall_6",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "176": {
+        "name": "bghall6b",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "177": {
+        "name": "bghall_7",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "178": {
+        "name": "bghall_8",
+        "locationId": "70",
+        "location": "B-Garden - Hall"
+    },
+    "179": {
+        "name": "bghoke_1",
+        "locationId": "71",
+        "location": "B-Garden - Infirmary"
+    },
+    "180": {
+        "name": "bghoke_2",
+        "locationId": "71",
+        "location": "B-Garden - Infirmary"
+    },
+    "181": {
+        "name": "bghoke_3",
+        "locationId": "71",
+        "location": "B-Garden - Infirmary"
+    },
+    "182": {
+        "name": "bgkote_1",
+        "locationId": "77",
+        "location": "B-Garden - Quad"
+    },
+    "183": {
+        "name": "bgkote1a",
+        "locationId": "77",
+        "location": "B-Garden - Quad"
+    },
+    "184": {
+        "name": "bgkote_2",
+        "locationId": "77",
+        "location": "B-Garden - Quad"
+    },
+    "185": {
+        "name": "bgkote_3",
+        "locationId": "77",
+        "location": "B-Garden - Quad"
+    },
+    "186": {
+        "name": "bgkote3a",
+        "locationId": "77",
+        "location": "B-Garden - Quad"
+    },
+    "187": {
+        "name": "bgkote_4",
+        "locationId": "77",
+        "location": "B-Garden - Quad"
+    },
+    "188": {
+        "name": "bgkote_5",
+        "locationId": "77",
+        "location": "B-Garden - Quad"
+    },
+    "189": {
+        "name": "bgmast_1",
+        "locationId": "81",
+        "location": "B-Garden - Master Room"
+    },
+    "190": {
+        "name": "bgmast_2",
+        "locationId": "81",
+        "location": "B-Garden - Master Room"
+    },
+    "191": {
+        "name": "bgmast_3",
+        "locationId": "81",
+        "location": "B-Garden - Master Room"
+    },
+    "192": {
+        "name": "bgmast_4",
+        "locationId": "81",
+        "location": "B-Garden - Master Room"
+    },
+    "193": {
+        "name": "bgmast_5",
+        "locationId": "81",
+        "location": "B-Garden - Master Room"
+    },
+    "194": {
+        "name": "bgmd1_1",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "195": {
+        "name": "bgmd1_2",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "196": {
+        "name": "bgmd1_3",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "197": {
+        "name": "bgmd1_4",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "198": {
+        "name": "bgmd2_1",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "199": {
+        "name": "bgmd2_3",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "200": {
+        "name": "bgmd2_4",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "201": {
+        "name": "bgmd2_5",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "202": {
+        "name": "bgmd2_6",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "203": {
+        "name": "bgmd2_7",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "204": {
+        "name": "bgmd2_8",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "205": {
+        "name": "bgmd3_1",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "206": {
+        "name": "bgmd3_2",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "207": {
+        "name": "bgmd4_1",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "208": {
+        "name": "bgmd4_2",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "209": {
+        "name": "bgmd4_3",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "210": {
+        "name": "bgmdele1",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "211": {
+        "name": "bgmdele2",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "212": {
+        "name": "bgmdele3",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "213": {
+        "name": "bgmdele4",
+        "locationId": "68",
+        "location": "B-Garden - MD Level"
+    },
+    "214": {
+        "name": "bgmon_1",
+        "locationId": "78",
+        "location": "B-Garden - Training Center"
+    },
+    "215": {
+        "name": "bgmon_2",
+        "locationId": "78",
+        "location": "B-Garden - Training Center"
+    },
+    "216": {
+        "name": "bgmon_3",
+        "locationId": "78",
+        "location": "B-Garden - Training Center"
+    },
+    "217": {
+        "name": "bgmon_4",
+        "locationId": "78",
+        "location": "B-Garden - Training Center"
+    },
+    "218": {
+        "name": "bgmon_5",
+        "locationId": "78",
+        "location": "B-Garden - Training Center"
+    },
+    "219": {
+        "name": "bgmon_6",
+        "locationId": "78",
+        "location": "B-Garden - Training Center"
+    },
+    "220": {
+        "name": "bgpark_1",
+        "locationId": "75",
+        "location": "B-Garden - Parking Lot"
+    },
+    "221": {
+        "name": "bgpaty_1",
+        "locationId": "76",
+        "location": "B-Garden - Ballroom"
+    },
+    "222": {
+        "name": "bgpaty_2",
+        "locationId": "76",
+        "location": "B-Garden - Ballroom"
+    },
+    "223": {
+        "name": "bgrank1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "224": {
+        "name": "bgroad_1",
+        "locationId": "80",
+        "location": "B-Garden - Hallway"
+    },
+    "225": {
+        "name": "bgroad_2",
+        "locationId": "80",
+        "location": "B-Garden - Hallway"
+    },
+    "226": {
+        "name": "bgroad_3",
+        "locationId": "80",
+        "location": "B-Garden - Hallway"
+    },
+    "227": {
+        "name": "bgroad_4",
+        "locationId": "80",
+        "location": "B-Garden - Hallway"
+    },
+    "228": {
+        "name": "bgroad_5",
+        "locationId": "80",
+        "location": "B-Garden - Hallway"
+    },
+    "229": {
+        "name": "bgroad_6",
+        "locationId": "80",
+        "location": "B-Garden - Hallway"
+    },
+    "230": {
+        "name": "bgroad_7",
+        "locationId": "80",
+        "location": "B-Garden - Hallway"
+    },
+    "231": {
+        "name": "bgroad_9",
+        "locationId": "80",
+        "location": "B-Garden - Hallway"
+    },
+    "232": {
+        "name": "bgroom_1",
+        "locationId": "66",
+        "location": "B-Garden - Classroom"
+    },
+    "233": {
+        "name": "bgroom_3",
+        "locationId": "66",
+        "location": "B-Garden - Classroom"
+    },
+    "234": {
+        "name": "bgroom_4",
+        "locationId": "66",
+        "location": "B-Garden - Classroom"
+    },
+    "235": {
+        "name": "bgroom_5",
+        "locationId": "66",
+        "location": "B-Garden - Classroom"
+    },
+    "236": {
+        "name": "bgroom_6",
+        "locationId": "66",
+        "location": "B-Garden - Classroom"
+    },
+    "237": {
+        "name": "bgryo1_1",
+        "locationId": "72",
+        "location": "B-Garden - Dormitory Double"
+    },
+    "238": {
+        "name": "bgryo1_2",
+        "locationId": "72",
+        "location": "B-Garden - Dormitory Double"
+    },
+    "239": {
+        "name": "bgryo1_3",
+        "locationId": "72",
+        "location": "B-Garden - Dormitory Double"
+    },
+    "240": {
+        "name": "bgryo1_4",
+        "locationId": "72",
+        "location": "B-Garden - Dormitory Double"
+    },
+    "241": {
+        "name": "bgryo1_5",
+        "locationId": "72",
+        "location": "B-Garden - Dormitory Double"
+    },
+    "242": {
+        "name": "bgryo1_6",
+        "locationId": "72",
+        "location": "B-Garden - Dormitory Double"
+    },
+    "243": {
+        "name": "bgryo1_7",
+        "locationId": "72",
+        "location": "B-Garden - Dormitory Double"
+    },
+    "244": {
+        "name": "bgryo1_8",
+        "locationId": "72",
+        "location": "B-Garden - Dormitory Double"
+    },
+    "245": {
+        "name": "bgryo2_1",
+        "locationId": "73",
+        "location": "B-Garden - Dormitory Single"
+    },
+    "246": {
+        "name": "bgryo2_2",
+        "locationId": "73",
+        "location": "B-Garden - Dormitory Single"
+    },
+    "247": {
+        "name": "bgsecr_1",
+        "locationId": "79",
+        "location": "B-Garden - Secret Area"
+    },
+    "248": {
+        "name": "bgsecr_2",
+        "locationId": "79",
+        "location": "B-Garden - Secret Area"
+    },
+    "249": {
+        "name": "bgsido_1",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "250": {
+        "name": "bgsido1a",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "251": {
+        "name": "bgsido_2",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "252": {
+        "name": "bgsido_3",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "253": {
+        "name": "bgsido_4",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "254": {
+        "name": "bgsido_5",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "255": {
+        "name": "bgsido5a",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "256": {
+        "name": "bgsido_6",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "257": {
+        "name": "bgsido_7",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "258": {
+        "name": "bgsido_8",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "259": {
+        "name": "bgsido_9",
+        "locationId": "74",
+        "location": "B-Garden - Headmaster's Office"
+    },
+    "260": {
+        "name": "bvboat_1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "261": {
+        "name": "bvboat_2",
+        "locationId": "-",
+        "location": "???"
+    },
+    "262": {
+        "name": "bvcar_1",
+        "locationId": "90",
+        "location": "Car"
+    },
+    "263": {
+        "name": "bvtr_1",
+        "locationId": "89",
+        "location": "Train"
+    },
+    "264": {
+        "name": "bvtr_2",
+        "locationId": "89",
+        "location": "Train"
+    },
+    "265": {
+        "name": "bvtr_3",
+        "locationId": "89",
+        "location": "Train"
+    },
+    "266": {
+        "name": "bvtr_4",
+        "locationId": "89",
+        "location": "Train"
+    },
+    "267": {
+        "name": "bvtr_5",
+        "locationId": "89",
+        "location": "Train"
+    },
+    "268": {
+        "name": "cdfield1",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "269": {
+        "name": "cdfield2",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "270": {
+        "name": "cdfield3",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "271": {
+        "name": "cdfield4",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "272": {
+        "name": "cdfield5",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "273": {
+        "name": "cdfield6",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "274": {
+        "name": "cdfield7",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "275": {
+        "name": "cdfield8",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "276": {
+        "name": "crenter1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "277": {
+        "name": "crodin1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "278": {
+        "name": "cropen1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "279": {
+        "name": "crpower1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "280": {
+        "name": "crroof1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "281": {
+        "name": "crsanc1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "282": {
+        "name": "crsphi1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "283": {
+        "name": "crtower1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "284": {
+        "name": "crtower2",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "285": {
+        "name": "crtower3",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "286": {
+        "name": "crview1",
+        "locationId": "189",
+        "location": "Centra Ruins"
+    },
+    "287": {
+        "name": "cwwood1",
+        "locationId": "227",
+        "location": "Chocobo Forest"
+    },
+    "288": {
+        "name": "cwwood2",
+        "locationId": "227",
+        "location": "Chocobo Forest"
+    },
+    "289": {
+        "name": "cwwood3",
+        "locationId": "227",
+        "location": "Chocobo Forest"
+    },
+    "290": {
+        "name": "cwwood4",
+        "locationId": "227",
+        "location": "Chocobo Forest"
+    },
+    "291": {
+        "name": "cwwood5",
+        "locationId": "227",
+        "location": "Chocobo Forest"
+    },
+    "292": {
+        "name": "cwwood6",
+        "locationId": "227",
+        "location": "Chocobo Forest"
+    },
+    "293": {
+        "name": "cwwood7",
+        "locationId": "227",
+        "location": "Chocobo Forest"
+    },
+    "294": {
+        "name": "ddruins1",
+        "locationId": "218",
+        "location": "Deep Sea Deposit"
+    },
+    "295": {
+        "name": "ddruins2",
+        "locationId": "218",
+        "location": "Deep Sea Deposit"
+    },
+    "296": {
+        "name": "ddruins3",
+        "locationId": "218",
+        "location": "Deep Sea Deposit"
+    },
+    "297": {
+        "name": "ddruins4",
+        "locationId": "218",
+        "location": "Deep Sea Deposit"
+    },
+    "298": {
+        "name": "ddruins5",
+        "locationId": "218",
+        "location": "Deep Sea Deposit"
+    },
+    "299": {
+        "name": "ddruins6",
+        "locationId": "218",
+        "location": "Deep Sea Deposit"
+    },
+    "300": {
+        "name": "ddsteam1",
+        "locationId": "217",
+        "location": "Deep Sea Research Center - Levels"
+    },
+    "301": {
+        "name": "ddtower1",
+        "locationId": "217",
+        "location": "Deep Sea Research Center - Levels"
+    },
+    "302": {
+        "name": "ddtower2",
+        "locationId": "217",
+        "location": "Deep Sea Research Center - Levels"
+    },
+    "303": {
+        "name": "ddtower3",
+        "locationId": "217",
+        "location": "Deep Sea Research Center - Levels"
+    },
+    "304": {
+        "name": "ddtower4",
+        "locationId": "217",
+        "location": "Deep Sea Research Center - Levels"
+    },
+    "305": {
+        "name": "ddtower5",
+        "locationId": "217",
+        "location": "Deep Sea Research Center - Levels"
+    },
+    "306": {
+        "name": "ddtower6",
+        "locationId": "217",
+        "location": "Deep Sea Research Center - Levels"
+    },
+    "307": {
+        "name": "doan1_1",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "308": {
+        "name": "doan1_2",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "309": {
+        "name": "doani1_1",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "310": {
+        "name": "doani1_2",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "311": {
+        "name": "doani3_1",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "312": {
+        "name": "doani3_2",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "313": {
+        "name": "doani4_1",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "314": {
+        "name": "doani4_2",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "315": {
+        "name": "dogate_1",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "316": {
+        "name": "dogate1a",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "317": {
+        "name": "dogate_2",
+        "locationId": "99",
+        "location": "Dollet - Comm Tower"
+    },
+    "318": {
+        "name": "dohtl_1",
+        "locationId": "97",
+        "location": "Dollet Hotel"
+    },
+    "319": {
+        "name": "dohtr_1",
+        "locationId": "97",
+        "location": "Dollet Hotel"
+    },
+    "320": {
+        "name": "domin2_1",
+        "locationId": "98",
+        "location": "Dollet - Residence"
+    },
+    "321": {
+        "name": "domt1_1",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "322": {
+        "name": "domt2_1",
+        "locationId": "100",
+        "location": "Dollet - Mountain Hideout"
+    },
+    "323": {
+        "name": "domt3_1",
+        "locationId": "100",
+        "location": "Dollet - Mountain Hideout"
+    },
+    "324": {
+        "name": "domt3_2",
+        "locationId": "100",
+        "location": "Dollet - Mountain Hideout"
+    },
+    "325": {
+        "name": "domt3_3",
+        "locationId": "100",
+        "location": "Dollet - Mountain Hideout"
+    },
+    "326": {
+        "name": "domt3_4",
+        "locationId": "100",
+        "location": "Dollet - Mountain Hideout"
+    },
+    "327": {
+        "name": "domt4_1",
+        "locationId": "100",
+        "location": "Dollet - Mountain Hideout"
+    },
+    "328": {
+        "name": "domt5_1",
+        "locationId": "100",
+        "location": "Dollet - Mountain Hideout"
+    },
+    "329": {
+        "name": "domt6_1",
+        "locationId": "100",
+        "location": "Dollet - Mountain Hideout"
+    },
+    "330": {
+        "name": "doopen_1",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "331": {
+        "name": "doopen1a",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "332": {
+        "name": "doopen_2",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "333": {
+        "name": "doopen2a",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "334": {
+        "name": "doport_1",
+        "locationId": "95",
+        "location": "Dollet Harbor"
+    },
+    "335": {
+        "name": "dopub_1",
+        "locationId": "96",
+        "location": "Dollet Pub"
+    },
+    "336": {
+        "name": "dopub_2",
+        "locationId": "96",
+        "location": "Dollet Pub"
+    },
+    "337": {
+        "name": "dopub_3",
+        "locationId": "96",
+        "location": "Dollet Pub"
+    },
+    "338": {
+        "name": "dosea_1",
+        "locationId": "94",
+        "location": "Dollet - Lapin Beach"
+    },
+    "339": {
+        "name": "dosea_2",
+        "locationId": "94",
+        "location": "Dollet - Lapin Beach"
+    },
+    "340": {
+        "name": "dotown_1",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "341": {
+        "name": "dotown1a",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "342": {
+        "name": "dotown_2",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "343": {
+        "name": "dotown2a",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "344": {
+        "name": "dotown_3",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "345": {
+        "name": "dotown3a",
+        "locationId": "93",
+        "location": "Dollet - Town Square"
+    },
+    "346": {
+        "name": "eaplane1",
+        "locationId": "180",
+        "location": "Spaceship Landing Zone"
+    },
+    "347": {
+        "name": "eapod1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "348": {
+        "name": "ebadele1",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "349": {
+        "name": "ebadele2",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "350": {
+        "name": "ebadele3",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "351": {
+        "name": "ebadele5",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "352": {
+        "name": "ebcont1",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "353": {
+        "name": "ebcont2",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "354": {
+        "name": "ebexit1",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "355": {
+        "name": "ebexit2",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "356": {
+        "name": "ebexit3",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "357": {
+        "name": "ebexit4",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "358": {
+        "name": "ebexit5",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "359": {
+        "name": "ebexit6",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "360": {
+        "name": "ebgate1",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "361": {
+        "name": "ebgate1a",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "362": {
+        "name": "ebgate2",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "363": {
+        "name": "ebgate2a",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "364": {
+        "name": "ebgate3",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "365": {
+        "name": "ebgate3a",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "366": {
+        "name": "ebgate4",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "367": {
+        "name": "ebgate4a",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "368": {
+        "name": "ebinhi1",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "369": {
+        "name": "ebinhi1a",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "370": {
+        "name": "ebinlow1",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "371": {
+        "name": "ebinlow2",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "372": {
+        "name": "ebinmid1",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "373": {
+        "name": "ebinmid4",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "374": {
+        "name": "ebinmid2",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "375": {
+        "name": "ebinmid5",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "376": {
+        "name": "ebinmid3",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "377": {
+        "name": "ebinmid6",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "378": {
+        "name": "ebinto1",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "379": {
+        "name": "ebinto2",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "380": {
+        "name": "ebinto3",
+        "locationId": "181",
+        "location": "Lunatic Pandora"
+    },
+    "381": {
+        "name": "ebroad11",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "382": {
+        "name": "ebroad12",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "383": {
+        "name": "ebroad13",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "384": {
+        "name": "ebroad21",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "385": {
+        "name": "ebroad22",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "386": {
+        "name": "ebroad23",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "387": {
+        "name": "ebroad31",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "388": {
+        "name": "ebroad32",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "389": {
+        "name": "ebroad33",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "390": {
+        "name": "ebroad41",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "391": {
+        "name": "ebroad42",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "392": {
+        "name": "ebroad43",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "393": {
+        "name": "ebroad5",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "394": {
+        "name": "ebroad6",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "395": {
+        "name": "ebroad6a",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "396": {
+        "name": "ebroad7",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "397": {
+        "name": "ebroad7a",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "398": {
+        "name": "ebroad8",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "399": {
+        "name": "ebroad8a",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "400": {
+        "name": "ebroad9",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "401": {
+        "name": "ebroad9a",
+        "locationId": "182",
+        "location": "Centra - Excavation Site"
+    },
+    "402": {
+        "name": "eccway11",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "403": {
+        "name": "eccway15",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "404": {
+        "name": "eccway12",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "405": {
+        "name": "eccway16",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "406": {
+        "name": "eccway13",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "407": {
+        "name": "eccway14",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "408": {
+        "name": "eccway21",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "409": {
+        "name": "eccway22",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "410": {
+        "name": "eccway23",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "411": {
+        "name": "eccway31",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "412": {
+        "name": "eccway32",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "413": {
+        "name": "eccway33",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "414": {
+        "name": "eccway41",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "415": {
+        "name": "eccway42",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "416": {
+        "name": "eccway43",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "417": {
+        "name": "ecenc1",
+        "locationId": "162",
+        "location": "Lunatic Pandora Approaching"
+    },
+    "418": {
+        "name": "ecenc2",
+        "locationId": "162",
+        "location": "Lunatic Pandora Approaching"
+    },
+    "419": {
+        "name": "ecenc3",
+        "locationId": "162",
+        "location": "Lunatic Pandora Approaching"
+    },
+    "420": {
+        "name": "ecenter1",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "421": {
+        "name": "ecenter4",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "422": {
+        "name": "ecenter2",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "423": {
+        "name": "ecenter5",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "424": {
+        "name": "ecenter3",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "425": {
+        "name": "eciway11",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "426": {
+        "name": "eciway15",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "427": {
+        "name": "eciway12",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "428": {
+        "name": "eciway16",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "429": {
+        "name": "eciway13",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "430": {
+        "name": "eciway14",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "431": {
+        "name": "ecmall1",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "432": {
+        "name": "ecmall1a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "433": {
+        "name": "ecmall1b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "434": {
+        "name": "ecmview1",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "435": {
+        "name": "ecmview2",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "436": {
+        "name": "ecmview3",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "437": {
+        "name": "ecmway1",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "438": {
+        "name": "ecmway1a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "439": {
+        "name": "ecmway1b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "440": {
+        "name": "ecopen1",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "441": {
+        "name": "ecopen1a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "442": {
+        "name": "ecopen1b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "443": {
+        "name": "ecopen2",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "444": {
+        "name": "ecopen2a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "445": {
+        "name": "ecopen2b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "446": {
+        "name": "ecopen3",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "447": {
+        "name": "ecopen3a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "448": {
+        "name": "ecopen3b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "449": {
+        "name": "ecopen4",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "450": {
+        "name": "ecopen4a",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "451": {
+        "name": "ecopen4b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "452": {
+        "name": "ecoway1",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "453": {
+        "name": "ecoway1a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "454": {
+        "name": "ecoway1b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "455": {
+        "name": "ecoway2",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "456": {
+        "name": "ecoway2a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "457": {
+        "name": "ecoway2b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "458": {
+        "name": "ecoway3",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "459": {
+        "name": "ecoway3a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "460": {
+        "name": "ecoway3b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "461": {
+        "name": "ecpview1",
+        "locationId": "161",
+        "location": "Esthar - Airstation"
+    },
+    "462": {
+        "name": "ecpview2",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "463": {
+        "name": "ecpview3",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "464": {
+        "name": "ecpway1",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "465": {
+        "name": "ecpway1a",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "466": {
+        "name": "ecpway1b",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "467": {
+        "name": "ectake1",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "468": {
+        "name": "ectake2",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "469": {
+        "name": "ectake3",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "470": {
+        "name": "edlabo1",
+        "locationId": "178",
+        "location": "Lunatic Pandora Laboratory"
+    },
+    "471": {
+        "name": "edlabo1a",
+        "locationId": "178",
+        "location": "Lunatic Pandora Laboratory"
+    },
+    "472": {
+        "name": "edlabo1b",
+        "locationId": "178",
+        "location": "Lunatic Pandora Laboratory"
+    },
+    "473": {
+        "name": "edmoor1",
+        "locationId": "178",
+        "location": "Lunatic Pandora Laboratory"
+    },
+    "474": {
+        "name": "edview1",
+        "locationId": "178",
+        "location": "Lunatic Pandora Laboratory"
+    },
+    "475": {
+        "name": "edview1a",
+        "locationId": "178",
+        "location": "Lunatic Pandora Laboratory"
+    },
+    "476": {
+        "name": "edview1b",
+        "locationId": "178",
+        "location": "Lunatic Pandora Laboratory"
+    },
+    "477": {
+        "name": "edview2",
+        "locationId": "178",
+        "location": "Lunatic Pandora Laboratory"
+    },
+    "478": {
+        "name": "eein1",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "479": {
+        "name": "eein11",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "480": {
+        "name": "eein12",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "481": {
+        "name": "eein3",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "482": {
+        "name": "eein31",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "483": {
+        "name": "eein32",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "484": {
+        "name": "eeview1",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "485": {
+        "name": "eeview2",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "486": {
+        "name": "eeview3",
+        "locationId": "177",
+        "location": "Tears' Point"
+    },
+    "487": {
+        "name": "efbig1",
+        "locationId": "159",
+        "location": "Esthar - City"
+    },
+    "488": {
+        "name": "efenter1",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "489": {
+        "name": "efenter2",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "490": {
+        "name": "efenter3",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "491": {
+        "name": "efpod1",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "492": {
+        "name": "efpod1a",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "493": {
+        "name": "efpod1b",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "494": {
+        "name": "efview1",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "495": {
+        "name": "efview1a",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "496": {
+        "name": "efview1b",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "497": {
+        "name": "efview2",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "498": {
+        "name": "ehback1",
+        "locationId": "186",
+        "location": "Edea's House - Backyard"
+    },
+    "499": {
+        "name": "ehback2",
+        "locationId": "186",
+        "location": "Edea's House - Backyard"
+    },
+    "500": {
+        "name": "ehblan1",
+        "locationId": "185",
+        "location": "Edea's House - Bedroom"
+    },
+    "501": {
+        "name": "ehblan2",
+        "locationId": "185",
+        "location": "Edea's House - Bedroom"
+    },
+    "502": {
+        "name": "ehblan3",
+        "locationId": "185",
+        "location": "Edea's House - Bedroom"
+    },
+    "503": {
+        "name": "ehdrug1",
+        "locationId": "185",
+        "location": "Edea's House - Bedroom"
+    },
+    "504": {
+        "name": "ehenter1",
+        "locationId": "183",
+        "location": "Edea's House"
+    },
+    "505": {
+        "name": "ehenter2",
+        "locationId": "183",
+        "location": "Edea's House"
+    },
+    "506": {
+        "name": "ehhana1",
+        "locationId": "188",
+        "location": "Edea's House - Flower Field"
+    },
+    "507": {
+        "name": "ehnoki1",
+        "locationId": "186",
+        "location": "Edea's House - Backyard"
+    },
+    "508": {
+        "name": "ehroom1",
+        "locationId": "184",
+        "location": "Edea's House - Playroom"
+    },
+    "509": {
+        "name": "ehsea1",
+        "locationId": "186",
+        "location": "Edea's House - Backyard"
+    },
+    "510": {
+        "name": "ehsea2",
+        "locationId": "186",
+        "location": "Edea's House - Backyard"
+    },
+    "511": {
+        "name": "elroad1",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "512": {
+        "name": "elroad2",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "513": {
+        "name": "elroad3",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "514": {
+        "name": "elstop1",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "515": {
+        "name": "elview1",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "516": {
+        "name": "elview2",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "517": {
+        "name": "elwall1",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "518": {
+        "name": "elwall2",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "519": {
+        "name": "elwall3",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "520": {
+        "name": "elwall4",
+        "locationId": "157",
+        "location": "FH - Great Salt Lake"
+    },
+    "521": {
+        "name": "embind1",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "522": {
+        "name": "embind1a",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "523": {
+        "name": "embind2",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "524": {
+        "name": "emlabo1",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "525": {
+        "name": "emlabo1a",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "526": {
+        "name": "emlabo1b",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "527": {
+        "name": "emlabo2",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "528": {
+        "name": "emlobby1",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "529": {
+        "name": "emlobby3",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "530": {
+        "name": "emlobby2",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "531": {
+        "name": "emlobby4",
+        "locationId": "160",
+        "location": "Esthar - Odine's Laboratory"
+    },
+    "532": {
+        "name": "ephall1",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "533": {
+        "name": "ephall2",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "534": {
+        "name": "epmeet1",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "535": {
+        "name": "eproad1",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "536": {
+        "name": "eproad2",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "537": {
+        "name": "epwork1",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "538": {
+        "name": "epwork2",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "539": {
+        "name": "epwork3",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "540": {
+        "name": "escont1",
+        "locationId": "170",
+        "location": "Lunar Gate"
+    },
+    "541": {
+        "name": "escouse1",
+        "locationId": "171",
+        "location": "Lunar Gate - Concourse"
+    },
+    "542": {
+        "name": "escouse2",
+        "locationId": "171",
+        "location": "Lunar Gate - Concourse"
+    },
+    "543": {
+        "name": "esform1",
+        "locationId": "170",
+        "location": "Lunar Gate"
+    },
+    "544": {
+        "name": "esfreez1",
+        "locationId": "172",
+        "location": "Lunar Gate - Deep Freeze"
+    },
+    "545": {
+        "name": "esview1",
+        "locationId": "170",
+        "location": "Lunar Gate"
+    },
+    "546": {
+        "name": "esview2",
+        "locationId": "170",
+        "location": "Lunar Gate"
+    },
+    "547": {
+        "name": "etsta1",
+        "locationId": "156",
+        "location": "FH - Seaside Station"
+    },
+    "548": {
+        "name": "etsta2",
+        "locationId": "156",
+        "location": "FH - Seaside Station"
+    },
+    "549": {
+        "name": "ewbrdg1",
+        "locationId": "158",
+        "location": "FH - Mystery Building"
+    },
+    "550": {
+        "name": "ewdoor1",
+        "locationId": "158",
+        "location": "FH - Mystery Building"
+    },
+    "551": {
+        "name": "ewele1",
+        "locationId": "158",
+        "location": "FH - Mystery Building"
+    },
+    "552": {
+        "name": "ewele2",
+        "locationId": "158",
+        "location": "FH - Mystery Building"
+    },
+    "553": {
+        "name": "ewele3",
+        "locationId": "158",
+        "location": "FH - Mystery Building"
+    },
+    "554": {
+        "name": "ewpanel1",
+        "locationId": "158",
+        "location": "FH - Mystery Building"
+    },
+    "555": {
+        "name": "ewpanel2",
+        "locationId": "158",
+        "location": "FH - Mystery Building"
+    },
+    "556": {
+        "name": "fe2f1",
+        "locationId": "233",
+        "location": "Ultimecia Castle - Passageway"
+    },
+    "557": {
+        "name": "feart1f1",
+        "locationId": "238",
+        "location": "Ultimecia Castle - Art Gallery"
+    },
+    "558": {
+        "name": "feart1f2",
+        "locationId": "238",
+        "location": "Ultimecia Castle - Art Gallery"
+    },
+    "559": {
+        "name": "feart2f1",
+        "locationId": "238",
+        "location": "Ultimecia Castle - Art Gallery"
+    },
+    "560": {
+        "name": "febarac1",
+        "locationId": "240",
+        "location": "Ultimecia Castle - Armory"
+    },
+    "561": {
+        "name": "febrdg1",
+        "locationId": "245",
+        "location": "Ultimecia Castle - Clock Tower"
+    },
+    "562": {
+        "name": "feclock1",
+        "locationId": "245",
+        "location": "Ultimecia Castle - Clock Tower"
+    },
+    "563": {
+        "name": "feclock2",
+        "locationId": "245",
+        "location": "Ultimecia Castle - Clock Tower"
+    },
+    "564": {
+        "name": "feclock3",
+        "locationId": "245",
+        "location": "Ultimecia Castle - Clock Tower"
+    },
+    "565": {
+        "name": "feclock4",
+        "locationId": "245",
+        "location": "Ultimecia Castle - Clock Tower"
+    },
+    "566": {
+        "name": "feclock5",
+        "locationId": "245",
+        "location": "Ultimecia Castle - Clock Tower"
+    },
+    "567": {
+        "name": "feclock6",
+        "locationId": "245",
+        "location": "Ultimecia Castle - Clock Tower"
+    },
+    "568": {
+        "name": "fegate1",
+        "locationId": "239",
+        "location": "Ultimecia Castle - Flood Gate"
+    },
+    "569": {
+        "name": "fehall1",
+        "locationId": "229",
+        "location": "Ultimecia Castle - Hall"
+    },
+    "570": {
+        "name": "fehall2",
+        "locationId": "229",
+        "location": "Ultimecia Castle - Hall"
+    },
+    "571": {
+        "name": "fein1",
+        "locationId": "233",
+        "location": "Ultimecia Castle - Passageway"
+    },
+    "572": {
+        "name": "fejail1",
+        "locationId": "241",
+        "location": "Ultimecia Castle - Prison Cell"
+    },
+    "573": {
+        "name": "felast1",
+        "locationId": "246",
+        "location": "Ultimecia Castle - Master Room"
+    },
+    "574": {
+        "name": "felfst1",
+        "locationId": "235",
+        "location": "Ultimecia Castle - Stairway Hall"
+    },
+    "575": {
+        "name": "felrele1",
+        "locationId": "234",
+        "location": "Ultimecia Castle - Elevator Hall"
+    },
+    "576": {
+        "name": "feopen1",
+        "locationId": "230",
+        "location": "Ultimecia Castle - Grand Hall"
+    },
+    "577": {
+        "name": "feopen2",
+        "locationId": "230",
+        "location": "Ultimecia Castle - Grand Hall"
+    },
+    "578": {
+        "name": "feout1",
+        "locationId": "233",
+        "location": "Ultimecia Castle - Passageway"
+    },
+    "579": {
+        "name": "fepic1",
+        "locationId": "238",
+        "location": "Ultimecia Castle - Art Gallery"
+    },
+    "580": {
+        "name": "fepic2",
+        "locationId": "238",
+        "location": "Ultimecia Castle - Art Gallery"
+    },
+    "581": {
+        "name": "fepic3",
+        "locationId": "238",
+        "location": "Ultimecia Castle - Art Gallery"
+    },
+    "582": {
+        "name": "ferfst1",
+        "locationId": "235",
+        "location": "Ultimecia Castle - Stairway Hall"
+    },
+    "583": {
+        "name": "feroad1",
+        "locationId": "246",
+        "location": "Ultimecia Castle - Master Room"
+    },
+    "584": {
+        "name": "feroad2",
+        "locationId": "246",
+        "location": "Ultimecia Castle - Master Room"
+    },
+    "585": {
+        "name": "ferrst1",
+        "locationId": "235",
+        "location": "Ultimecia Castle - Stairway Hall"
+    },
+    "586": {
+        "name": "feteras1",
+        "locationId": "231",
+        "location": "Ultimecia Castle - Terrace"
+    },
+    "587": {
+        "name": "fetre1",
+        "locationId": "236",
+        "location": "Ultimecia Castle - Treasure Rm"
+    },
+    "588": {
+        "name": "feware1",
+        "locationId": "237",
+        "location": "Ultimecia Castle - Storage Room"
+    },
+    "589": {
+        "name": "fewater1",
+        "locationId": "233",
+        "location": "Ultimecia Castle - Passageway"
+    },
+    "590": {
+        "name": "fewater2",
+        "locationId": "242",
+        "location": "Ultimecia Castle - Waterway"
+    },
+    "591": {
+        "name": "fewater3",
+        "locationId": "242",
+        "location": "Ultimecia Castle - Waterway"
+    },
+    "592": {
+        "name": "fewine1",
+        "locationId": "232",
+        "location": "Ultimecia Castle - Wine Cellar"
+    },
+    "593": {
+        "name": "fewor1",
+        "locationId": "244",
+        "location": "Ultimecia Castle - Chapel"
+    },
+    "594": {
+        "name": "fewor2",
+        "locationId": "244",
+        "location": "Ultimecia Castle - Chapel"
+    },
+    "595": {
+        "name": "feyard1",
+        "locationId": "243",
+        "location": "Ultimecia Castle - Courtyard"
+    },
+    "596": {
+        "name": "ffbrdg1",
+        "locationId": "248",
+        "location": "Ultimecia Castle"
+    },
+    "597": {
+        "name": "ffhill1",
+        "locationId": "228",
+        "location": "Wilderness"
+    },
+    "598": {
+        "name": "ffhole1",
+        "locationId": "228",
+        "location": "Wilderness"
+    },
+    "599": {
+        "name": "ffseed1",
+        "locationId": "228",
+        "location": "Wilderness"
+    },
+    "600": {
+        "name": "fhbrdg1",
+        "locationId": "150",
+        "location": "FH - Factory"
+    },
+    "601": {
+        "name": "fhdeck1",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "602": {
+        "name": "fhdeck2",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "603": {
+        "name": "fhdeck3",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "604": {
+        "name": "fhdeck4",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "605": {
+        "name": "fhdeck4a",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "606": {
+        "name": "fhdeck5",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "607": {
+        "name": "fhdeck6",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "608": {
+        "name": "fhdeck7",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "609": {
+        "name": "fhdeck7a",
+        "locationId": "82",
+        "location": "B-Garden - Deck"
+    },
+    "610": {
+        "name": "fhedge1",
+        "locationId": "146",
+        "location": "Fishermans Horizon"
+    },
+    "611": {
+        "name": "fhedge11",
+        "locationId": "146",
+        "location": "Fishermans Horizon"
+    },
+    "612": {
+        "name": "fhedge2",
+        "locationId": "146",
+        "location": "Fishermans Horizon"
+    },
+    "613": {
+        "name": "fhfish1",
+        "locationId": "150",
+        "location": "FH - Factory"
+    },
+    "614": {
+        "name": "fhform1",
+        "locationId": "154",
+        "location": "FH - Station Yard"
+    },
+    "615": {
+        "name": "fhhtl1",
+        "locationId": "152",
+        "location": "FH - Hotel"
+    },
+    "616": {
+        "name": "fhhtr1",
+        "locationId": "152",
+        "location": "FH - Hotel"
+    },
+    "617": {
+        "name": "fhmin1",
+        "locationId": "153",
+        "location": "FH - Residence"
+    },
+    "618": {
+        "name": "fhpanel1",
+        "locationId": "148",
+        "location": "FH - Sun Panel"
+    },
+    "619": {
+        "name": "fhpara11",
+        "locationId": "148",
+        "location": "FH - Sun Panel"
+    },
+    "620": {
+        "name": "fhpara12",
+        "locationId": "148",
+        "location": "FH - Sun Panel"
+    },
+    "621": {
+        "name": "fhparar1",
+        "locationId": "148",
+        "location": "FH - Sun Panel"
+    },
+    "622": {
+        "name": "fhparar2",
+        "locationId": "148",
+        "location": "FH - Sun Panel"
+    },
+    "623": {
+        "name": "fhrail2",
+        "locationId": "155",
+        "location": "FH - Horizon Bridge"
+    },
+    "624": {
+        "name": "fhrail3",
+        "locationId": "155",
+        "location": "FH - Horizon Bridge"
+    },
+    "625": {
+        "name": "fhroof1",
+        "locationId": "150",
+        "location": "FH - Factory"
+    },
+    "626": {
+        "name": "fhtown1",
+        "locationId": "147",
+        "location": "FH - Residential Area"
+    },
+    "627": {
+        "name": "fhtown21",
+        "locationId": "147",
+        "location": "FH - Residential Area"
+    },
+    "628": {
+        "name": "fhtown22",
+        "locationId": "147",
+        "location": "FH - Residential Area"
+    },
+    "629": {
+        "name": "fhtown23",
+        "locationId": "147",
+        "location": "FH - Residential Area"
+    },
+    "630": {
+        "name": "fhview1",
+        "locationId": "150",
+        "location": "FH - Factory"
+    },
+    "631": {
+        "name": "fhwater1",
+        "locationId": "147",
+        "location": "FH - Residential Area"
+    },
+    "632": {
+        "name": "fhwise11",
+        "locationId": "149",
+        "location": "FH - Mayor's Residence"
+    },
+    "633": {
+        "name": "fhwise12",
+        "locationId": "149",
+        "location": "FH - Mayor's Residence"
+    },
+    "634": {
+        "name": "fhwise13",
+        "locationId": "151",
+        "location": "FH - Festival Grounds"
+    },
+    "635": {
+        "name": "fhwise15",
+        "locationId": "149",
+        "location": "FH - Mayor's Residence"
+    },
+    "636": {
+        "name": "fhwisef1",
+        "locationId": "149",
+        "location": "FH - Mayor's Residence"
+    },
+    "637": {
+        "name": "fhwisef2",
+        "locationId": "149",
+        "location": "FH - Mayor's Residence"
+    },
+    "638": {
+        "name": "gdsand1",
+        "locationId": "136",
+        "location": "Desert"
+    },
+    "639": {
+        "name": "gdsand2",
+        "locationId": "136",
+        "location": "Desert"
+    },
+    "640": {
+        "name": "gdsand3",
+        "locationId": "136",
+        "location": "Desert"
+    },
+    "641": {
+        "name": "gdsta1",
+        "locationId": "136",
+        "location": "Desert"
+    },
+    "642": {
+        "name": "gdtrain1",
+        "locationId": "136",
+        "location": "Desert"
+    },
+    "643": {
+        "name": "gfcar1",
+        "locationId": "144",
+        "location": "Winhill - Car"
+    },
+    "644": {
+        "name": "gfcross1",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "645": {
+        "name": "gfcross2",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "646": {
+        "name": "gfelone1",
+        "locationId": "140",
+        "location": "Winhill - Vacant House"
+    },
+    "647": {
+        "name": "gfelone3",
+        "locationId": "140",
+        "location": "Winhill - Vacant House"
+    },
+    "648": {
+        "name": "gfelone2",
+        "locationId": "140",
+        "location": "Winhill - Vacant House"
+    },
+    "649": {
+        "name": "gfelone4",
+        "locationId": "140",
+        "location": "Winhill - Vacant House"
+    },
+    "650": {
+        "name": "gfhtl1",
+        "locationId": "143",
+        "location": "Winhill - Hotel"
+    },
+    "651": {
+        "name": "gfhtl1a",
+        "locationId": "143",
+        "location": "Winhill - Hotel"
+    },
+    "652": {
+        "name": "gfhtr1",
+        "locationId": "143",
+        "location": "Winhill - Hotel"
+    },
+    "653": {
+        "name": "gfhtr1a",
+        "locationId": "143",
+        "location": "Winhill - Hotel"
+    },
+    "654": {
+        "name": "gflain1",
+        "locationId": "139",
+        "location": "Winhill Pub"
+    },
+    "655": {
+        "name": "gflain1a",
+        "locationId": "139",
+        "location": "Winhill Pub"
+    },
+    "656": {
+        "name": "gflain11",
+        "locationId": "139",
+        "location": "Winhill Pub"
+    },
+    "657": {
+        "name": "gflain2",
+        "locationId": "139",
+        "location": "Winhill Pub"
+    },
+    "658": {
+        "name": "gflain2a",
+        "locationId": "139",
+        "location": "Winhill Pub"
+    },
+    "659": {
+        "name": "gfmin1",
+        "locationId": "142",
+        "location": "Winhill - Residence"
+    },
+    "660": {
+        "name": "gfmin1a",
+        "locationId": "142",
+        "location": "Winhill - Residence"
+    },
+    "661": {
+        "name": "gfmin2",
+        "locationId": "142",
+        "location": "Winhill - Residence"
+    },
+    "662": {
+        "name": "gfmin2a",
+        "locationId": "142",
+        "location": "Winhill - Residence"
+    },
+    "663": {
+        "name": "gfrich1",
+        "locationId": "141",
+        "location": "Winhill - Mansion"
+    },
+    "664": {
+        "name": "gfrich1a",
+        "locationId": "141",
+        "location": "Winhill - Mansion"
+    },
+    "665": {
+        "name": "gfview1",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "666": {
+        "name": "gfview1a",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "667": {
+        "name": "gfvill1",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "668": {
+        "name": "gfvill1a",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "669": {
+        "name": "gfvill21",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "670": {
+        "name": "gfvill24",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "671": {
+        "name": "gfvill22",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "672": {
+        "name": "gfvill23",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "673": {
+        "name": "gfvill31",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "674": {
+        "name": "gfvill32",
+        "locationId": "138",
+        "location": "Winhill Village"
+    },
+    "675": {
+        "name": "ggback1",
+        "locationId": "124",
+        "location": "G-Garden - Back Entrance"
+    },
+    "676": {
+        "name": "ggele1",
+        "locationId": "119",
+        "location": "G-Garden - Elevator Hall"
+    },
+    "677": {
+        "name": "gggate1",
+        "locationId": "111",
+        "location": "G-Garden - Front Gate"
+    },
+    "678": {
+        "name": "gggate2",
+        "locationId": "111",
+        "location": "G-Garden - Front Gate"
+    },
+    "679": {
+        "name": "gggate3",
+        "locationId": "111",
+        "location": "G-Garden - Front Gate"
+    },
+    "680": {
+        "name": "gggro1",
+        "locationId": "122",
+        "location": "G-Garden - Athletic Track"
+    },
+    "681": {
+        "name": "gggroen1",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "682": {
+        "name": "gggroen2",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "683": {
+        "name": "gggym1",
+        "locationId": "125",
+        "location": "G-Garden - Gymnasium"
+    },
+    "684": {
+        "name": "gggym2",
+        "locationId": "125",
+        "location": "G-Garden - Gymnasium"
+    },
+    "685": {
+        "name": "gghall1",
+        "locationId": "113",
+        "location": "G-Garden - Hall"
+    },
+    "686": {
+        "name": "gghall2",
+        "locationId": "113",
+        "location": "G-Garden - Hall"
+    },
+    "687": {
+        "name": "ggkodo1",
+        "locationId": "121",
+        "location": "G-Garden - Auditorium"
+    },
+    "688": {
+        "name": "ggkodo2",
+        "locationId": "121",
+        "location": "G-Garden - Auditorium"
+    },
+    "689": {
+        "name": "ggkodo4",
+        "locationId": "121",
+        "location": "G-Garden - Auditorium"
+    },
+    "690": {
+        "name": "ggroad1",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "691": {
+        "name": "ggroad2",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "692": {
+        "name": "ggroad3",
+        "locationId": "113",
+        "location": "G-Garden - Hall"
+    },
+    "693": {
+        "name": "ggroad5",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "694": {
+        "name": "ggroad6",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "695": {
+        "name": "ggroad7",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "696": {
+        "name": "ggroad8",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "697": {
+        "name": "ggroad8a",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "698": {
+        "name": "ggroad8b",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "699": {
+        "name": "ggroad9",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "700": {
+        "name": "ggroad9a",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "701": {
+        "name": "ggroad9b",
+        "locationId": "114",
+        "location": "G-Garden - Hallway"
+    },
+    "702": {
+        "name": "ggroom1",
+        "locationId": "115",
+        "location": "G-Garden - Reception Room"
+    },
+    "703": {
+        "name": "ggroom2",
+        "locationId": "116",
+        "location": "G-Garden - Classroom"
+    },
+    "704": {
+        "name": "ggroom3",
+        "locationId": "117",
+        "location": "G-Garden - Clubroom"
+    },
+    "705": {
+        "name": "ggroom4",
+        "locationId": "118",
+        "location": "G-Garden - Dormitory"
+    },
+    "706": {
+        "name": "ggroom6",
+        "locationId": "116",
+        "location": "G-Garden - Classroom"
+    },
+    "707": {
+        "name": "ggroom7",
+        "locationId": "118",
+        "location": "G-Garden - Dormitory"
+    },
+    "708": {
+        "name": "ggsta1",
+        "locationId": "112",
+        "location": "G-Garden - Station"
+    },
+    "709": {
+        "name": "ggstaen1",
+        "locationId": "123",
+        "location": "G-Garden - Stand"
+    },
+    "710": {
+        "name": "ggstaen3",
+        "locationId": "-",
+        "location": "???"
+    },
+    "711": {
+        "name": "ggstand1",
+        "locationId": "122",
+        "location": "G-Garden - Athletic Track"
+    },
+    "712": {
+        "name": "ggview1",
+        "locationId": "111",
+        "location": "G-Garden - Front Gate"
+    },
+    "713": {
+        "name": "ggview2",
+        "locationId": "111",
+        "location": "G-Garden - Front Gate"
+    },
+    "714": {
+        "name": "ggwitch1",
+        "locationId": "120",
+        "location": "G-Garden - Master Room"
+    },
+    "715": {
+        "name": "ggwitch2",
+        "locationId": "120",
+        "location": "G-Garden - Master Room"
+    },
+    "716": {
+        "name": "glclock1",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "717": {
+        "name": "glclub1",
+        "locationId": "131",
+        "location": "Deling City - Club"
+    },
+    "718": {
+        "name": "glclub3",
+        "locationId": "-",
+        "location": "???"
+    },
+    "719": {
+        "name": "glclub4",
+        "locationId": "131",
+        "location": "Deling City - Club"
+    },
+    "720": {
+        "name": "glform1",
+        "locationId": "128",
+        "location": "Deling City - Station Yard"
+    },
+    "721": {
+        "name": "glfurin1",
+        "locationId": "127",
+        "location": "Deling City - Caraway's Mansion"
+    },
+    "722": {
+        "name": "glfurin4",
+        "locationId": "127",
+        "location": "Deling City - Caraway's Mansion"
+    },
+    "723": {
+        "name": "glfurin5",
+        "locationId": "127",
+        "location": "Deling City - Caraway's Mansion"
+    },
+    "724": {
+        "name": "glfurin2",
+        "locationId": "127",
+        "location": "Deling City - Caraway's Mansion"
+    },
+    "725": {
+        "name": "glfurin3",
+        "locationId": "127",
+        "location": "Deling City - Caraway's Mansion"
+    },
+    "726": {
+        "name": "glfury1",
+        "locationId": "127",
+        "location": "Deling City - Caraway's Mansion"
+    },
+    "727": {
+        "name": "glfuryb1",
+        "locationId": "134",
+        "location": "Deling City - Sewer"
+    },
+    "728": {
+        "name": "glgate1",
+        "locationId": "132",
+        "location": "Deling City - Gateway"
+    },
+    "729": {
+        "name": "glgate2",
+        "locationId": "132",
+        "location": "Deling City - Gateway"
+    },
+    "730": {
+        "name": "glgate2a",
+        "locationId": "132",
+        "location": "Deling City - Gateway"
+    },
+    "731": {
+        "name": "glgate3",
+        "locationId": "132",
+        "location": "Deling City - Gateway"
+    },
+    "732": {
+        "name": "glgate3a",
+        "locationId": "132",
+        "location": "Deling City - Gateway"
+    },
+    "733": {
+        "name": "glgateb1",
+        "locationId": "132",
+        "location": "Deling City - Gateway"
+    },
+    "734": {
+        "name": "glgatei1",
+        "locationId": "132",
+        "location": "Deling City - Gateway"
+    },
+    "735": {
+        "name": "glgatei2",
+        "locationId": "132",
+        "location": "Deling City - Gateway"
+    },
+    "736": {
+        "name": "glhtl1",
+        "locationId": "130",
+        "location": "Deling City - Hotel"
+    },
+    "737": {
+        "name": "glhtr1",
+        "locationId": "130",
+        "location": "Deling City - Hotel"
+    },
+    "738": {
+        "name": "glhtr1a",
+        "locationId": "130",
+        "location": "Deling City - Hotel"
+    },
+    "739": {
+        "name": "glkara1",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "740": {
+        "name": "glkara2",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "741": {
+        "name": "glmall1",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "742": {
+        "name": "glmall2",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "743": {
+        "name": "glprefr1",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "744": {
+        "name": "glprefr2",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "745": {
+        "name": "glprefr3",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "746": {
+        "name": "glprein1",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "747": {
+        "name": "glpreo1",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "748": {
+        "name": "glpreo2",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "749": {
+        "name": "glpreo3",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "750": {
+        "name": "glrent1",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "751": {
+        "name": "glroad1",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "752": {
+        "name": "glsta1",
+        "locationId": "128",
+        "location": "Deling City - Station Yard"
+    },
+    "753": {
+        "name": "glsta2",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "754": {
+        "name": "glstage1",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "755": {
+        "name": "glstage3",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "756": {
+        "name": "glstaup1",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "757": {
+        "name": "glstaup4",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "758": {
+        "name": "glstaup2",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "759": {
+        "name": "glstaup5",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "760": {
+        "name": "glstaup3",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "761": {
+        "name": "gltown1",
+        "locationId": "129",
+        "location": "Deling City - City Square"
+    },
+    "762": {
+        "name": "glwater1",
+        "locationId": "134",
+        "location": "Deling City - Sewer"
+    },
+    "763": {
+        "name": "glwater2",
+        "locationId": "134",
+        "location": "Deling City - Sewer"
+    },
+    "764": {
+        "name": "glwater3",
+        "locationId": "134",
+        "location": "Deling City - Sewer"
+    },
+    "765": {
+        "name": "glwater4",
+        "locationId": "134",
+        "location": "Deling City - Sewer"
+    },
+    "766": {
+        "name": "glwater5",
+        "locationId": "134",
+        "location": "Deling City - Sewer"
+    },
+    "767": {
+        "name": "glwitch1",
+        "locationId": "126",
+        "location": "Deling - Presidential Residence"
+    },
+    "768": {
+        "name": "glyagu1",
+        "locationId": "133",
+        "location": "Deling City - Parade"
+    },
+    "769": {
+        "name": "gmcont1",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "770": {
+        "name": "gmcont2",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "771": {
+        "name": "gmden1",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "772": {
+        "name": "gmhouse1",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "773": {
+        "name": "gmmoni1",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "774": {
+        "name": "gmout1",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "775": {
+        "name": "gmpark1",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "776": {
+        "name": "gmpark2",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "777": {
+        "name": "gmshoot1",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "778": {
+        "name": "gmtika1",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "779": {
+        "name": "gmtika2",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "780": {
+        "name": "gmtika3",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "781": {
+        "name": "gmtika4",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "782": {
+        "name": "gmtika5",
+        "locationId": "137",
+        "location": "Galbadia Missile Base"
+    },
+    "783": {
+        "name": "gnroad1",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "784": {
+        "name": "gnroad2",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "785": {
+        "name": "gnroad3",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "786": {
+        "name": "gnroad4",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "787": {
+        "name": "gnroad5",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "788": {
+        "name": "gnroom1",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "789": {
+        "name": "gnroom2",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "790": {
+        "name": "gnroom3",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "791": {
+        "name": "gnroom4",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "792": {
+        "name": "gnview1",
+        "locationId": "145",
+        "location": "Tomb of the Unknown King"
+    },
+    "793": {
+        "name": "gparm1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "794": {
+        "name": "gpbig1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "795": {
+        "name": "gpbig1a",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "796": {
+        "name": "gpbig2",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "797": {
+        "name": "gpbig2a",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "798": {
+        "name": "gpbig3",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "799": {
+        "name": "gpbigin1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "800": {
+        "name": "gpbigin3",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "801": {
+        "name": "gpbigin2",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "802": {
+        "name": "gpbigin4",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "803": {
+        "name": "gpbigin5",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "804": {
+        "name": "gpcell1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "805": {
+        "name": "gpcont1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "806": {
+        "name": "gpcont2",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "807": {
+        "name": "gpescap1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "808": {
+        "name": "gpexit1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "809": {
+        "name": "gpexit2",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "810": {
+        "name": "gpgmn1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "811": {
+        "name": "gpgmn1a",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "812": {
+        "name": "gpgmn2",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "813": {
+        "name": "gpgmn3",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "814": {
+        "name": "gppark1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "815": {
+        "name": "gproof1",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "816": {
+        "name": "gproof2",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "817": {
+        "name": "gwbrook1",
+        "locationId": "110",
+        "location": "Timber Forest"
+    },
+    "818": {
+        "name": "gwenter1",
+        "locationId": "110",
+        "location": "Timber Forest"
+    },
+    "819": {
+        "name": "gwgrass1",
+        "locationId": "110",
+        "location": "Timber Forest"
+    },
+    "820": {
+        "name": "gwpool1",
+        "locationId": "110",
+        "location": "Timber Forest"
+    },
+    "821": {
+        "name": "gwpool2",
+        "locationId": "110",
+        "location": "Timber Forest"
+    },
+    "822": {
+        "name": "gwroad1",
+        "locationId": "110",
+        "location": "Timber Forest"
+    },
+    "823": {
+        "name": "rgair1",
+        "locationId": "213",
+        "location": "Ragnarok - Air Room"
+    },
+    "824": {
+        "name": "rgair2",
+        "locationId": "213",
+        "location": "Ragnarok - Air Room"
+    },
+    "825": {
+        "name": "rgair3",
+        "locationId": "213",
+        "location": "Ragnarok - Air Room"
+    },
+    "826": {
+        "name": "rgcock1",
+        "locationId": "208",
+        "location": "Ragnarok - Cockpit"
+    },
+    "827": {
+        "name": "rgcock2",
+        "locationId": "208",
+        "location": "Ragnarok - Cockpit"
+    },
+    "828": {
+        "name": "rgcock3",
+        "locationId": "208",
+        "location": "Ragnarok - Cockpit"
+    },
+    "829": {
+        "name": "rgexit1",
+        "locationId": "212",
+        "location": "Ragnarok - Entrance"
+    },
+    "830": {
+        "name": "rgexit2",
+        "locationId": "212",
+        "location": "Ragnarok - Entrance"
+    },
+    "831": {
+        "name": "rgguest1",
+        "locationId": "209",
+        "location": "Ragnarok - Passenger Seat"
+    },
+    "832": {
+        "name": "rgguest2",
+        "locationId": "209",
+        "location": "Ragnarok - Passenger Seat"
+    },
+    "833": {
+        "name": "rgguest3",
+        "locationId": "209",
+        "location": "Ragnarok - Passenger Seat"
+    },
+    "834": {
+        "name": "rgguest4",
+        "locationId": "209",
+        "location": "Ragnarok - Passenger Seat"
+    },
+    "835": {
+        "name": "rgguest5",
+        "locationId": "211",
+        "location": "Ragnarok - Hangar"
+    },
+    "836": {
+        "name": "rghang1",
+        "locationId": "211",
+        "location": "Ragnarok - Hangar"
+    },
+    "837": {
+        "name": "rghang11",
+        "locationId": "211",
+        "location": "Ragnarok - Hangar"
+    },
+    "838": {
+        "name": "rghang2",
+        "locationId": "211",
+        "location": "Ragnarok - Hangar"
+    },
+    "839": {
+        "name": "rghatch1",
+        "locationId": "210",
+        "location": "Ragnarok - Aisle"
+    },
+    "840": {
+        "name": "rgroad1",
+        "locationId": "210",
+        "location": "Ragnarok - Aisle"
+    },
+    "841": {
+        "name": "rgroad11",
+        "locationId": "210",
+        "location": "Ragnarok - Aisle"
+    },
+    "842": {
+        "name": "rgroad2",
+        "locationId": "210",
+        "location": "Ragnarok - Aisle"
+    },
+    "843": {
+        "name": "rgroad21",
+        "locationId": "210",
+        "location": "Ragnarok - Aisle"
+    },
+    "844": {
+        "name": "rgroad3",
+        "locationId": "210",
+        "location": "Ragnarok - Aisle"
+    },
+    "845": {
+        "name": "rgroad31",
+        "locationId": "210",
+        "location": "Ragnarok - Aisle"
+    },
+    "846": {
+        "name": "sdcore1",
+        "locationId": "216",
+        "location": "Deep Sea Research Center - Lobby"
+    },
+    "847": {
+        "name": "sdcore2",
+        "locationId": "216",
+        "location": "Deep Sea Research Center - Lobby"
+    },
+    "848": {
+        "name": "sdisle1",
+        "locationId": "215",
+        "location": "Deep Sea Research Center"
+    },
+    "849": {
+        "name": "seback1",
+        "locationId": "206",
+        "location": "White SeeD Ship"
+    },
+    "850": {
+        "name": "seback2",
+        "locationId": "206",
+        "location": "White SeeD Ship"
+    },
+    "851": {
+        "name": "secont1",
+        "locationId": "207",
+        "location": "White SeeD Ship - Cabin"
+    },
+    "852": {
+        "name": "secont2",
+        "locationId": "207",
+        "location": "White SeeD Ship - Cabin"
+    },
+    "853": {
+        "name": "sefront1",
+        "locationId": "205",
+        "location": "White SeeD Ship"
+    },
+    "854": {
+        "name": "sefront2",
+        "locationId": "205",
+        "location": "White SeeD Ship"
+    },
+    "855": {
+        "name": "sefront3",
+        "locationId": "205",
+        "location": "White SeeD Ship"
+    },
+    "856": {
+        "name": "sefront4",
+        "locationId": "205",
+        "location": "White SeeD Ship"
+    },
+    "857": {
+        "name": "seroom1",
+        "locationId": "207",
+        "location": "White SeeD Ship - Cabin"
+    },
+    "858": {
+        "name": "seroom2",
+        "locationId": "207",
+        "location": "White SeeD Ship - Cabin"
+    },
+    "859": {
+        "name": "ssadel1",
+        "locationId": "226",
+        "location": "Outer Space"
+    },
+    "860": {
+        "name": "ssadel2",
+        "locationId": "226",
+        "location": "Outer Space"
+    },
+    "861": {
+        "name": "ssblock1",
+        "locationId": "222",
+        "location": "Lunar Base - Dock"
+    },
+    "862": {
+        "name": "sscont1",
+        "locationId": "219",
+        "location": "Lunar Base - Control Room"
+    },
+    "863": {
+        "name": "sscont2",
+        "locationId": "219",
+        "location": "Lunar Base - Control Room"
+    },
+    "864": {
+        "name": "ssdock1",
+        "locationId": "222",
+        "location": "Lunar Base - Dock"
+    },
+    "865": {
+        "name": "sselone1",
+        "locationId": "225",
+        "location": "Lunar Base - Residential Zone"
+    },
+    "866": {
+        "name": "sslock1",
+        "locationId": "224",
+        "location": "Lunar Base - Locker"
+    },
+    "867": {
+        "name": "ssmedi1",
+        "locationId": "220",
+        "location": "Lunar Base - Medical Room"
+    },
+    "868": {
+        "name": "ssmedi2",
+        "locationId": "220",
+        "location": "Lunar Base - Medical Room"
+    },
+    "869": {
+        "name": "sspack1",
+        "locationId": "173",
+        "location": "Esthar Sorceress Memorial"
+    },
+    "870": {
+        "name": "sspod1",
+        "locationId": "221",
+        "location": "Lunar Base - Pod"
+    },
+    "871": {
+        "name": "sspod2",
+        "locationId": "221",
+        "location": "Lunar Base - Pod"
+    },
+    "872": {
+        "name": "sspod3",
+        "locationId": "221",
+        "location": "Lunar Base - Pod"
+    },
+    "873": {
+        "name": "ssroad1",
+        "locationId": "223",
+        "location": "Lunar Base - Passageway"
+    },
+    "874": {
+        "name": "ssroad2",
+        "locationId": "223",
+        "location": "Lunar Base - Passageway"
+    },
+    "875": {
+        "name": "ssroad3",
+        "locationId": "223",
+        "location": "Lunar Base - Passageway"
+    },
+    "876": {
+        "name": "ssspace1",
+        "locationId": "226",
+        "location": "Outer Space"
+    },
+    "877": {
+        "name": "ssspace2",
+        "locationId": "226",
+        "location": "Outer Space"
+    },
+    "878": {
+        "name": "ssspace3",
+        "locationId": "226",
+        "location": "Outer Space"
+    },
+    "879": {
+        "name": "tgcourt1",
+        "locationId": "195",
+        "location": "T-Garden - Athletic Ground"
+    },
+    "880": {
+        "name": "tgcourt5",
+        "locationId": "195",
+        "location": "T-Garden - Athletic Ground"
+    },
+    "881": {
+        "name": "tgcourt2",
+        "locationId": "195",
+        "location": "T-Garden - Athletic Ground"
+    },
+    "882": {
+        "name": "tgcourt3",
+        "locationId": "195",
+        "location": "T-Garden - Athletic Ground"
+    },
+    "883": {
+        "name": "tgcourt4",
+        "locationId": "195",
+        "location": "T-Garden - Athletic Ground"
+    },
+    "884": {
+        "name": "tgfront1",
+        "locationId": "190",
+        "location": "Trabia Garden - Front Gate"
+    },
+    "885": {
+        "name": "tggara1",
+        "locationId": "192",
+        "location": "T-Garden - Garage"
+    },
+    "886": {
+        "name": "tggate1",
+        "locationId": "190",
+        "location": "Trabia Garden - Front Gate"
+    },
+    "887": {
+        "name": "tggrave1",
+        "locationId": "191",
+        "location": "T-Garden - Cemetery"
+    },
+    "888": {
+        "name": "tgroom1",
+        "locationId": "194",
+        "location": "T-Garden - Classroom"
+    },
+    "889": {
+        "name": "tgroom2",
+        "locationId": "194",
+        "location": "T-Garden - Classroom"
+    },
+    "890": {
+        "name": "tgstage1",
+        "locationId": "193",
+        "location": "T-Garden - Festival Stage"
+    },
+    "891": {
+        "name": "tgview1",
+        "locationId": "190",
+        "location": "Trabia Garden - Front Gate"
+    },
+    "892": {
+        "name": "tiagit1",
+        "locationId": "103",
+        "location": "Timber - Forest Owls' Base"
+    },
+    "893": {
+        "name": "tiagit2",
+        "locationId": "103",
+        "location": "Timber - Forest Owls' Base"
+    },
+    "894": {
+        "name": "tiagit3",
+        "locationId": "103",
+        "location": "Timber - Forest Owls' Base"
+    },
+    "895": {
+        "name": "tiagit4",
+        "locationId": "103",
+        "location": "Timber - Forest Owls' Base"
+    },
+    "896": {
+        "name": "tiagit5",
+        "locationId": "103",
+        "location": "Timber - Forest Owls' Base"
+    },
+    "897": {
+        "name": "tiback1",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "898": {
+        "name": "tiback2",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "899": {
+        "name": "tigate1",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "900": {
+        "name": "tihtl1",
+        "locationId": "105",
+        "location": "Timber Hotel"
+    },
+    "901": {
+        "name": "tihtr1",
+        "locationId": "105",
+        "location": "Timber Hotel"
+    },
+    "902": {
+        "name": "tilink1",
+        "locationId": "106",
+        "location": "Timber - Train"
+    },
+    "903": {
+        "name": "tilink2",
+        "locationId": "106",
+        "location": "Timber - Train"
+    },
+    "904": {
+        "name": "timania1",
+        "locationId": "109",
+        "location": "Timber - Editorial Department"
+    },
+    "905": {
+        "name": "timania2",
+        "locationId": "109",
+        "location": "Timber - Editorial Department"
+    },
+    "906": {
+        "name": "timania3",
+        "locationId": "109",
+        "location": "Timber - Editorial Department"
+    },
+    "907": {
+        "name": "timania4",
+        "locationId": "109",
+        "location": "Timber - Editorial Department"
+    },
+    "908": {
+        "name": "timania5",
+        "locationId": "109",
+        "location": "Timber - Editorial Department"
+    },
+    "909": {
+        "name": "timin1",
+        "locationId": "107",
+        "location": "Timber - Residence"
+    },
+    "910": {
+        "name": "timin21",
+        "locationId": "107",
+        "location": "Timber - Residence"
+    },
+    "911": {
+        "name": "timin22",
+        "locationId": "107",
+        "location": "Timber - Residence"
+    },
+    "912": {
+        "name": "tipub1",
+        "locationId": "104",
+        "location": "Timber Pub"
+    },
+    "913": {
+        "name": "tistud1",
+        "locationId": "102",
+        "location": "Timber TV Station"
+    },
+    "914": {
+        "name": "tistud21",
+        "locationId": "102",
+        "location": "Timber TV Station"
+    },
+    "915": {
+        "name": "tistud22",
+        "locationId": "102",
+        "location": "Timber TV Station"
+    },
+    "916": {
+        "name": "titown1",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "917": {
+        "name": "titown2",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "918": {
+        "name": "titown3",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "919": {
+        "name": "titown4",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "920": {
+        "name": "titown51",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "921": {
+        "name": "titown52",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "922": {
+        "name": "titown6",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "923": {
+        "name": "titown7",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "924": {
+        "name": "titown8",
+        "locationId": "101",
+        "location": "Timber - City Square"
+    },
+    "925": {
+        "name": "titrain1",
+        "locationId": "103",
+        "location": "Timber - Forest Owls' Base"
+    },
+    "926": {
+        "name": "titv1",
+        "locationId": "108",
+        "location": "Timber - TV Screen"
+    },
+    "927": {
+        "name": "titvout1",
+        "locationId": "102",
+        "location": "Timber TV Station"
+    },
+    "928": {
+        "name": "tivisi1",
+        "locationId": "102",
+        "location": "Timber TV Station"
+    },
+    "929": {
+        "name": "tivisi2",
+        "locationId": "102",
+        "location": "Timber TV Station"
+    },
+    "930": {
+        "name": "tiyane1",
+        "locationId": "106",
+        "location": "Timber - Train"
+    },
+    "931": {
+        "name": "tiyane2",
+        "locationId": "106",
+        "location": "Timber - Train"
+    },
+    "932": {
+        "name": "tiyane3",
+        "locationId": "106",
+        "location": "Timber - Train"
+    },
+    "933": {
+        "name": "tmdome1",
+        "locationId": "196",
+        "location": "Mystery Dome"
+    },
+    "934": {
+        "name": "tmdome2",
+        "locationId": "196",
+        "location": "Mystery Dome"
+    },
+    "935": {
+        "name": "tmelder1",
+        "locationId": "200",
+        "location": "Shumi Village - Residence"
+    },
+    "936": {
+        "name": "tmele1",
+        "locationId": "198",
+        "location": "Shumi Village - Elevator"
+    },
+    "937": {
+        "name": "tmgate1",
+        "locationId": "199",
+        "location": "Shumi Village - Village"
+    },
+    "938": {
+        "name": "tmhtl1",
+        "locationId": "203",
+        "location": "Shumi Village - Hotel"
+    },
+    "939": {
+        "name": "tmhtr1",
+        "locationId": "203",
+        "location": "Shumi Village - Hotel"
+    },
+    "940": {
+        "name": "tmkobo1",
+        "locationId": "200",
+        "location": "Shumi Village - Residence"
+    },
+    "941": {
+        "name": "tmkobo2",
+        "locationId": "200",
+        "location": "Shumi Village - Residence"
+    },
+    "942": {
+        "name": "tmmin1",
+        "locationId": "201",
+        "location": "Shumi Village - Residence"
+    },
+    "943": {
+        "name": "tmmura1",
+        "locationId": "199",
+        "location": "Shumi Village - Village"
+    },
+    "944": {
+        "name": "tmmura2",
+        "locationId": "199",
+        "location": "Shumi Village - Village"
+    },
+    "945": {
+        "name": "tmsand1",
+        "locationId": "197",
+        "location": "Shumi Village - Desert Village"
+    },
+    "946": {
+        "name": "tvglen1",
+        "locationId": "204",
+        "location": "Trabia Canyon"
+    },
+    "947": {
+        "name": "tvglen2",
+        "locationId": "204",
+        "location": "Trabia Canyon"
+    },
+    "948": {
+        "name": "tvglen3",
+        "locationId": "204",
+        "location": "Trabia Canyon"
+    },
+    "949": {
+        "name": "tvglen4",
+        "locationId": "204",
+        "location": "Trabia Canyon"
+    },
+    "950": {
+        "name": "tvglen5",
+        "locationId": "204",
+        "location": "Trabia Canyon"
+    },
+    "951": {
+        "name": "laguna01",
+        "locationId": "-",
+        "location": "???"
+    },
+    "952": {
+        "name": "laguna02",
+        "locationId": "-",
+        "location": "???"
+    },
+    "953": {
+        "name": "laguna03",
+        "locationId": "-",
+        "location": "???"
+    },
+    "954": {
+        "name": "laguna04",
+        "locationId": "-",
+        "location": "???"
+    },
+    "955": {
+        "name": "laguna05",
+        "locationId": "-",
+        "location": "???"
+    },
+    "956": {
+        "name": "laguna06",
+        "locationId": "-",
+        "location": "???"
+    },
+    "957": {
+        "name": "laguna07",
+        "locationId": "-",
+        "location": "???"
+    },
+    "958": {
+        "name": "laguna08",
+        "locationId": "-",
+        "location": "???"
+    },
+    "959": {
+        "name": "laguna09",
+        "locationId": "-",
+        "location": "???"
+    },
+    "960": {
+        "name": "laguna10",
+        "locationId": "-",
+        "location": "???"
+    },
+    "961": {
+        "name": "laguna11",
+        "locationId": "-",
+        "location": "???"
+    },
+    "962": {
+        "name": "laguna12",
+        "locationId": "-",
+        "location": "???"
+    },
+    "963": {
+        "name": "laguna13",
+        "locationId": "-",
+        "location": "???"
+    },
+    "964": {
+        "name": "laguna14",
+        "locationId": "-",
+        "location": "???"
+    },
+    "965": {
+        "name": "gpbigin6",
+        "locationId": "135",
+        "location": "Galbadia D -District Prison"
+    },
+    "966": {
+        "name": "fhtown24",
+        "locationId": "147",
+        "location": "FH - Residential Area"
+    },
+    "967": {
+        "name": "rgcock4",
+        "locationId": "208",
+        "location": "Ragnarok - Cockpit"
+    },
+    "968": {
+        "name": "rgcock5",
+        "locationId": "208",
+        "location": "Ragnarok - Cockpit"
+    },
+    "969": {
+        "name": "ffhole1a",
+        "locationId": "228",
+        "location": "Chain leading to Ultemecia Castle"
+    },
+    "970": {
+        "name": "ehblan1a",
+        "locationId": "185",
+        "location": "Edea's House - Bedroom"
+    },
+    "971": {
+        "name": "ehenter3",
+        "locationId": "183",
+        "location": "Edea's House"
+    },
+    "972": {
+        "name": "ehroom1a",
+        "locationId": "184",
+        "location": "Edea's House - Playroom"
+    },
+    "973": {
+        "name": "eproad1a",
+        "locationId": "163",
+        "location": "Esthar - Presidential Palace"
+    },
+    "974": {
+        "name": "fewhite1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "975": {
+        "name": "feblack1",
+        "locationId": "-",
+        "location": "???"
+    },
+    "976": {
+        "name": "glwitch3",
+        "locationId": "249",
+        "location": "Commencement Room"
+    },
+    "977": {
+        "name": "ehback1a",
+        "locationId": "-",
+        "location": "???"
+    },
+    "978": {
+        "name": "ehblan1b",
+        "locationId": "-",
+        "location": "???"
+    },
+    "979": {
+        "name": "ehenter4",
+        "locationId": "183",
+        "location": "Edea's House"
+    },
+    "980": {
+        "name": "ehroom1b",
+        "locationId": "-",
+        "location": "???"
+    },
+    "981": {
+        "name": "ehsea1a",
+        "locationId": "-",
+        "location": "???"
+    }
+}]
