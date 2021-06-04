@@ -13,5 +13,3 @@ I credit as much as possible; if I've missed you in the credits of a project ple
 
 ## WIP Stuff
 * [Card RNG Manip Tool (Web version)](./Manip-HTML)
-
-[Github Pages](https://brofar.github.io/ff8)
