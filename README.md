@@ -28,6 +28,6 @@ The following people/sources have made everything above possible. Thank you for 
     + [FF8 ID item's list](http://forums.qhimm.com/index.php?topic=17034.0)
 - [FFVIII - Game Corner Guides](https://guides.gamercorner.net/ffviii/)
 - [Final Fantasy VIII Cheat Table](https://fearlessrevolution.com/viewtopic.php?t=1029)
-- [Maps and Locations | FF8 - Game8](https://game8.co/games/Final_Fantasy_VIII/archives/270984)
+- [Maps and Locations - Game8](https://game8.co/games/Final_Fantasy_VIII/archives/270984)
 - [Final Fantasy VIII (F) RAM MAP Par Beuj, Kaivel, Ony, KartSeven, AmShagar](https://docs.google.com/document/d/1unjgx4zAUUcIroed8ahxmD-9yhMHZQESjrjWuzFnML8)
 - [czardragon](https://gamehacking.org/czardragon/)
