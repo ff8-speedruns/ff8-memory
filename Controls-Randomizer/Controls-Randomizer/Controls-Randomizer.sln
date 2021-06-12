@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls-Randomizer", "Controls-Randomizer.csproj", "{64513CE4-A41A-4115-9112-C242F9BEBB5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64513CE4-A41A-4115-9112-C242F9BEBB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64513CE4-A41A-4115-9112-C242F9BEBB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64513CE4-A41A-4115-9112-C242F9BEBB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64513CE4-A41A-4115-9112-C242F9BEBB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D244EE-2FDE-4FAF-B545-DDA9AFC66CC9}
+	EndGlobalSection
+EndGlobal
