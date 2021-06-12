@@ -6,12 +6,12 @@ html {
     font-family: 'Mate SC', serif;
 }
 
-input {
+input, select {
     margin: 0 0 1.5rem 1rem;
     padding: 0.7rem 0.5rem;
 }
 
-#submit-button {
+button {
     margin-left: 1rem;
     padding: 0.5rem 3rem;
     display: block;

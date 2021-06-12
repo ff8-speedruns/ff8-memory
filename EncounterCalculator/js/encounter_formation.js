@@ -3,61 +3,136 @@
 // Tables
 let encounters, formations, maps, rng;
 
+let currentFormation;
+
 // Reads a file and turns it into an object.
-const loadFiles = async (file) => {
+async function LoadFiles(file) {
     let response = await fetch(`./js/${file}.json`);
     let parsed = await response.json();
     return Promise.resolve(parsed[0]);
 }
 
 // General first function to load everything we need.
-const start = async () => {
-    encounters = await loadFiles('encounters');
-    formations = await loadFiles('formations');
-    maps = await loadFiles('maps');
-    rng = await loadFiles('rng');
+async function Start() {
+    encounters = await LoadFiles('encounters');
+    formations = await LoadFiles('formations');
+    maps = await LoadFiles('maps');
+    rng = await LoadFiles('rng');
+    PopulateMapIds(maps);
+    PopulateEncounterIds(formations, encounters, null);
+    mapIdInput.value = "0";
+    prevEncFormationInput.value = "0";
 }
 
 // Load all our json files into the script.
-start();
+Start();
 
 const prevEncFormationInput = document.getElementById("prev-enc-formation");
 const prevEncNumberInput = document.getElementById("prev-enc-number");
 const mapIdInput = document.getElementById("map-id");
 const resultsDiv = document.getElementById('results');
+const advancedMode = document.getElementById('advanced');
+const advancedOptions = document.getElementById('advancedOptions');
+const incrementButton = document.getElementById('increment');
 
-const nextEncFormation = (a) => {
+function NextEncFormation(index, previousEncounter = -1) {
     // If map id was provided, return enemy encounter formation.
     // If not, then just return the formation number.
     let mapId = mapIdInput.value;
     let possibleFormations = (mapId in formations) ? formations[mapId] : null;
-    
-    if (rng[a] < 128) {
-        resultFormation = (possibleFormations) ? encounters[possibleFormations[0]] : 1;
-    } else if (rng[a] < 192) {
-        resultFormation = (possibleFormations) ? encounters[possibleFormations[1]] : 2;
-    } else if (rng[a] < 240) {
-        resultFormation = (possibleFormations) ? encounters[possibleFormations[2]] : 3;
+    let previousEncs = [false, false, false, false];
+
+    if (possibleFormations !== null) {
+        previousEncs[previousEncounter] = true;
+    }
+
+    if (rng[index] < 128 && !previousEncs[0]) {
+        resultFormation = "1" + ((possibleFormations) ? ": " + encounters[possibleFormations[0]] : "");
+        currentFormation = 0;
+    } else if (rng[index] < 192 && !previousEncs[1]) {
+        resultFormation = "2" + ((possibleFormations) ? ": " + encounters[possibleFormations[1]] : "");
+        currentFormation = 1;
+    } else if (rng[index] < 240 && !previousEncs[2]) {
+        resultFormation = "3" + ((possibleFormations) ? ": " + encounters[possibleFormations[2]] : "");
+        currentFormation = 2;
     } else {
-        resultFormation = (possibleFormations) ? encounters[possibleFormations[3]] : 4;
+        resultFormation = "4" + ((possibleFormations) ? ": " + encounters[possibleFormations[3]] : "");
+        currentFormation = 3;
     }
 }
 
-const calculateFormation = () => {
+function CalculateFormation() {
     if (prevEncNumberInput.value === "") {
         resultsDiv.innerHTML = `<h2>Enter a previous encounter number.</h2>`
     } else {
-        const result = nextEncFormation(parseInt(prevEncNumberInput.value));
-        resultsDiv.innerHTML = `<h1>Formation: ${resultFormation}</h1>`
+        const result = NextEncFormation(parseInt(prevEncNumberInput.value), parseInt(prevEncFormationInput.value));
+        resultsDiv.innerHTML = `<h1>Formation ${resultFormation}</h1>`
+    }
+}
+
+function PopulateMapIds(mapArray) {
+    for (const [key, value] of Object.entries(mapArray)) {
+        // If the mapId isn't a number, skip it.
+        if (isNaN(value.locationId))
+            continue;
+
+        // Add the map id as an option in the select box
+        var opt = document.createElement('option');
+        opt.value = key;
+        opt.innerHTML = `${key} - ${value.location}`;
+        mapIdInput.appendChild(opt);
+    }
+}
+
+
+function PopulateEncounterIds(formationArray, encounterArray, mapId) {
+    // Clear the select box
+    prevEncFormationInput.innerHTML = '';
+
+    // Check if we even have formation IDs for this map.
+    if (formationArray.hasOwnProperty(mapId) && Object.keys(formationArray[mapId]).length > 0) {
+        var opt = document.createElement('option');
+        opt.value = -1;
+        opt.innerHTML = `None`;
+        prevEncFormationInput.appendChild(opt);
+
+        for (const [key, value] of Object.entries(formationArray[mapId])) {
+            var opt = document.createElement('option');
+            opt.value = key;
+            opt.innerHTML = `${key} - ${encounterArray[value]}`;
+            prevEncFormationInput.appendChild(opt);
+        }
+    } else {
+        var opt = document.createElement('option');
+        opt.innerHTML = `No Encounters`;
+        prevEncFormationInput.appendChild(opt);
     }
 }
 
 prevEncFormationInput.addEventListener('change', () => {
-    calculateFormation();
+    CalculateFormation();
 });
 prevEncNumberInput.addEventListener('change', () => {
-    calculateFormation();
+    CalculateFormation();
 });
 mapIdInput.addEventListener('change', () => {
-    calculateFormation();
+    PopulateEncounterIds(formations, encounters, mapIdInput.value);
+    CalculateFormation();
+});
+advancedMode.addEventListener('change', () => {
+    if (advancedMode.checked) {
+        advancedOptions.style.display = "block";
+    } else {
+        // Clear everything
+        advancedOptions.style.display = "none";
+        mapIdInput.value = null;
+        prevEncFormationInput.value = null;
+        PopulateEncounterIds(formations, encounters, null);
+    }
+    CalculateFormation();
+});
+incrementButton.addEventListener('click', () => {
+    prevEncNumberInput.value++;
+    prevEncFormationInput.value = currentFormation;
+    CalculateFormation();
 });

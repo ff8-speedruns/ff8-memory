@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,31 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
     <title>FF8 Formation Calculator</title>
 </head>
+
 <body>
     <h1>Encounter Formation Calculator</h1>
 
     <legend>Previous Encounter Number:</legend>
-    <input type="number" id="prev-enc-number">
+    <input type="number" id="prev-enc-number" min="0" step="1">
 
-    <legend>Previous Encounter Formation:</legend>
-    <input type="number" id="prev-enc-formation" placeholder="Can be left blank">
+    <legend>Advanced:</legend>
+    <input type="checkbox" id="advanced">
 
-    <legend>Map ID:</legend>
-    <input type="number" id="map-id" placeholder="Can be left blank">
+    <span id="advancedOptions" style="display: none">
+        <legend>Map ID:</legend>
+        <select id="map-id"></select>
+
+        <legend>Previous Encounter Formation:</legend>
+        <select id="prev-enc-formation"></select>
+
+        <button id="increment">Increment</button>
+    </span>
+
 
     <div id="results"></div>
 
     <footer>
         <h2>Information</h2>
-        <p>Using the previous encounter formation ID along with the encounter number (total number of encounters) we can tell which encounter formation we will receive next.</p>
+        <p>Using the previous encounter formation ID along with the encounter number (total number of encounters) we can
+            tell which encounter formation we will receive next.</p>
         <h3>Addresses for French 2013 PC</h3>
         <p>Encounter Number Address: FF8_FR.exe+18DBCC4</p>
         <p>Previous Encounter Address: FF8_FR.exe+1996A80</p>
         <h3>Created by awesomeWaves & Brofar</h3>
     </footer>
-<script src="js/encounters.json"></script>
-<script src="js/formations.json"></script>
-<script src="js/maps.json"></script>
-<script src="js/encounter_formation.js"></script>
-</html>
+    <script src="js/encounters.json"></script>
+    <script src="js/formations.json"></script>
+    <script src="js/maps.json"></script>
+    <script src="js/encounter_formation.js"></script>
 
+</html>
