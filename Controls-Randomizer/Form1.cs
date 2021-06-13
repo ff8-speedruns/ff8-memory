@@ -1,4 +1,4 @@
-﻿using ProcessMemoryReaderLib;
+﻿ using ProcessMemoryReaderLib;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -19,6 +19,14 @@ namespace Controls_Randomizer
         static Timer t;
         static List<int> allControls = new List<int>();
         static Dictionary<int,int> defaults = new Dictionary<int, int>();
+        static int mapId;
+
+
+        static Dictionary<string, int> mapIdOffset = new Dictionary<string, int>
+        {
+            { "EN", 0x18D2FC0 },
+            { "FR", 0x18D2C98 }
+        };
 
         static Dictionary<string, List<int>> buttons = new Dictionary<string, List<int>>
         {
@@ -73,19 +81,17 @@ namespace Controls_Randomizer
             InitializeComponent();
         }
         // Thread-Safe Call to Windows Forms Control
-        delegate void SetStatusTextCallback(string text);
-        public void SetStatusText(string text)
+        public static void InvokeControlAction<t>(t cont, Action<t> action) where t : Control
         {
-            if (this.lblStatus.InvokeRequired)
+            if (cont.InvokeRequired)
             {
-                SetStatusTextCallback d = new SetStatusTextCallback(SetStatusText);
-                this.Invoke(d, new object[] { text });
+                cont.Invoke(new Action<t, Action<t>>(InvokeControlAction),
+                          new object[] { cont, action });
             }
             else
-            {
-                this.lblStatus.Text = text;
-            }
+            { action(cont); }
         }
+
         delegate void SetButtonCallback(bool enable);
         public void SetButton(bool enable)
         {
@@ -102,7 +108,7 @@ namespace Controls_Randomizer
         private void BeginCodeProcessing()
         {
             // Detect the game
-            SetStatusText("Waiting for game to start.");
+            InvokeControlAction<Label> (lblStatus, lbl => lbl.Text = "Waiting for game to start.");
             DetectGame();
         }
         private async void DetectGame()
@@ -122,13 +128,14 @@ namespace Controls_Randomizer
 
             FF8Process = ff8Game;
 
-
             // Set our combined list
             allControls = buttons[GameVersion].Concat(directions[GameVersion]).ToList();
 
             // Update status
-            SetStatusText(GameVersion + " - Waiting for start button.");
-            btnStart.Enabled = true;
+            InvokeControlAction<Label>(lblStatus, lbl => lbl.Text = GameVersion + " - Waiting for start button.");
+
+            // Make the start button clickable
+            InvokeControlAction<Button>(btnStart, btn => btn.Enabled = true);
         }
 
         private Process FindGame()
@@ -147,15 +154,13 @@ namespace Controls_Randomizer
 
         private int ReadMemoryAddress(int offset, uint bytelength)
         {
-            int bytesReadSize;
-
             ProcessMemoryReader reader = new ProcessMemoryReader();
 
             reader.ReadProcess = FF8Process;
             reader.OpenProcess();
 
             IntPtr readAddress = IntPtr.Add(GameBaseAddress, offset);
-            byte[] mem = reader.ReadProcessMemory(readAddress, bytelength, out bytesReadSize);
+            byte[] mem = reader.ReadProcessMemory(readAddress, bytelength, out int bytesReadSize);
 
             int i = ByteToInt(mem, bytesReadSize);
 
@@ -165,7 +170,6 @@ namespace Controls_Randomizer
         }
         private void WriteMemoryAddress(int offset, int data)
         {
-            int bytesWrittenSize;
 
             byte[] result = IntToByteArray(data);
 
@@ -175,7 +179,7 @@ namespace Controls_Randomizer
             reader.OpenProcess();
 
             IntPtr readAddress = IntPtr.Add(GameBaseAddress, offset);
-            reader.WriteProcessMemory(readAddress, result, out bytesWrittenSize);
+            reader.WriteProcessMemory(readAddress, result, out int bytesWrittenSize);
 
             reader.CloseHandle();
         }
@@ -210,7 +214,7 @@ namespace Controls_Randomizer
             }
             catch (Exception e)
             {
-                SetStatusText("Program error. ByteToInt issue.");
+                InvokeControlAction<Label>(lblStatus, lbl => lbl.Text = "Program error. ByteToInt issue.");
                 Console.WriteLine(e.Message);
             }
             return i;
@@ -223,7 +227,7 @@ namespace Controls_Randomizer
                 t.Dispose();
 
             // Disable start button
-            btnStart.Enabled = false;
+            InvokeControlAction<Button>(btnStart, btn => btn.Enabled = false);
 
             BeginCodeProcessing();
         }
@@ -235,36 +239,70 @@ namespace Controls_Randomizer
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            bool boolrando;
+            bool booltimer;
+            bool boolmapid;
+            string textbtn;
+            string textstatus;
+
             if(t == null)
             {
-                checkFullRandom.Enabled = false;
-                numTimer.Enabled = false;
-                btnStart.Text = "Stop";
+                boolrando = false;
+                booltimer = false;
+                boolmapid = false;
+                textbtn = "Stop";
+                textstatus = "Randomizing.Click Stop to restore default controls.";
 
                 bool fullRando = checkFullRandom.Checked;
 
                 // Save the current control scheme
                 SaveDefaults();
 
-                t = new Timer(DoRando, fullRando, 0, (int)numTimer.Value * 1000);
+                if (!checkMapChange.Checked)
+                {
+                    t = new Timer(DoRando, fullRando, 0, (int)numTimer.Value * 1000);
+                }
+                else
+                {
+                    t = new Timer(DoRandoMapChange, fullRando, 0, 500);
+                }
             }
             else
             {
                 t.Dispose();
                 t = null;
-                checkFullRandom.Enabled = true;
-                numTimer.Enabled = true;
-                btnStart.Text = "Start";
-                SetStatusText(GameVersion + " - Waiting for start button.");
+                boolrando = true;
+                booltimer = true;
+                boolmapid = true;
+                textbtn = "Start";
+                textstatus =  GameVersion + " - Click Start to begin randomizing.";
 
                 // Restore control scheme
                 RestoreDefaults();
+            }
+
+            InvokeControlAction<Button>(btnStart, btn => btn.Text = textbtn);
+            InvokeControlAction<Label>(lblStatus, lbl => lbl.Text = textstatus);
+            InvokeControlAction<CheckBox>(checkFullRandom, chk => chk.Enabled = boolrando);
+            InvokeControlAction<CheckBox>(checkMapChange, chk => chk.Enabled = boolmapid);
+            InvokeControlAction<NumericUpDown>(numTimer, num => num.Enabled = booltimer);
+        }
+        private void DoRandoMapChange(Object fullRando)
+        {
+            // Check if map changed.
+            var offset = mapIdOffset[GameVersion];
+            int thisMap = ReadMemoryAddress(offset, 2);
+
+            if(thisMap != mapId)
+            {
+                // Map changed; randomize.
+                mapId = thisMap;
+                DoRando(fullRando);
             }
         }
         private void DoRando (Object fullRando)
         {
             bool full = (bool)fullRando;
-            SetStatusText("Randomizing every " + numTimer.Value + " seconds.");
 
             if(full)
             {
@@ -300,7 +338,6 @@ namespace Controls_Randomizer
                 i++;
             }
         }
-
         private void SaveDefaults()
         {
             defaults.Clear();
@@ -314,12 +351,36 @@ namespace Controls_Randomizer
         }
         private void RestoreDefaults()
         {
-            // Write all values
-            int i = 0;
-            foreach (var offset in allControls)
+            if(allControls.Count > 0)
             {
-                WriteMemoryAddress(offset, defaults[offset]);
-                i++;
+                // Write all values
+                int i = 0;
+                foreach (var offset in allControls)
+                {
+                    WriteMemoryAddress(offset, defaults[offset]);
+                    i++;
+                }
+            }
+        }
+        private void OnApplicationExit(object sender, EventArgs e)
+        {
+            try
+            {
+                // Restore control scheme
+                RestoreDefaults();
+            }
+            catch { }
+        }
+
+        private void checkMapChange_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkMapChange.Checked)
+            {
+                numTimer.Enabled = false;
+            }
+            else
+            {
+                numTimer.Enabled = true;
             }
         }
     }

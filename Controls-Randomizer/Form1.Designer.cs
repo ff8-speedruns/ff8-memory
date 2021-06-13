@@ -35,6 +35,7 @@ namespace Controls_Randomizer
             this.label1 = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
             this.numTimer = new System.Windows.Forms.NumericUpDown();
+            this.checkMapChange = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.numTimer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,11 +111,23 @@ namespace Controls_Randomizer
             0,
             0});
             // 
+            // checkMapChange
+            // 
+            this.checkMapChange.AutoSize = true;
+            this.checkMapChange.Location = new System.Drawing.Point(12, 49);
+            this.checkMapChange.Name = "checkMapChange";
+            this.checkMapChange.Size = new System.Drawing.Size(230, 17);
+            this.checkMapChange.TabIndex = 8;
+            this.checkMapChange.Text = "Randomize on map change instead of timer";
+            this.checkMapChange.UseVisualStyleBackColor = true;
+            this.checkMapChange.CheckedChanged += new System.EventHandler(this.checkMapChange_CheckedChanged);
+            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(305, 135);
+            this.Controls.Add(this.checkMapChange);
             this.Controls.Add(this.numTimer);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnStart);
@@ -140,6 +153,7 @@ namespace Controls_Randomizer
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.NumericUpDown numTimer;
+        private System.Windows.Forms.CheckBox checkMapChange;
     }
 }
 
