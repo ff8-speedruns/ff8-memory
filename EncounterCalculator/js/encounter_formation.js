@@ -33,26 +33,32 @@ const mapIdInput = document.getElementById("map-id");
 const resultsDiv = document.getElementById('results');
 const advancedMode = document.getElementById('advanced');
 const advancedOptions = document.getElementById('advancedOptions');
+const advancedMaps = document.getElementById('usefulMaps');
 const incrementButton = document.getElementById('increment');
+const offsetInput = document.getElementById('offset');
 
 function NextEncFormation(index, previousEncounter = -1) {
     // If map id was provided, return enemy encounter formation.
     // If not, then just return the formation number.
     let mapId = mapIdInput.value;
+    let offsetValue = offsetInput.value;
+    console.log(`offset value: ${offsetValue}`);
     let possibleFormations = (mapId in formations) ? formations[mapId] : null;
     let previousEncs = [false, false, false, false];
+    let indexValue = ( parseInt(rng[index]) + parseInt(offsetValue) );
+
 
     if (possibleFormations !== null) {
         previousEncs[previousEncounter] = true;
     }
 
-    if (rng[index] < 128 && !previousEncs[0]) {
+    if ( ( indexValue % 255 ) < 128 && !previousEncs[0]) {
         resultFormation = "1" + ((possibleFormations) ? ": " + encounters[possibleFormations[0]] : "");
         currentFormation = 0;
-    } else if (rng[index] < 192 && !previousEncs[1]) {
+    } else if ( ( indexValue % 255 ) < 192 && !previousEncs[1]) {
         resultFormation = "2" + ((possibleFormations) ? ": " + encounters[possibleFormations[1]] : "");
         currentFormation = 1;
-    } else if (rng[index] < 240 && !previousEncs[2]) {
+    } else if ( ( indexValue % 255 ) < 240 && !previousEncs[2]) {
         resultFormation = "3" + ((possibleFormations) ? ": " + encounters[possibleFormations[2]] : "");
         currentFormation = 2;
     } else {
@@ -115,6 +121,9 @@ prevEncFormationInput.addEventListener('change', () => {
 prevEncNumberInput.addEventListener('change', () => {
     CalculateFormation();
 });
+offsetInput.addEventListener('change', () => {
+    CalculateFormation();
+});
 mapIdInput.addEventListener('change', () => {
     PopulateEncounterIds(formations, encounters, mapIdInput.value);
     CalculateFormation();
@@ -135,4 +144,12 @@ incrementButton.addEventListener('click', () => {
     prevEncNumberInput.value++;
     prevEncFormationInput.value = currentFormation;
     CalculateFormation();
+});
+
+advancedMaps.addEventListener('change', () => {
+    if (usefulMaps.checked) {
+        extraMaps.style.display = "block";
+    } else {
+        extraMaps.style.display = "none";
+    }
 });

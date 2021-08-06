@@ -27,6 +27,9 @@
         <legend>Previous Encounter Formation:</legend>
         <select id="prev-enc-formation"></select>
 
+        <legend>Offset value:</legend>
+        <input type="number" id="offset" value="0" step="13">
+
         <button id="increment">Increment</button>
     </span>
 
@@ -40,6 +43,17 @@
         <h3>Addresses for French 2013 PC</h3>
         <p>Encounter Number Address: FF8_FR.exe+18DBCC4</p>
         <p>Previous Encounter Address: FF8_FR.exe+1996A80</p>
+        <hr>
+        <legend>Useful Map IDs</legend>
+            <input type="checkbox" id="usefulMaps">
+
+            <span id="extraMaps" style="display: none">
+                <ul>
+                    <li>Esthar Stairs Screen: 402</li>
+                    <li>Esthar Boarding Screen: 425</li>
+                    <li>Esthar Odines Lab Entrance: 434</li>
+                </ul>
+            </span>
         <h3>Created by awesomeWaves & Brofar</h3>
     </footer>
     <script src="js/encounters.json"></script>
