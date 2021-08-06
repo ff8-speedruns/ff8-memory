@@ -46,19 +46,20 @@ function NextEncFormation(index, previousEncounter = -1) {
     let possibleFormations = (mapId in formations) ? formations[mapId] : null;
     let previousEncs = [false, false, false, false];
     let indexValue = ( parseInt(rng[index]) + parseInt(offsetValue) );
+    let rngValue = indexValue % 255;
 
 
-    if (possibleFormations !== null) {
+    if (possibleFormations) {
         previousEncs[previousEncounter] = true;
     }
 
-    if ( ( indexValue % 255 ) < 128 && !previousEncs[0]) {
+    if ( rngValue < 128 && !previousEncs[0]) {
         resultFormation = "1" + ((possibleFormations) ? ": " + encounters[possibleFormations[0]] : "");
         currentFormation = 0;
-    } else if ( ( indexValue % 255 ) < 192 && !previousEncs[1]) {
+    } else if ( rngValue < 192 && !previousEncs[1]) {
         resultFormation = "2" + ((possibleFormations) ? ": " + encounters[possibleFormations[1]] : "");
         currentFormation = 1;
-    } else if ( ( indexValue % 255 ) < 240 && !previousEncs[2]) {
+    } else if ( rngValue < 240 && !previousEncs[2]) {
         resultFormation = "3" + ((possibleFormations) ? ": " + encounters[possibleFormations[2]] : "");
         currentFormation = 2;
     } else {
