@@ -19,6 +19,7 @@ I credit as much as possible; if I've missed you in the credits of a project ple
 ## Credits
 The following people/sources have made everything above possible. Thank you for your passion towards the game!
 
+- [PingVal](http://pingval.g1.xrea.com/)
 - [Kaivel](https://www.twitch.tv/kaivel)
 - [awesomeWaves](https://www.twitch.tv/awesomeWaves)
 - [BlRT](https://twitch.tv/BlRT)
