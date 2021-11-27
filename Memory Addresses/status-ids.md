@@ -2,9 +2,6 @@
 INCOMPLETE
 ## Byte 1
 
-* Squall: FF8_FR.exe+19278C0
-* Quistis: FF8_FR.exe+19277F0
-
 |Bit value|Status|
 |----|----|
 |+1|Sleep|
@@ -18,36 +15,31 @@ INCOMPLETE
 
 ## Byte 2
 
-* Squall: FF8_FR.exe+1927938
-* Quistis: FF8_FR.exe+1927868
-
 |Bit value|Status|
 |----|----|
-|+1|??? Untargetable?|
+|+1|KO|
 |+2|Poison|
 |+4|Petrify|
 |+8|Blind/Darkness|
+|+16|Silence|
 |+32|Berserk|
 |+64|Zombie|
 |+128|???|
 
-## Byte 3?
-
-* Squall: FF8_FR.exe+19278C1
+## Byte 3
 
 |Bit value|Status|
 |----|----|
 |+1|Aura|
 |+2|Curse|
-|+4|???|
+|+4|Doom|
 |+8|Hero/Invincible|
+|+16|???|
 |+32|Float|
-|+64|Confusion|
+|+64|Confuse|
 |+128|???|
 
-## Byte 4?
-
-* Squall: FF8_FR.exe+19278C1
+## Byte 4
 
 |Bit value|Status|
 |----|----|
@@ -55,6 +47,20 @@ INCOMPLETE
 |+2|Meltdown/Vit 0?|
 |+4|???|
 |+8|???|
+|+16|???|
 |+32|???|
 |+64|???|
+|+128|???|
+
+## Byte 5
+
+|Bit value|Status|
+|----|----|
+|+1|Eject?|
+|+2|Double|
+|+4|Triple|
+|+8|Defend|
+|+16|???|
+|+32|???|
+|+64|Retribution?|
 |+128|???|
