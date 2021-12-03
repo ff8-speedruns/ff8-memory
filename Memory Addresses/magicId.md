@@ -1,6 +1,7 @@
-# Magic (Reference)
-|Spell ID|Spell Name|
+# magicId
+|Value|Description|
 |----|----|
+|0|None|
 |1|Fire|
 |2|Fira|
 |3|Firaga|

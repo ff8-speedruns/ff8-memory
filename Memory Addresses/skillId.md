@@ -1,6 +1,7 @@
-# Skills & Commands
-|ID|Name|
-|--|----|
+# skillId
+|Value|Description|
+|----|----|
+|0|None|
 |1|HP-J|
 |2|Str-J|
 |3|Vit-J|
@@ -18,8 +19,8 @@
 |15|Elem-Def-Jx4|
 |16|ST-Def-Jx2|
 |17|ST-Def-Jx4|
-|18|Ability x3|
-|19|Ability x4|
+|18|Ability x3|
+|19|Ability x4|
 |20|Magic|
 |21|GF|
 |22|Draw|
@@ -27,15 +28,15 @@
 |24|Empty|
 |25|Card|
 |26|Doom|
-|27|Mad Rush|
+|27|Mad Rush|
 |28|Treatment|
 |29|Defend|
 |30|Darkside|
 |31|Recover|
 |32|Absorb|
 |33|Revive|
-|34|LV Down|
-|35|LV Up|
+|34|LV Down|
+|35|LV Up|
 |36|Kamikaze|
 |37|Devour|
 |38|MiniMog|
@@ -59,17 +60,17 @@
 |56|Eva+30%|
 |57|Luck+50%|
 |58|Mug|
-|59|Med Data|
+|59|Med Data|
 |60|Counter|
-|61|Return Damage|
+|61|Return Damage|
 |62|Cover|
 |63|Initiative|
-|64|Move-HP Up|
-|65|HP Bonus|
-|66|Str Bonus|
-|67|Vit Bonus|
-|68|Mag Bonus|
-|69|Spr Bonus|
+|64|Move-HP Up|
+|65|HP Bonus|
+|66|Str Bonus|
+|67|Vit Bonus|
+|68|Mag Bonus|
+|69|Spr Bonus|
 |70|Auto-Protect|
 |71|Auto-Shell|
 |72|Auto-Reflect|
@@ -82,7 +83,7 @@
 |79|Move-Find|
 |80|Enc-Half|
 |81|Enc-None|
-|82|Rare Item|
+|82|Rare Item|
 |83|SumMag+10%|
 |84|SumMag+20%|
 |85|SumMag+30%|
@@ -95,35 +96,33 @@
 |92|Haggle|
 |93|Sell-High|
 |94|Familiar|
-|95|Call Shop|
-|96|Junk shop|
-|97|T Mag-RF|
-|98|I Mag-RF|
-|99|F Mag-RF|
-|100|L Mag-RF|
-|101|Time Mag-RF|
-|102|ST Mag-RF|
-|103|Supt Mag-RF|
-|104|Forbid Mag-RF|
-|105|Recov Med-RF|
-|106|ST Med-RF|
+|95|Call Shop|
+|96|Junk shop|
+|97|T Mag-RF|
+|98|I Mag-RF|
+|99|F Mag-RF|
+|100|L Mag-RF|
+|101|Time Mag-RF|
+|102|ST Mag-RF|
+|103|Supt Mag-RF|
+|104|Forbid Mag-RF|
+|105|Recov Med-RF|
+|106|ST Med-RF|
 |107|Ammo-RF|
 |108|Tool-RF|
-|109|Forbid Med-RF|
-|110|GFRecov Med-RF|
-|111|GFAbl Med-RF|
-|112|Mid Mag-RF|
-|113|High Mag-RF|
-|114|Med LV Up|
-|115|Card Mod|
-|116|Haggle (Unused?)|
-|117| shops (Unused?)|
-|118|Haggle (Unused?)|
-|119| shops (Unused?)|
-|120| (Unused?)|
-|121|Haggle (Unused?)|
-|122|gh at shops (Unused?)|
-|123| (Unused?)|
-|124|Haggle (Unused?)|
-
-
+|109|Forbid Med-RF|
+|110|GFRecov Med-RF|
+|111|GFAbl Med-RF|
+|112|Mid Mag-RF|
+|113|High Mag-RF|
+|114|Med LV Up|
+|115|Card Mod|
+|116|Haggle (Unused?)|
+|117| shops (Unused?)|
+|118|Haggle (Unused?)|
+|119| shops (Unused?)|
+|120| (Unused?)|
+|121|Haggle (Unused?)|
+|122|gh at shops (Unused?)|
+|123| (Unused?)|
+|124|Haggle (Unused?)|
