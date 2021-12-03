@@ -3,18 +3,8 @@
  * then modified by awesomeWaves for FF8 2013 FR on PC.
  */
 
-/**
- * Listen for text box changes to determine when to calculate.
- */
-let textbox = document.getElementById('tilts');
-textbox.addEventListener('input', function (e) {
-    // We expect exactly 12 inputs.
-    // Don't waste processing power otherwise.
-    if (textbox.value.length == 12) {
-        //Calculate();
-    }
-});
-
+ let textbox = document.getElementById('tilts');
+ let hardreset = document.getElementById('reset');
 
 const options = {
     language: "en",
@@ -73,7 +63,7 @@ const options = {
     debug: false,
     fallback_language: "en"
 }
-static class Field_RNG {
+class Field_RNG {
     //let enum_method, seed, state, true_rand;
 
     // include Enumerable
@@ -111,7 +101,7 @@ static class Field_RNG {
 
     init(seed = null) {
         // https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
-        let seed = seed ?? Math.floor(Math.random() * (0xffffffff + 1));
+        seed = seed ?? Math.floor(Math.random() * (0xffffffff + 1));
         this.state = seed
     };
 
@@ -145,7 +135,7 @@ static class Field_RNG {
     get next_1b() {
         return this.nxt() & 255
     };
-
+/*
     get each(_implicitBlockYield = null) {
         if (!block_given) return to_enum;
 
@@ -153,7 +143,7 @@ static class Field_RNG {
             _implicitBlockYield(rnd)
         })
     };
-
+*/
     get peek() {
         let _state = this.state;
 
@@ -418,13 +408,13 @@ function search_last_party(pattern) {
     let table = make_last_party_table(order.min, order.max);
 
     // search
-    order.map((idx) => {
+    return order.map((idx) => {
         let data = table[idx];
 
         if (last_party_match(pattern, data)) {
-            { diff: idx - start_index, index: idx, data }
+            return { 'diff': idx - start_index, 'index': idx, data }
         }
-    }).compact
+    }).filter(n => n);  //.filter(n => n) removes null elements
 };
 
 // Use regular expressions
@@ -449,17 +439,9 @@ function str2pattern(s) {
 
 // Play with options
 function modify_options() {
-    // If the argument is 2 or more, a hard reset shall be performed.
-    if (ARGV.size > 1) {
-        ARGV.shift;
-        options.hardware_reset = true
-    };
-
-    // Random numbers are initialized when a hard reset is performed
-    if (options.hardware_reset) options.base = 15;
 
     // Goal party
-    options.targets.map(x => new Party(x)).uniq;
+    options.targets = [...new Set(options.targets.map(x => new Party(x)))];
     let rem = options.last_map_duration % 0.5;
 
     // Time to extend on the final map
@@ -471,11 +453,12 @@ function modify_options() {
 
 // Frame counter
 function frame_counter(period = 60, { max = null, fps = 30 } = {}) {
-    let start = Time.now.to_f;
-    puts("count\tframe");
+    let start = Time.now.to_f; // Now
+
+    puts("count\tframe");  //Write Line
 
     let f = () => {
-        let duration = Time.now.to_f - start;
+        let duration = Time.now.to_f - start; // now - start
         let frame = (duration * 60).floor;
         let count = frame.quo(period).floor;
         let curr_frame = (frame % period).floor;
@@ -507,12 +490,7 @@ function last_map_rnd_counter() {
 function main() {
 
     modify_options();
-    let pattern = str2pattern(ARGV.shift);
-
-    // That's what I'm recalculating
-    let from = [0, options.base - options.width / 2].max;
-    let to = [0, options.base + (options.width.fdiv(2)).ceil - 1].max;
-    let width = options.left_width;
+    let pattern = str2pattern(textbox.innerHTML);
 
     let r = search_last_party(pattern);
     if (r.empty) return;
@@ -540,19 +518,41 @@ function main() {
 
     let extra_s = options.last_map_extra.zero ? "none" : "%.2fs" % [options.last_map_extra];
     puts("%s = %s" % [t("extra_last_map"), extra_s]);
-
+/*
     if (options.adel_rnd_counter) {
         print(t("prompt.adel_rng_counter"));
         STDIN.gets && t = new Thread(() => adel_rnd_counter(26));
         STDIN.gets && t.kill;
         puts("")
-    };
-
+    }; */
+/*
     if (options.last_map_rnd_counter) {
         print(t("prompt.last_map_rng_counter"));
         STDIN.gets && t = new Thread(() => last_map_rnd_counter());
         STDIN.gets && t.kill
     }
+    */
 }
 
-main();
+/**
+ * Listen for text box changes to determine when to calculate.
+ */
+ textbox.addEventListener('input', function (e) {
+     // We expect exactly 12 inputs.
+     // Don't waste processing power otherwise.
+     if (textbox.value.length == 12) {
+         //Calculate();
+         main();
+     }
+ });
+
+/**
+ * Listen for reset checkbox changes
+ */
+ hardreset.addEventListener('change', function () {
+    if (this.checked) {
+        options.base = 15;
+      } else {
+        options.base = 2800;
+      }
+});
