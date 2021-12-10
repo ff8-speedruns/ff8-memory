@@ -1,1 +1,3 @@
-exclude: ['./Memory Addresses']
+# Exclude these files from production site
+exclude:
+  - Memory Addresses/
