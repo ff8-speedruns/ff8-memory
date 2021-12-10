@@ -45,6 +45,15 @@ document.body.addEventListener('change', function (e) {
     CalculatePattern();
 });
 document.body.addEventListener('keyup', function (e) {
+    if(dmg1.value.includes('.')) {
+        dmg1.value = '';
+    }
+    if(dmg2.value.includes('.')) {
+        dmg2.value = '';
+    }
+    if(dmg3.value.includes('.')) {
+        dmg3.value = '';
+    }
     CalculatePattern();
 });
 
@@ -64,16 +73,19 @@ inputSwitch.addEventListener('change', function (e) {
 document.querySelectorAll("input[name='attack1']").forEach((input) => {
     input.addEventListener('change', function (e) {
         dmg1.focus();
+        dmg1.value = '';
     });
 });
 document.querySelectorAll("input[name='attack2']").forEach((input) => {
     input.addEventListener('change', function (e) {
         dmg2.focus();
+        dmg2.value = '';
     });
 });
 document.querySelectorAll("input[name='attack3']").forEach((input) => {
     input.addEventListener('change', function (e) {
         dmg3.focus();
+        dmg3.value = '';
     });
 });
 
