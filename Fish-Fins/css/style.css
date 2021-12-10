@@ -1,0 +1,55 @@
+
+        @charset "UTF-8";
+        @import url("https://fonts.googleapis.com/css?family=Inter:400'");
+
+        body {
+            font-family: "Inter", sans-serif;
+        }
+
+        input[type=radio] {
+            display: none;
+        }
+
+        input[type=radio]:checked+.box {
+            background-color: #007e90;
+        }
+
+        input[type=radio]:checked+.box span {
+            color: white;
+            font-size: .9rem;
+        }
+
+        .opt {
+            width: 45%;
+        }
+
+        .box {
+            width: 100%;
+            aspect-ratio: 1;
+            background-color: #fff;
+            transition: all 250ms ease;
+            will-change: transition;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            font-weight: 900;
+            border: 1px solid #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box:active {
+            transform: translateY(-10px);
+        }
+
+        .box span {
+            position: absolute;
+            left: 0;
+            right: 0;
+            transition: all 300ms ease;
+            font-size: .7rem;
+            user-select: none;
+            color: #007e90;
+        }
