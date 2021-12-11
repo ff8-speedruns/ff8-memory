@@ -4,8 +4,7 @@
         "tested": "o",
         "pattern": "sq18 sq18 qs18",
         "atbRefresh": 5,
-        "drop": 4,
-        "undefined": "Start T"
+        "drop": 4
     },
     {
         "index": 1,
@@ -39,7 +38,7 @@
     },
     {
         "index": 5,
-        "tested": "R",
+        "tested": "o",
         "pattern": "qq27 ss18 qs25",
         "atbRefresh": 2,
         "drop": 4
@@ -231,14 +230,14 @@
     },
     {
         "index": 31,
-        "tested": "R",
+        "tested": "o",
         "pattern": "sq25 qs25 qq26",
         "atbRefresh": "6 or 53",
         "drop": "3 or 4"
     },
     {
         "index": 32,
-        "tested": "R",
+        "tested": "o",
         "pattern": "sq17 qs17 qq18",
         "atbRefresh": "0 or 47",
         "drop": "3 or 4"
@@ -285,7 +284,7 @@
     },
     {
         "index": 38,
-        "tested": "R",
+        "tested": "o",
         "pattern": "s qs26 sq27 qq24",
         "atbRefresh": "3 or 46",
         "drop": "3 or 4",
@@ -394,7 +393,7 @@
         "index": 52,
         "tested": "R",
         "pattern": "qs27 ss26 qq26",
-        "atbRefresh": 34,
+        "atbRefresh": 29,
         "drop": 4
     },
     {
@@ -406,7 +405,7 @@
     },
     {
         "index": 54,
-        "tested": "R",
+        "tested": "o",
         "pattern": "ss26 qs24 ss27",
         "atbRefresh": 25,
         "drop": 4,
@@ -1226,48 +1225,57 @@
     },
     {
         "index": 163,
+        "tested": "o",
         "pattern": "ss24 qs18 ss54",
         "atbRefresh": 1,
         "drop": 6
     },
     {
         "index": 164,
+        "tested": "o",
         "pattern": "b qs34 sq36 qs17",
         "atbRefresh": 1,
         "drop": 6
     },
     {
         "index": 165,
+        "tested": "o",
         "pattern": "ss24 ss26 qq27",
         "atbRefresh": 1,
         "drop": 6
     },
     {
         "index": 166,
+        "tested": "o",
         "pattern": "b qq36 ss36 qq18",
         "atbRefresh": 0,
-        "drop": 6
+        "drop": 6,
+        "phase1Comment": "Queue thunder ASAP"
     },
     {
         "index": 167,
+        "tested": "o",
         "pattern": "qq26 ss54 qq27",
         "atbRefresh": 1,
         "drop": 6
     },
     {
         "index": 168,
+        "tested": "o",
         "pattern": "ss26 qs36 sq27",
         "atbRefresh": 1,
         "drop": 6
     },
     {
         "index": 169,
+        "tested": "o",
         "pattern": "qq26 ss18 qq27",
         "atbRefresh": 1,
         "drop": 6
     },
     {
         "index": 170,
+        "tested": "o",
         "pattern": "qs26 sq27 qq27",
         "atbRefresh": 0,
         "drop": 6,
@@ -1275,49 +1283,59 @@
     },
     {
         "index": 171,
+        "tested": "o",
         "pattern": "ss26 qq18 sq27",
         "atbRefresh": 14,
         "drop": 4
     },
     {
         "index": 172,
+        "tested": "o",
         "pattern": "qs26 sq27 qq27",
         "atbRefresh": 1,
         "drop": 6,
-        "phase1Comment": "To be tested (with 85/170)"
+        "phase1Comment": "Quistis has 1st ATB - To be tested (with 85/170)"
     },
     {
         "index": 173,
+        "tested": "o",
         "pattern": "qs54 sq18 qq27",
         "atbRefresh": 1,
         "drop": 6
     },
     {
         "index": 174,
+        "tested": "o",
         "pattern": "s qs27 sq18 qq27",
         "atbRefresh": 14,
         "drop": 4
     },
     {
         "index": 175,
+        "tested": "o",
         "pattern": "ss27 qq18 sq27",
         "atbRefresh": 0,
         "drop": 6
     },
     {
         "index": 176,
+        "tested": "o",
         "pattern": "b qq36 sq27 qq17",
         "atbRefresh": 14,
-        "drop": 4
+        "drop": 4,
+        "phase1Comment": "Queue thunder ASAP",
+        "phase2Comment": "Swap-cast on 2nd"
     },
     {
         "index": 177,
+        "tested": "o",
         "pattern": "qq27 sq27 sq25",
         "atbRefresh": 13,
         "drop": 4
     },
     {
         "index": 178,
+        "tested": "o",
         "pattern": "qq27 sq18 sq17",
         "atbRefresh": 14,
         "drop": 4,
@@ -1325,6 +1343,7 @@
     },
     {
         "index": 179,
+        "tested": "o",
         "pattern": "s qq27 sq27 qq25",
         "atbRefresh": 14,
         "drop": 4,
@@ -1333,31 +1352,36 @@
     },
     {
         "index": 180,
+        "tested": "o",
         "pattern": "sq18 qq18 qq17",
         "atbRefresh": 13,
         "drop": 4
     },
     {
         "index": 181,
+        "tested": "o",
         "pattern": "qq27 qq25 qs26",
         "atbRefresh": 7,
         "drop": 4
     },
     {
         "index": 182,
+        "tested": "o",
         "pattern": "sq18 sq17 ss18",
         "atbRefresh": 7,
         "drop": 4
     },
     {
         "index": 183,
+        "tested": "o",
         "pattern": "qq18 qq17 qs18",
         "atbRefresh": 7,
         "drop": 4,
-        "phase1Comment": "Quistis first ATB"
+        "phase1Comment": "Quistis first ATB - Queue thunder ASAP"
     },
     {
         "index": 184,
+        "tested": "o",
         "pattern": "qq18 qq17 qs18",
         "atbRefresh": 2,
         "drop": 4,
@@ -1365,98 +1389,115 @@
     },
     {
         "index": 185,
+        "tested": "o",
         "pattern": "s qq18 sq18 qq17",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 186,
+        "tested": "o",
         "pattern": "sq18 qq25 qs26",
         "atbRefresh": 7,
         "drop": 4
     },
     {
         "index": 187,
+        "tested": "o",
         "pattern": "s qq18 sq26 qq17",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 188,
+        "tested": "o",
         "pattern": "qq18 sq18 qq17",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 189,
+        "tested": "o",
         "pattern": "b ss54 sq52 qq25",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 190,
+        "tested": "o",
         "pattern": "qs18 sq26 qq17",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 191,
+        "tested": "o",
         "pattern": "qq24 qq26 sq25",
         "atbRefresh": 7,
         "drop": 4
     },
     {
         "index": 192,
+        "tested": "o",
         "pattern": "sq17 ss18 qs27",
-        "atbRefresh": 1,
+        "atbRefresh": 2,
         "drop": 4,
-        "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
+        "phase2Comment": "Swap-Cast on 2nd"
     },
     {
         "index": 193,
+        "tested": "o",
         "pattern": "sq25 ss26 qs27",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 194,
+        "tested": "o",
         "pattern": "qq18 sq17 qq17",
         "atbRefresh": 1,
         "drop": 4,
+        "phase1Comment": "Squall first ATB",
         "phase2Comment": "CAREFUL: Swap-Cast on 2nd"
     },
     {
         "index": 195,
+        "tested": "o",
         "pattern": "qq26 sq25 qq24",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 196,
+        "tested": "o",
         "pattern": "qq18 sq25 qq17",
         "atbRefresh": 0,
         "drop": 4
     },
     {
         "index": 197,
+        "tested": "o",
         "pattern": "sq26 qq25 sq24",
         "atbRefresh": 0,
         "drop": 4
     },
     {
         "index": 198,
+        "tested": "o",
         "pattern": "qq26 qs27 qq24",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 199,
+        "tested": "o",
         "pattern": "qs25 sq26 qq24",
         "atbRefresh": 2,
         "drop": 4
     },
     {
         "index": 200,
+        "tested": "o",
         "pattern": "ss17 qq26 sq17",
         "atbRefresh": 0,
         "drop": 4,
@@ -1464,18 +1505,21 @@
     },
     {
         "index": 201,
+        "tested": "o",
         "pattern": "qs25 sq24 qs52",
         "atbRefresh": 1,
         "drop": 4
     },
     {
         "index": 202,
+        "tested": "o",
         "pattern": "sq25 qq17 ss52",
         "atbRefresh": 2,
         "drop": 4
     },
     {
         "index": 203,
+        "tested": "o",
         "pattern": "qs27 qq24 ss36",
         "atbRefresh": 48,
         "drop": 4,
@@ -1484,6 +1528,7 @@
     },
     {
         "index": 204,
+        "tested": "o",
         "pattern": "qs27 qq24 ss36",
         "atbRefresh": 48,
         "drop": 4,
@@ -1491,66 +1536,79 @@
     },
     {
         "index": 205,
+        "tested": "o",
         "pattern": "qs18 qq17 ss52",
         "atbRefresh": 48,
         "drop": 4
     },
     {
         "index": 206,
+        "tested": "o",
         "pattern": "qq18 sq17 qs36",
         "atbRefresh": 48,
-        "drop": 4
+        "drop": 4,
+        "phase2Comment": "Swap-cast on 2nd"
     },
     {
         "index": 207,
+        "tested": "o",
         "pattern": "qq24 ss36 qs27",
         "atbRefresh": 50,
         "drop": 4
     },
     {
         "index": 208,
+        "tested": "o",
         "pattern": "qq17 ss36 qs18",
         "atbRefresh": 50,
         "drop": 4
     },
     {
         "index": 209,
+        "tested": "o",
         "pattern": "sq24 qs36 ss27",
-        "atbRefresh": 50,
+        "atbRefresh": 49,
         "drop": 4
     },
     {
         "index": 210,
+        "tested": "o",
         "pattern": "b sq48 qq19 ss54",
         "atbRefresh": 49,
         "drop": 4
     },
     {
         "index": 211,
+        "tested": "o",
         "pattern": "qq24 sq19 qs27",
         "atbRefresh": 49,
         "drop": 4
     },
     {
         "index": 212,
+        "tested": "o",
         "pattern": "sq17 ss18 qs26",
         "atbRefresh": 43,
-        "drop": 4
+        "drop": 4,
+        "phase2Comment": "Swap-Cast on 2nd"
     },
     {
         "index": 213,
+        "tested": "o",
         "pattern": "s qq17 qs18 ss26",
         "atbRefresh": 50,
         "drop": 4
     },
     {
         "index": 214,
+        "tested": "o",
         "pattern": "sq17 qs18 ss18",
         "atbRefresh": 50,
         "drop": 4
     },
     {
         "index": 215,
+        "tested": "o",
         "pattern": "qs52 ss18 qs26",
         "atbRefresh": 49,
         "drop": 4,
@@ -1558,6 +1616,7 @@
     },
     {
         "index": 216,
+        "tested": "o",
         "pattern": "b qs72 ss18 qq34",
         "atbRefresh": 31,
         "drop": 4,
@@ -1565,18 +1624,21 @@
     },
     {
         "index": 217,
+        "tested": "o",
         "pattern": "s qq19 ss18 qq17",
         "atbRefresh": 31,
         "drop": 4
     },
     {
         "index": 218,
+        "tested": "o",
         "pattern": "ss27 qs18 sq26",
         "atbRefresh": 31,
         "drop": 4
     },
     {
         "index": 219,
+        "tested": "o",
         "pattern": "ss18 qs18 sq18",
         "atbRefresh": 37,
         "drop": 4,
@@ -1584,79 +1646,93 @@
     },
     {
         "index": 220,
+        "tested": "o",
         "pattern": "s qs27 ss18 ss18",
         "atbRefresh": 31,
         "drop": 4
     },
     {
         "index": 221,
+        "tested": "o",
         "pattern": "ss18 qs18 sq18",
-        "atbRefresh": 37,
+        "atbRefresh": 36,
         "drop": 4,
         "phase1Comment": "Squall first ATB"
     },
     {
         "index": 222,
+        "tested": "o",
         "pattern": "qs18 sq17 qs18",
         "atbRefresh": 36,
         "drop": 4
     },
     {
         "index": 223,
+        "tested": "o",
         "pattern": "qs18 sq25 qs18",
         "atbRefresh": 37,
         "drop": 4
     },
     {
         "index": 224,
+        "tested": "o",
         "pattern": "ss18 qq18 sq17",
         "atbRefresh": 21,
         "drop": 4
     },
     {
         "index": 225,
+        "tested": "o",
         "pattern": "s qs26 sq26 sq25",
         "atbRefresh": 26,
         "drop": 4
     },
     {
         "index": 226,
+        "tested": "o",
         "pattern": "ss26 qq18 sq25",
         "atbRefresh": 26,
         "drop": 4
     },
     {
         "index": 227,
+        "tested": "o",
         "pattern": "sq17 qs27 qq25",
         "atbRefresh": 26,
         "drop": 4
     },
     {
         "index": 228,
+        "tested": "o",
         "pattern": "qq25 ss24 sq25",
         "atbRefresh": 21,
         "drop": 4
     },
     {
         "index": 229,
+        "tested": "o",
         "pattern": "b ss36 qq34 sq17",
         "atbRefresh": 26,
         "drop": 4
     },
     {
         "index": 230,
+        "tested": "o",
         "pattern": "ss18 qq24 sq17",
         "atbRefresh": 26,
         "drop": 4
     },
     {
         "index": 231,
+        "tested": "o",
         "pattern": "qq18 sq17 qq17",
         "atbRefresh": 26,
-        "drop": 4
+        "drop": 4,
+        "phase1Comment": "Quistis first ATB"
     },
     {
         "index": 232,
+        "tested": "o",
         "pattern": "qq18 qq17 sq24",
         "atbRefresh": 20,
         "drop": 4,
@@ -1664,66 +1740,78 @@
     },
     {
         "index": 233,
+        "tested": "o",
         "pattern": "ss18 qq17 sq17",
         "atbRefresh": 26,
         "drop": 4
     },
     {
         "index": 234,
+        "tested": "o",
         "pattern": "qs24 qq25 sq24",
         "atbRefresh": 26,
         "drop": 4
     },
     {
         "index": 235,
+        "tested": "o",
         "pattern": "qq17 sq17 qq17",
         "atbRefresh": 26,
         "drop": 4
     },
     {
         "index": 236,
+        "tested": "o",
         "pattern": "qq25 sq24 qs54",
-        "atbRefresh": 26,
+        "atbRefresh": 20,
         "drop": 4
     },
     {
         "index": 237,
+        "tested": "o",
         "pattern": "qq17 sq24 qs36",
         "atbRefresh": 20,
         "drop": 4
     },
     {
         "index": 238,
+        "tested": "o",
         "pattern": "qq25 sq17 qs54",
         "atbRefresh": 21,
         "drop": 4
     },
     {
         "index": 239,
+        "tested": "o",
         "pattern": "sq17 qq24 ss36",
         "atbRefresh": 21,
         "drop": 4
     },
     {
         "index": 240,
+        "tested": "o",
         "pattern": "b qq34 sq17 qq17",
         "atbRefresh": 21,
-        "drop": 4
+        "drop": 4,
+        "phase1Comment": "Queue Thunder ASAP"
     },
     {
         "index": 241,
+        "tested": "o",
         "pattern": "sq17 qq17 sq17",
         "atbRefresh": 21,
         "drop": 4
     },
     {
         "index": 242,
+        "tested": "o",
         "pattern": "sq25 qq17 ss54",
-        "atbRefresh": 22,
+        "atbRefresh": 21,
         "drop": 4
     },
     {
         "index": 243,
+        "tested": "o",
         "pattern": "ss16 qs36 qq18",
         "atbRefresh": 8,
         "drop": 4,
@@ -1731,15 +1819,18 @@
     },
     {
         "index": 244,
+        "tested": "o",
         "pattern": "qs24 ss36 sq18",
         "atbRefresh": 14,
         "drop": 4
     },
     {
         "index": 245,
+        "tested": "o",
         "pattern": "s qs17 qs36 qq18",
         "atbRefresh": 8,
-        "drop": 4
+        "drop": 4,
+        "phase2Comment": "Swap-Cast on 2nd"
     },
     {
         "index": 246,
