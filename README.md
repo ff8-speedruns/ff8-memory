@@ -19,6 +19,7 @@ The following people/sources have made everything above possible. Thank you for 
 - [Kaivel](https://www.twitch.tv/kaivel)
 - [awesomeWaves](https://www.twitch.tv/awesomeWaves)
 - [BlRT](https://twitch.tv/BlRT)
+- [Kiitoksia](https://twitch.tv/Kiitoksia)
 - [FF8 - Caraway Code retro-engineering (Amshagar)](https://docs.google.com/document/d/1k0wViIjYPa6oakFvcwXxwmXj_2O_Q8FL9Ab5XRfsA6I/)
 - [Hyne savegame editor for Final Fantasy VIII (myst6re)](https://github.com/myst6re/hyne)
 - [Deling Final Fantasy VIII field archive editor (myst6re)](https://github.com/myst6re/deling)
