@@ -4,11 +4,7 @@ Final Fantasy VIII stuff!
 
 I credit as much as possible; if I've missed you in the credits of a project please let me know.
 
-## Working stuff
-* [FF8 Encounter Calculator](./EncounterCalculator)
-* [FF8 Cheat Engine Tables](https://github.com/brofar/ff8/releases)
-* [FF8 Caraway Code](https://github.com/brofar/ff8-Julia)
-* [FF8 Controls Randomizer](https://github.com/brofar/ff8-controls-randomizer)
+[See all of my FF8 related things here](https://galbadia.garden)
 
 ## Research Stuff
 * [FF8 Memory Addresses](https://github.com/brofar/ff8/tree/main/Memory%20Addresses)

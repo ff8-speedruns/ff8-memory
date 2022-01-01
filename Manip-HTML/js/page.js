@@ -1,3 +1,0 @@
-function BuildPage(json) {
-
-}
