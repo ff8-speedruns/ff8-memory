@@ -1,7 +1,8 @@
-This is my list of known RAM offsets for FFVIII, compiled from [various sources](credits.md) and my own research.
+This is my list of known RAM offsets for FFVIII, compiled from [various sources](https://galbadia.garden#credits) and my own research.
+
+[All tools](https://galbadia.garden)
 
 Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328).
-
 
 # Running
 |Offset (EN)|Offset (FR)|Length|Description|
