@@ -7,7 +7,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 # Running
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
-|FF8_EN.exe+78EEA0|FF8_FR.exe+78EB78|1 Byte|Field RNG|
+|FF8_EN.exe+78F0F0|FF8_FR.exe+78EDC8|4 Bytes|Field RNG|
 |FF8_EN.exe+18DC748|FF8_FR.exe+18DC420|1 Byte|Stepcount Offset|
 |FF8_EN.exe+18DC740|FF8_FR.exe+18DC418|1 Byte|Step Fraction (When step count is active)|
 |FF8_EN.exe+18D2FB8|FF8_FR.exe+18D2C90|1 Byte|Step ID|
