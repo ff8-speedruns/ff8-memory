@@ -1,57 +1,48 @@
-This is my list of known RAM offsets for FFVIII, compiled from [various sources](https://galbadia.garden#credits) and my own research.
-
-[All tools](https://galbadia.garden)
-
-Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328).
 
 # Running
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
-|FF8_EN.exe+78EEA0|FF8_FR.exe+78EB78|1 Byte|Field RNG|
+|FF8_EN.exe+78EEA0|FF8_FR.exe+78EB78|4 Bytes|Field RNG|
 |FF8_EN.exe+18DC748|FF8_FR.exe+18DC420|1 Byte|Stepcount Offset|
-|FF8_EN.exe+18DC740|FF8_FR.exe+18DC418|1 Byte|Step Fraction (When step count is active)|
+|FF8_EN.exe+18DC740|FF8_FR.exe+18DC418|1 Byte|Step Fraction<br />----<br />When step count is active|
 |FF8_EN.exe+18D2FB8|FF8_FR.exe+18D2C90|1 Byte|Step ID|
-|FF8_EN.exe+18DC74A|FF8_FR.exe+18DC422|1 Byte|Danger Value (When step count is active)|
-|FF8_EN.exe+18FEFB4|FF8_FR.exe+18FEC8C|4 Bytes|Card RNG Hex Value|
-|FF8_EN.exe+18DBFEC|FF8_FR.exe+18DBCC4|2 Bytes|Current session encounter count|
-|FF8_EN.exe+18E490B|FF8_FR.exe+18E45E3|1 Byte|Save Option Active (i.e. Set to 1 to save anywhere). Save points set this to 3.|
-|FF8_EN.exe+18FEC90|FF8_FR.exe+18FE968|1 Byte|Caraway Mansion Code (correct only when on map 761)|
-|FF8_EN.exe+1996DA8|FF8_FR.exe+1996A80|2 Bytes|[Current/Most Recent Encounter ID](encounterId.md)|
+|FF8_EN.exe+18DC74A|FF8_FR.exe+18DC422|1 Byte|Danger Value<br />----<br />When step count is active|
+|FF8_EN.exe+18FEFB4|FF8_FR.exe+18FEC8C|4 Bytes|Card RNG<br />----<br />Hex Value|
+|FF8_EN.exe+18DBFEC|FF8_FR.exe+18DBCC4|2 Bytes|Encounter Count<br />----<br />Current session<br />Resets on game restart|
+|FF8_EN.exe+18E490B|FF8_FR.exe+18E45E3|1 Byte|Can Save<br />----<br />Set to 1 to save anywhere.<br />Save points set this to 3.|
+|FF8_EN.exe+18FEC90|FF8_FR.exe+18FE968|1 Byte|Caraway Mansion Code<br />----<br />Accurate only when on map id 761.|
+|FF8_EN.exe+1996DA8|FF8_FR.exe+1996A80|2 Bytes|[Encounter ID](encounterId.md)<br />----<br />For the current/most recent encounter.|
 |FF8_EN.exe+1C40A5E|FF8_FR.exe+1C40736|1 Byte|Danger Value? (in World Map)|
-|FF8_EN.exe+18DBFEC|FF8_FR.exe+18DBCC4|2 Bytes|Total Encounters (resets to 0 on hard reset)|
+|FF8_EN.exe+18DBFEC|FF8_FR.exe+18DBCC4|2 Bytes|Total Encounters<br />----<br />Resets to 0 on hard reset.|
 |FF8_EN.exe+1927DA4|FF8_FR.exe+1927A7C|1 Byte|Ifrit Punch Counter|
 |FF8_EN.exe+1976750|FF8_FR.exe+1976428|2 Bytes|Zell Duel Timer|
-
 # General
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
-|FF8_EN.exe+18D2FC0|FF8_FR.exe+18D2C98|2 Bytes|[Current Map ID](mapId.md)|
+|FF8_EN.exe+18D2FC0|FF8_FR.exe+18D2C98|2 Bytes|[Map ID](mapId.md)|
 |FF8_EN.exe+18FEAB8|FF8_FR.exe+18FE790|2 Bytes|Story Progress|
-|FF8_EN.exe+18FE92C|FF8_FR.exe+18FE604|2 Bytes|Time remaining (seconds) (If there's an active timer)|
+|FF8_EN.exe+18FE92C|FF8_FR.exe+18FE604|2 Bytes|Time remaining<br />----<br />In seconds, if there's an active timer|
 |FF8_EN.exe+18FE764|FF8_FR.exe+18FE43C|4 Bytes|Current Gil|
-|FF8_EN.exe+18FE928|FF8_FR.exe+18FE600|4 Bytes|Play Time (Seconds)|
-|FF8_EN.exe+18FE940|FF8_FR.exe+18FE618|1 Byte|Centra Tonberry Kills|
-|FF8_EN.exe+18FE9BC|FF8_FR.exe+18FE694|4 Bytes|Total steps taken|
-|FF8_EN.exe+18FE9C0|FF8_FR.exe+18FE698|1 Byte|SeeD Payout Step Fraction (increments as you step, resets at 255) (Always-on Step Fraction?)|
-|FF8_EN.exe+18FE9C1|FF8_FR.exe+18FE699|1 Byte|SeeD Payout Timer (Payout when >= 96) (Increments 1 for every time SeeD Payout Step Fraction passes 255)|
-|FF8_EN.exe+18FE9C8|FF8_FR.exe+18FE6A0|2 Bytes|SeeD Pts (every 100 = rank up / -10 every payout / +10 for every won encounter?)|
-|FF8_EN.exe+18FEA0C|FF8_FR.exe+18FE6E4|2 Bytes|[Previous Screen's Map ID](mapId.md)|
-|FF8_EN.exe+18FEB32|FF8_FR.exe+18FE80A|1 Byte|Centra Ruins Timer (seconds)|
-|FF8_EN.exe+1C3ED02|FF8_FR.exe+1C3E9DA|2 Bytes|Camera direction in World Map (0/North - 4095)|
-|FF8_EN.exe+1C3ED08|FF8_FR.exe+1C3E9E0|2 Bytes|Something to do with Camera Tilt in World Map|
-|FF8_EN.exe+1C3ED2C|FF8_FR.exe+1C3EA04|2 Bytes|In Town: 0 on world map; 1 in local/dungeon maps; 1 in menu; 1 in battle.|
-|FF8_EN.exe+1C3ED30|FF8_FR.exe+1C3EA08|1 Byte|Controller Button Presses (Byte 1) [Experimental]|
-|FF8_EN.exe+1C3ED31|FF8_FR.exe+1C3EA09|1 Byte|Controller Button Presses (Byte 2) [Experimental]|
+|FF8_EN.exe+18FE928|FF8_FR.exe+18FE600|4 Bytes|Play Time<br />----<br />In seconds|
+|FF8_EN.exe+18FE940|FF8_FR.exe+18FE618|1 Byte|Tonberry Kills<br />----<br />In Centra|
+|FF8_EN.exe+18FE9BC|FF8_FR.exe+18FE694|4 Bytes|Total Steps|
+|FF8_EN.exe+18FE9C0|FF8_FR.exe+18FE698|1 Byte|SeeD Payout Step Fraction<br />----<br />Increments as you step, resets at 255.|
+|FF8_EN.exe+18FE9C1|FF8_FR.exe+18FE699|1 Byte|SeeD Payout Timer<br />----<br />Payout when >= 96<br />+1 when SeeD Payout Step Fraction passes 255.|
+|FF8_EN.exe+18FE9C8|FF8_FR.exe+18FE6A0|2 Bytes|SeeD Pts<br />----<br />every 100 = rank up<br />-10 every payout<br />+10 for every won encounter.|
+|FF8_EN.exe+18FEA0C|FF8_FR.exe+18FE6E4|2 Bytes|[Previous Map ID](mapId.md)<br />----<br />MapId of the prevous screen.|
+|FF8_EN.exe+18FEB32|FF8_FR.exe+18FE80A|1 Byte|Centra Ruins Timer<br />----<br />In seconds|
+|FF8_EN.exe+1C3ED02|FF8_FR.exe+1C3E9DA|2 Bytes|World map camera direction<br />----<br />Range: 0 (North) - 4095|
+|FF8_EN.exe+1C3ED08|FF8_FR.exe+1C3E9E0|2 Bytes|World map camera tilt<br />----<br />Something to do with camera tilt in world map.|
+|FF8_EN.exe+1C3ED2C|FF8_FR.exe+1C3EA04|2 Bytes|Town/battle scene<br />----<br />In Town: 0 on world map<br />1 in local/dungeon maps<br />1 in menu<br />1 in battle.|
+|FF8_EN.exe+1C3ED30|FF8_FR.exe+1C3EA08|1 Byte|Controller Button Presses (Byte 1)<br />----<br />Experimental|
+|FF8_EN.exe+1C3ED31|FF8_FR.exe+1C3EA09|1 Byte|Controller Button Presses (Byte 2)<br />----<br />Experimental|
 |FF8_EN.exe+1C3EE80|FF8_FR.exe+1C3EB58|4 Bytes|World Map Coord X|
 |FF8_EN.exe+1C3EE84|FF8_FR.exe+1C3EB5C|4 Bytes|World Map Coord Y|
 |FF8_EN.exe+1C3EE88|FF8_FR.exe+1C3EB60|4 Bytes|World Map Coord Z|
 |FF8_EN.exe+1677238|FF8_FR.exe+1676F10|4 Bytes|Field Coord X|
 |FF8_EN.exe+167723C|FF8_FR.exe+1676F14|4 Bytes|Field Coord Y|
 |FF8_EN.exe+1677240|FF8_FR.exe+1676F18|4 Bytes|Field Coord Z|
-
-# Ultimecia's Castle
-
-## Seals (Used in Map)
+# Seals (Map)
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE73F|FF8_FR.exe+18FE417|Binary (Bit 0; Length: 1)|Item Locked|
@@ -62,8 +53,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE73F|FF8_FR.exe+18FE417|Binary (Bit 5; Length: 1)|Limit Break Locked|
 |FF8_EN.exe+18FE73F|FF8_FR.exe+18FE417|Binary (Bit 6; Length: 1)|Resurrection Locked|
 |FF8_EN.exe+18FE73F|FF8_FR.exe+18FE417|Binary (Bit 7; Length: 1)|Save Locked|
-
-## Seals (Used in Battle)
+# Seals (Battle)
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FF6E8|FF8_FR.exe+18FF3C0|Binary (Bit 0; Length: 1)|Item Locked|
@@ -74,23 +64,21 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FF6E8|FF8_FR.exe+18FF3C0|Binary (Bit 5; Length: 1)|Limit Break Locked|
 |FF8_EN.exe+18FF6E8|FF8_FR.exe+18FF3C0|Binary (Bit 6; Length: 1)|Resurrection Locked|
 |FF8_EN.exe+18FF6E8|FF8_FR.exe+18FF3C0|Binary (Bit 7; Length: 1)|Save Locked|
-
-## Unlocked Abilities (Used in Post-Battle Unlock List)
+# Unlocked Abilities
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
-|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 0; Length: 1)|Item Locked|
-|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 1; Length: 1)|Magic Locked|
-|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 2; Length: 1)|GF Locked|
-|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 3; Length: 1)|Draw Locked|
-|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 4; Length: 1)|Command Ability Locked|
-|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 5; Length: 1)|Limit Break Locked|
-|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 6; Length: 1)|Resurrection Locked|
-|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 7; Length: 1)|Save Locked|
-
+|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 0; Length: 1)|Item Locked<br />----<br />Used in Post-Battle Unlock List|
+|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 1; Length: 1)|Magic Locked<br />----<br />Used in Post-Battle Unlock List|
+|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 2; Length: 1)|GF Locked<br />----<br />Used in Post-Battle Unlock List|
+|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 3; Length: 1)|Draw Locked<br />----<br />Used in Post-Battle Unlock List|
+|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 4; Length: 1)|Command Ability Locked<br />----<br />Used in Post-Battle Unlock List|
+|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 5; Length: 1)|Limit Break Locked<br />----<br />Used in Post-Battle Unlock List|
+|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 6; Length: 1)|Resurrection Locked<br />----<br />Used in Post-Battle Unlock List|
+|FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 7; Length: 1)|Save Locked<br />----<br />Used in Post-Battle Unlock List|
 # Battle
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
-|FF8_EN.exe+1927F58|FF8_FR.exe+1927C30|1 Byte|Ultimecia Death Animation - 0 -> 1 when Ultimecia takes final hit|
+|FF8_EN.exe+1927F58|FF8_FR.exe+1927C30|1 Byte|Ultimecia Death Animation<br />----<br />0 -> 1 when Ultimecia takes final hit|
 |FF8_EN.exe+18FE9CC|FF8_FR.exe+18FE6A4|2 Bytes|Battles Won|
 |FF8_EN.exe+18FE9D2|FF8_FR.exe+18FE6AA|2 Bytes|Battles Escaped|
 |FF8_EN.exe+18FE9D4|FF8_FR.exe+18FE6AC|2 Bytes|Squall's Kill Count|
@@ -106,8 +94,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE9EC|FF8_FR.exe+18FE6C4|2 Bytes|Rinoa's Death Count|
 |FF8_EN.exe+18FE9EE|FF8_FR.exe+18FE6C6|2 Bytes|Selphie's Death Count|
 |FF8_EN.exe+18FE9FC|FF8_FR.exe+18FE6D4|4 Bytes|Total Enemies Killed|
-
-## Ally 1
+# Ally 1
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FF574|FF8_FR.exe+18FF24C|2 Bytes|XP Earned|
@@ -161,8 +148,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+1927B7E|FF8_FR.exe+1927856|2 Bytes|Float Timer (64425 when not active)|
 |FF8_EN.exe+1927B80|FF8_FR.exe+1927858|2 Bytes|UNKNOWN 1 Timer (64425 when not active)|
 |FF8_EN.exe+1927B82|FF8_FR.exe+192785A|2 Bytes|UNKNOWN 2 Timer (64425 when not active)|
-
-## Ally 2
+# Ally 2
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FF576|FF8_FR.exe+18FF24E|2 Bytes|XP Earned|
@@ -216,8 +202,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+1927C4E|FF8_FR.exe+1927926|2 Bytes|Float Timer (64425 when not active)|
 |FF8_EN.exe+1927C50|FF8_FR.exe+1927928|2 Bytes|UNKNOWN 1 Timer (64425 when not active)|
 |FF8_EN.exe+1927C52|FF8_FR.exe+192792A|2 Bytes|UNKNOWN 2 Timer (64425 when not active)|
-
-## Ally 3
+# Ally 3
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FF578|FF8_FR.exe+18FF250|2 Bytes|XP Earned|
@@ -271,8 +256,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+1927D1E|FF8_FR.exe+19279F6|2 Bytes|Float Timer (64425 when not active)|
 |FF8_EN.exe+1927D20|FF8_FR.exe+19279F8|2 Bytes|UNKNOWN 1 Timer (64425 when not active)|
 |FF8_EN.exe+1927D22|FF8_FR.exe+19279FA|2 Bytes|UNKNOWN 2 Timer (64425 when not active)|
-
-## GF
+# GF
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FF5C0|FF8_FR.exe+18FF298|2 Bytes|GF AP Earned|
@@ -293,8 +277,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FF59A|FF8_FR.exe+18FF272|2 Bytes|XP Earned GF 14|
 |FF8_EN.exe+18FF59C|FF8_FR.exe+18FF274|2 Bytes|XP Earned GF 15|
 |FF8_EN.exe+18FF59E|FF8_FR.exe+18FF276|2 Bytes|XP Earned GF 16|
-
-## Enemy 1
+# Enemy 1
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+1927D94|FF8_FR.exe+1927A6C|4 Bytes|Current ATB|
@@ -305,8 +288,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+1928F1C|FF8_FR.exe+1928BF4|1 Byte|[Draw 2 Spell ID](magicId.md)|
 |FF8_EN.exe+1928F20|FF8_FR.exe+1928BF8|1 Byte|[Draw 3 Spell ID](magicId.md)|
 |FF8_EN.exe+1928F24|FF8_FR.exe+1928BFC|1 Byte|[Draw 4 Spell ID](magicId.md)|
-
-## Enemy 2
+# Enemy 2
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+1927E64|FF8_FR.exe+1927B3C|4 Bytes|Current ATB|
@@ -317,8 +299,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+1928F63|FF8_FR.exe+1928C3B|1 Byte|[Draw 2 Spell ID](magicId.md)|
 |FF8_EN.exe+1928F67|FF8_FR.exe+1928C3F|1 Byte|[Draw 3 Spell ID](magicId.md)|
 |FF8_EN.exe+1928F6B|FF8_FR.exe+1928C43|1 Byte|[Draw 4 Spell ID](magicId.md)|
-
-## Enemy 3
+# Enemy 3
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+1927F34|FF8_FR.exe+1927C0C|4 Bytes|Current ATB|
@@ -329,8 +310,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+1928FAA|FF8_FR.exe+1928C82|1 Byte|[Draw 2 Spell ID](magicId.md)|
 |FF8_EN.exe+1928FAE|FF8_FR.exe+1928C86|1 Byte|[Draw 3 Spell ID](magicId.md)|
 |FF8_EN.exe+1928FB2|FF8_FR.exe+1928C8A|1 Byte|[Draw 4 Spell ID](magicId.md)|
-
-## Enemy 4
+# Enemy 4
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+1928004|FF8_FR.exe+1927CDC|4 Bytes|Current ATB|
@@ -341,10 +321,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+1928FF1|FF8_FR.exe+1928CC9|1 Byte|[Draw 2 Spell ID](magicId.md)|
 |FF8_EN.exe+1928FF5|FF8_FR.exe+1928CCD|1 Byte|[Draw 3 Spell ID](magicId.md)|
 |FF8_EN.exe+1928FFF|FF8_FR.exe+1928CD7|1 Byte|[Draw 4 Spell ID](magicId.md)|
-
-# Character Stats
-
-## Squall
+# Squall
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE0E8|FF8_FR.exe+18FDDC0|2 Bytes|HP|
@@ -398,8 +375,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE176|FF8_FR.exe+18FDE4E|2 Bytes|Eden Compatibility|
 |FF8_EN.exe+18FE178|FF8_FR.exe+18FDE50|2 Bytes|Kill Counter|
 |FF8_EN.exe+18FE17A|FF8_FR.exe+18FDE52|2 Bytes|KO Counter|
-
-## Zell
+# Zell
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE180|FF8_FR.exe+18FDE58|2 Bytes|HP|
@@ -453,8 +429,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE20E|FF8_FR.exe+18FDEE6|2 Bytes|Eden Compatibility|
 |FF8_EN.exe+18FE210|FF8_FR.exe+18FDEE8|2 Bytes|Kill Counter|
 |FF8_EN.exe+18FE212|FF8_FR.exe+18FDEEA|2 Bytes|KO Counter|
-
-## Irvine
+# Irvine
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE218|FF8_FR.exe+18FDEF0|2 Bytes|HP|
@@ -508,8 +483,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE2A6|FF8_FR.exe+18FDF7E|2 Bytes|Eden Compatibility|
 |FF8_EN.exe+18FE2A8|FF8_FR.exe+18FDF80|2 Bytes|Kill Counter|
 |FF8_EN.exe+18FE2AA|FF8_FR.exe+18FDF82|2 Bytes|KO Counter|
-
-## Quistis
+# Quistis
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE2B0|FF8_FR.exe+18FDF88|2 Bytes|HP|
@@ -563,8 +537,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE33E|FF8_FR.exe+18FE016|2 Bytes|Eden Compatibility|
 |FF8_EN.exe+18FE340|FF8_FR.exe+18FE018|2 Bytes|Kill Counter|
 |FF8_EN.exe+18FE342|FF8_FR.exe+18FE01A|2 Bytes|KO Counter|
-
-## Rinoa
+# Rinoa
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE348|FF8_FR.exe+18FE020|2 Bytes|HP|
@@ -618,8 +591,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE3D6|FF8_FR.exe+18FE0AE|2 Bytes|Eden Compatibility|
 |FF8_EN.exe+18FE3D8|FF8_FR.exe+18FE0B0|2 Bytes|Kill Counter|
 |FF8_EN.exe+18FE3DA|FF8_FR.exe+18FE0B2|2 Bytes|KO Counter|
-
-## Selphie
+# Selphie
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE3E0|FF8_FR.exe+18FE0B8|2 Bytes|HP|
@@ -673,8 +645,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE46E|FF8_FR.exe+18FE146|2 Bytes|Eden Compatibility|
 |FF8_EN.exe+18FE470|FF8_FR.exe+18FE148|2 Bytes|Kill Counter|
 |FF8_EN.exe+18FE472|FF8_FR.exe+18FE14A|2 Bytes|KO Counter|
-
-## Seifer (In Party)
+# Seifer (In Party)
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE478|FF8_FR.exe+18FE150|2 Bytes|HP|
@@ -728,8 +699,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE506|FF8_FR.exe+18FE1DE|2 Bytes|Eden Compatibility|
 |FF8_EN.exe+18FE508|FF8_FR.exe+18FE1E0|2 Bytes|Kill Counter|
 |FF8_EN.exe+18FE50A|FF8_FR.exe+18FE1E2|2 Bytes|KO Counter|
-
-## Edea (In Party)
+# Edea (In Party)
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE510|FF8_FR.exe+18FE1E8|2 Bytes|HP|
@@ -783,8 +753,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE59E|FF8_FR.exe+18FE276|2 Bytes|Eden Compatibility|
 |FF8_EN.exe+18FE5A0|FF8_FR.exe+18FE278|2 Bytes|Kill Counter|
 |FF8_EN.exe+18FE5A2|FF8_FR.exe+18FE27A|2 Bytes|KO Counter|
-
-## Magic - Squall
+# Magic - Squall
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE0F8|FF8_FR.exe+18FDDD0|1 Byte|[Magic Slot 1 Spell ID](magicId.md)|
@@ -851,8 +820,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE135|FF8_FR.exe+18FDE0D|1 Byte|Magic Slot 31 Quantity|
 |FF8_EN.exe+18FE136|FF8_FR.exe+18FDE0E|1 Byte|[Magic Slot 32 Spell ID](magicId.md)|
 |FF8_EN.exe+18FE137|FF8_FR.exe+18FDE0F|1 Byte|Magic Slot 32 Quantity|
-
-## Magic - Zell
+# Magic - Zell
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE190|FF8_FR.exe+18FDE68|1 Byte|[Magic Slot 1 Spell ID](magicId.md)|
@@ -919,8 +887,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE1CD|FF8_FR.exe+18FDEA5|1 Byte|Magic Slot 31 Quantity|
 |FF8_EN.exe+18FE1CE|FF8_FR.exe+18FDEA6|1 Byte|[Magic Slot 32 Spell ID](magicId.md)|
 |FF8_EN.exe+18FE1CF|FF8_FR.exe+18FDEA7|1 Byte|Magic Slot 32 Quantity|
-
-## Magic - Irvine
+# Magic - Irvine
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE228|FF8_FR.exe+18FDF00|1 Byte|[Magic Slot 1 Spell ID](magicId.md)|
@@ -987,8 +954,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE265|FF8_FR.exe+18FDF3D|1 Byte|Magic Slot 31 Quantity|
 |FF8_EN.exe+18FE266|FF8_FR.exe+18FDF3E|1 Byte|[Magic Slot 32 Spell ID](magicId.md)|
 |FF8_EN.exe+18FE267|FF8_FR.exe+18FDF3F|1 Byte|Magic Slot 32 Quantity|
-
-## Magic - Quistis
+# Magic - Quistis
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE2C0|FF8_FR.exe+18FDF98|1 Byte|[Magic Slot 1 Spell ID](magicId.md)|
@@ -1055,8 +1021,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE2FD|FF8_FR.exe+18FDFD5|1 Byte|Magic Slot 31 Quantity|
 |FF8_EN.exe+18FE2FE|FF8_FR.exe+18FDFD6|1 Byte|[Magic Slot 32 Spell ID](magicId.md)|
 |FF8_EN.exe+18FE2FF|FF8_FR.exe+18FDFD7|1 Byte|Magic Slot 32 Quantity|
-
-## Magic - Rinoa
+# Magic - Rinoa
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE358|FF8_FR.exe+18FE030|1 Byte|[Magic Slot 1 Spell ID](magicId.md)|
@@ -1123,8 +1088,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE395|FF8_FR.exe+18FE06D|1 Byte|Magic Slot 31 Quantity|
 |FF8_EN.exe+18FE396|FF8_FR.exe+18FE06E|1 Byte|[Magic Slot 32 Spell ID](magicId.md)|
 |FF8_EN.exe+18FE397|FF8_FR.exe+18FE06F|1 Byte|Magic Slot 32 Quantity|
-
-## Magic - Selphie
+# Magic - Selphie
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE3F0|FF8_FR.exe+18FE0C8|1 Byte|[Magic Slot 1 Spell ID](magicId.md)|
@@ -1191,8 +1155,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE42D|FF8_FR.exe+18FE105|1 Byte|Magic Slot 31 Quantity|
 |FF8_EN.exe+18FE42E|FF8_FR.exe+18FE106|1 Byte|[Magic Slot 32 Spell ID](magicId.md)|
 |FF8_EN.exe+18FE42F|FF8_FR.exe+18FE107|1 Byte|Magic Slot 32 Quantity|
-
-## Magic - Seifer
+# Magic - Seifer
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE488|FF8_FR.exe+18FE160|1 Byte|[Magic Slot 1 Spell ID](magicId.md)|
@@ -1259,8 +1222,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE4C5|FF8_FR.exe+18FE19D|1 Byte|Magic Slot 31 Quantity|
 |FF8_EN.exe+18FE4C6|FF8_FR.exe+18FE19E|1 Byte|[Magic Slot 32 Spell ID](magicId.md)|
 |FF8_EN.exe+18FE4C7|FF8_FR.exe+18FE19F|1 Byte|Magic Slot 32 Quantity|
-
-## Magic - Edea
+# Magic - Edea
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FE520|FF8_FR.exe+18FE1F8|1 Byte|[Magic Slot 1 Spell ID](magicId.md)|
@@ -1327,7 +1289,6 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE55D|FF8_FR.exe+18FE235|1 Byte|Magic Slot 31 Quantity|
 |FF8_EN.exe+18FE55E|FF8_FR.exe+18FE236|1 Byte|[Magic Slot 32 Spell ID](magicId.md)|
 |FF8_EN.exe+18FE55F|FF8_FR.exe+18FE237|1 Byte|Magic Slot 32 Quantity|
-
 # Items
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -1727,7 +1688,6 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FE925|FF8_FR.exe+18FE5FD|1 Byte|Item Slot 197 Quantity|
 |FF8_EN.exe+18FE926|FF8_FR.exe+18FE5FE|1 Byte|[Item ID in Slot 198 (Page 18, Slot 11)](itemId.md)|
 |FF8_EN.exe+18FE927|FF8_FR.exe+18FE5FF|1 Byte|Item Slot 198 Quantity|
-
 # Guardian Forces
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -1811,7 +1771,6 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FF6CC|FF8_FR.exe+18FF3A4|2 Bytes|Eden HP|
 |FF8_EN.exe+18FF6CE|FF8_FR.exe+18FF3A6|2 Bytes|Eden Max HP|
 |FF8_EN.exe+18FF6D0|FF8_FR.exe+18FF3A8|4 Bytes|Eden EXP|
-
 # Triple Triad
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -1831,8 +1790,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+19CD798|FF8_FR.exe+19CD470|1 Byte|Triple Triad - In Game|
 |FF8_EN.exe+19CD798|FF8_FR.exe+19CD470|1 Byte|Triple Triad - In Game|
 |FF8_EN.exe+19CD798|FF8_FR.exe+19CD470|1 Byte|Triple Triad - In Game|
-
-## Balamb Play Rules
+# Balamb Play Rules
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FEAC8|FF8_FR.exe+18FE7A0|Binary (Bit 0; Length: 1)|Open|
@@ -1844,8 +1802,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FEAC8|FF8_FR.exe+18FE7A0|Binary (Bit 6; Length: 1)|Same Wall|
 |FF8_EN.exe+18FEAC8|FF8_FR.exe+18FE7A0|Binary (Bit 7; Length: 1)|Elemental|
 |FF8_EN.exe+18FEAD0|FF8_FR.exe+18FE7A8|1 Byte|[Balamb Trade Rule](cardTradeRule.md)|
-
-## Galbadia Play Rules
+# Galbadia Play Rules
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FEAC9|FF8_FR.exe+18FE7A1|Binary (Bit 0; Length: 1)|Open|
@@ -1857,8 +1814,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FEAC9|FF8_FR.exe+18FE7A1|Binary (Bit 6; Length: 1)|Same Wall|
 |FF8_EN.exe+18FEAC9|FF8_FR.exe+18FE7A1|Binary (Bit 7; Length: 1)|Elemental|
 |FF8_EN.exe+18FEAD1|FF8_FR.exe+18FE7A9|1 Byte|[Galbadia Trade Rule](cardTradeRule.md)|
-
-## Trabia Play Rules
+# Trabia Play Rules
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FEACA|FF8_FR.exe+18FE7A2|Binary (Bit 0; Length: 1)|Open|
@@ -1870,8 +1826,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FEACA|FF8_FR.exe+18FE7A2|Binary (Bit 6; Length: 1)|Same Wall|
 |FF8_EN.exe+18FEACA|FF8_FR.exe+18FE7A2|Binary (Bit 7; Length: 1)|Elemental|
 |FF8_EN.exe+18FEAD2|FF8_FR.exe+18FE7AA|1 Byte|[Trabia Trade Rule](cardTradeRule.md)|
-
-## Centra Play Rules
+# Centra Play Rules
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FEACB|FF8_FR.exe+18FE7A3|Binary (Bit 0; Length: 1)|Open|
@@ -1883,8 +1838,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FEACB|FF8_FR.exe+18FE7A3|Binary (Bit 6; Length: 1)|Same Wall|
 |FF8_EN.exe+18FEACB|FF8_FR.exe+18FE7A3|Binary (Bit 7; Length: 1)|Elemental|
 |FF8_EN.exe+18FEAD3|FF8_FR.exe+18FE7AB|1 Byte|[Centra Trade Rule](cardTradeRule.md)|
-
-## Dollet Play Rules
+# Dollet Play Rules
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FEACC|FF8_FR.exe+18FE7A4|Binary (Bit 0; Length: 1)|Open|
@@ -1896,8 +1850,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FEACC|FF8_FR.exe+18FE7A4|Binary (Bit 6; Length: 1)|Same Wall|
 |FF8_EN.exe+18FEACC|FF8_FR.exe+18FE7A4|Binary (Bit 7; Length: 1)|Elemental|
 |FF8_EN.exe+18FEAD4|FF8_FR.exe+18FE7AC|1 Byte|[Dollet Trade Rule](cardTradeRule.md)|
-
-## FH Play Rules
+# FH Play Rules
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FEACD|FF8_FR.exe+18FE7A5|Binary (Bit 0; Length: 1)|Open|
@@ -1909,8 +1862,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FEACD|FF8_FR.exe+18FE7A5|Binary (Bit 6; Length: 1)|Same Wall|
 |FF8_EN.exe+18FEACD|FF8_FR.exe+18FE7A5|Binary (Bit 7; Length: 1)|Elemental|
 |FF8_EN.exe+18FEAD5|FF8_FR.exe+18FE7AD|1 Byte|[FH Trade Rule](cardTradeRule.md)|
-
-## Space Play Rules
+# Space Play Rules
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FEACE|FF8_FR.exe+18FE7A6|Binary (Bit 0; Length: 1)|Open|
@@ -1922,8 +1874,7 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FEACE|FF8_FR.exe+18FE7A6|Binary (Bit 6; Length: 1)|Same Wall|
 |FF8_EN.exe+18FEACE|FF8_FR.exe+18FE7A6|Binary (Bit 7; Length: 1)|Elemental|
 |FF8_EN.exe+18FEAD6|FF8_FR.exe+18FE7AE|1 Byte|[Space Trade Rule](cardTradeRule.md)|
-
-## Esthar Play Rules
+# Esthar Play Rules
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
 |FF8_EN.exe+18FEACF|FF8_FR.exe+18FE7A7|Binary (Bit 0; Length: 1)|Open|
@@ -1935,7 +1886,6 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18FEACF|FF8_FR.exe+18FE7A7|Binary (Bit 6; Length: 1)|Same Wall|
 |FF8_EN.exe+18FEACF|FF8_FR.exe+18FE7A7|Binary (Bit 7; Length: 1)|Elemental|
 |FF8_EN.exe+18FEAD7|FF8_FR.exe+18FE7AF|1 Byte|[Esthar Trade Rule](cardTradeRule.md)|
-
 # Misc - Controller Button Map
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -1951,7 +1901,6 @@ Game details: Steam 2013 PC version (English). FR offsets are ( EN Offset - 328)
 |FF8_EN.exe+18D0235|FF8_FR.exe+18CFF0D|1 Byte|[Right](controls.md)|
 |FF8_EN.exe+18D0236|FF8_FR.exe+18CFF0E|1 Byte|[Down](controls.md)|
 |FF8_EN.exe+18D0237|FF8_FR.exe+18CFF0F|1 Byte|[Left](controls.md)|
-
 # Draw Points
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
