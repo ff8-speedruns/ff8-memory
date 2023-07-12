@@ -6,13 +6,14 @@
 |FF8_EN.exe+18DC748|FF8_FR.exe+18DC420|1 Byte|Stepcount Offset|
 |FF8_EN.exe+18DC740|FF8_FR.exe+18DC418|1 Byte|Step Fraction<br />----<br />When step count is active|
 |FF8_EN.exe+18D2FB8|FF8_FR.exe+18D2C90|1 Byte|Step ID|
+|FF8_EN.exe+18D2FB8|FF8_FR.exe+18D2C90|1 Byte|[Step ID - Danger Limit](dangerLimitRng.md)<br />----<br />Step ID using danger limit table.|
 |FF8_EN.exe+18DC74A|FF8_FR.exe+18DC422|1 Byte|Danger Value<br />----<br />When step count is active|
 |FF8_EN.exe+18FEFB4|FF8_FR.exe+18FEC8C|4 Bytes|Card RNG<br />----<br />Hex Value|
 |FF8_EN.exe+18DBFEC|FF8_FR.exe+18DBCC4|2 Bytes|Encounter Count<br />----<br />Current session<br />Resets on game restart|
 |FF8_EN.exe+18E490B|FF8_FR.exe+18E45E3|1 Byte|Can Save<br />----<br />Set to 1 to save anywhere.<br />Save points set this to 3.|
 |FF8_EN.exe+18FEC90|FF8_FR.exe+18FE968|1 Byte|Caraway Mansion Code<br />----<br />Accurate only when on map id 761.|
 |FF8_EN.exe+1996DA8|FF8_FR.exe+1996A80|2 Bytes|[Encounter ID](encounterId.md)<br />----<br />For the current/most recent encounter.|
-|FF8_EN.exe+1C40A5E|FF8_FR.exe+1C40736|1 Byte|Danger Value? (in World Map)|
+|FF8_EN.exe+1C409E0|FF8_FR.exe+1C406B8|1 Byte|Danger Value? (in World Map)|
 |FF8_EN.exe+18DBFEC|FF8_FR.exe+18DBCC4|2 Bytes|Total Encounters<br />----<br />Resets to 0 on hard reset.|
 |FF8_EN.exe+1927DA4|FF8_FR.exe+1927A7C|1 Byte|Ifrit Punch Counter|
 |FF8_EN.exe+1976750|FF8_FR.exe+1976428|2 Bytes|Zell Duel Timer|
@@ -21,8 +22,9 @@
 |----|----|----|----|
 |FF8_EN.exe+18D2FC0|FF8_FR.exe+18D2C98|2 Bytes|[Map ID](mapId.md)|
 |FF8_EN.exe+18FEAB8|FF8_FR.exe+18FE790|2 Bytes|Story Progress|
-|FF8_EN.exe+18FE92C|FF8_FR.exe+18FE604|2 Bytes|Time remaining<br />----<br />In seconds, if there's an active timer|
+|FF8_EN.exe+18FE92C|FF8_FR.exe+18FE604|2 Bytes|Timer<br />----<br />In seconds, if there's an active timer|
 |FF8_EN.exe+18FE764|FF8_FR.exe+18FE43C|4 Bytes|Current Gil|
+|FF8_EN.exe+18D2394|FF8_FR.exe+18D206C|4 Bytes|[Current BGM](music.md)|
 |FF8_EN.exe+18FE928|FF8_FR.exe+18FE600|4 Bytes|Play Time<br />----<br />In seconds|
 |FF8_EN.exe+18FE940|FF8_FR.exe+18FE618|1 Byte|Tonberry Kills<br />----<br />In Centra|
 |FF8_EN.exe+18FE9BC|FF8_FR.exe+18FE694|4 Bytes|Total Steps|
@@ -42,6 +44,11 @@
 |FF8_EN.exe+1677238|FF8_FR.exe+1676F10|4 Bytes|Field Coord X|
 |FF8_EN.exe+167723C|FF8_FR.exe+1676F14|4 Bytes|Field Coord Y|
 |FF8_EN.exe+1677240|FF8_FR.exe+1676F18|4 Bytes|Field Coord Z|
+|FF8_EN.exe+192B530|FF8_FR.exe+192B208|1 Byte|Train Code Digit 1|
+|FF8_EN.exe+192B534|FF8_FR.exe+192B20C|1 Byte|Train Code Digit 2|
+|FF8_EN.exe+192B538|FF8_FR.exe+192B210|1 Byte|Train Code Digit 3|
+|FF8_EN.exe+192B53C|FF8_FR.exe+192B214|1 Byte|Train Code Digit 4|
+|FF8_EN.exe+1C40A5E|FF8_FR.exe+1C40736|1 Byte|[Locomotion Method (WM)](locomotion.md)|
 # Seals (Map)
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -75,6 +82,14 @@
 |FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 5; Length: 1)|Limit Break Locked<br />----<br />Used in Post-Battle Unlock List|
 |FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 6; Length: 1)|Resurrection Locked<br />----<br />Used in Post-Battle Unlock List|
 |FF8_EN.exe+18FEB06|FF8_FR.exe+18FE7DE|Binary (Bit 7; Length: 1)|Save Locked<br />----<br />Used in Post-Battle Unlock List|
+# Game State
+|Offset (EN)|Offset (FR)|Length|Description|
+|----|----|----|----|
+|FF8_EN.exe+1976358|FF8_FR.exe+1976030|1 Byte|In Menu (or Rename Screen)|
+|FF8_EN.exe+1678CA4|FF8_FR.exe+167897C|1 Byte|In Post-Battle Screen|
+|FF8_EN.exe+1C9A7A0|FF8_FR.exe+1C9A478|1 Byte|In FMV|
+|FF8_EN.exe+192B35B|FF8_FR.exe+192B033|1 Byte|Menu Choice<br />----<br />A bit inconsistent. Sometimes starts at 0, sometimes starts at nonzero. Maybe it's based on the actual line number of the option.|
+|FF8_EN.exe+192A354|FF8_FR.exe+192A02C|1 Byte|Train Code Accepting Input?|
 # Battle
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -94,6 +109,14 @@
 |FF8_EN.exe+18FE9EC|FF8_FR.exe+18FE6C4|2 Bytes|Rinoa's Death Count|
 |FF8_EN.exe+18FE9EE|FF8_FR.exe+18FE6C6|2 Bytes|Selphie's Death Count|
 |FF8_EN.exe+18FE9FC|FF8_FR.exe+18FE6D4|4 Bytes|Total Enemies Killed|
+|FF8_EN.exe+18FF5E0|FF8_FR.exe+18FF2B8|1 Byte|[Battle Prize #1](itemId.md)|
+|FF8_EN.exe+18FF5E1|FF8_FR.exe+18FF2B9|1 Byte|[Battle Prize #1 Qty](itemId.md)|
+|FF8_EN.exe+18FF5E2|FF8_FR.exe+18FF2BA|1 Byte|[Battle Prize #2](itemId.md)|
+|FF8_EN.exe+18FF5E3|FF8_FR.exe+18FF2BB|1 Byte|[Battle Prize #2 Qty](itemId.md)|
+|FF8_EN.exe+18FF5E4|FF8_FR.exe+18FF2BC|1 Byte|[Battle Prize #3](itemId.md)|
+|FF8_EN.exe+18FF5E5|FF8_FR.exe+18FF2BD|1 Byte|[Battle Prize #3 Qty](itemId.md)|
+|FF8_EN.exe+18FF5E6|FF8_FR.exe+18FF2BE|1 Byte|[Battle Prize #4](itemId.md)|
+|FF8_EN.exe+18FF5E7|FF8_FR.exe+18FF2BF|1 Byte|[Battle Prize #4 Qty](itemId.md)|
 # Ally 1
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -148,6 +171,26 @@
 |FF8_EN.exe+1927B7E|FF8_FR.exe+1927856|2 Bytes|Float Timer (64425 when not active)|
 |FF8_EN.exe+1927B80|FF8_FR.exe+1927858|2 Bytes|UNKNOWN 1 Timer (64425 when not active)|
 |FF8_EN.exe+1927B82|FF8_FR.exe+192785A|2 Bytes|UNKNOWN 2 Timer (64425 when not active)|
+|FF8_EN.exe+1927BCC|FF8_FR.exe+19278A4|1 Byte|Battle - Level|
+|FF8_EN.exe+1927B1C|FF8_FR.exe+19277F4|1 Byte|Battle - Status|
+|FF8_EN.exe+1927BCD|FF8_FR.exe+19278A5|1 Byte|Battle - Strength|
+|FF8_EN.exe+1927BCE|FF8_FR.exe+19278A6|1 Byte|Battle - Vitality|
+|FF8_EN.exe+1927BCF|FF8_FR.exe+19278A7|1 Byte|Battle - Magic|
+|FF8_EN.exe+1927BD0|FF8_FR.exe+19278A8|1 Byte|Battle - Spirit|
+|FF8_EN.exe+1927BD1|FF8_FR.exe+19278A9|1 Byte|Battle - Speed|
+|FF8_EN.exe+1927BD2|FF8_FR.exe+19278AA|1 Byte|Battle - Luck|
+|FF8_EN.exe+1927BD3|FF8_FR.exe+19278AB|1 Byte|Battle - Evasion|
+|FF8_EN.exe+1927BD4|FF8_FR.exe+19278AC|1 Byte|Battle - Hit%|
+|FF8_EN.exe+1927BDA|FF8_FR.exe+19278B2|1 Byte|Battle - Crisis Level|
+|FF8_EN.exe+1927B54|FF8_FR.exe+192782C|2 Bytes|Battle - Elemental Resistance - Fire<br />----<br />500 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927B56|FF8_FR.exe+192782E|2 Bytes|Battle - Elemental Resistance - Ice<br />----<br />501 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927B58|FF8_FR.exe+1927830|2 Bytes|Battle - Elemental Resistance - Thunder<br />----<br />502 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927B5A|FF8_FR.exe+1927832|2 Bytes|Battle - Elemental Resistance - Earth<br />----<br />503 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927B5C|FF8_FR.exe+1927834|2 Bytes|Battle - Elemental Resistance - Poison<br />----<br />504 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927B5E|FF8_FR.exe+1927836|2 Bytes|Battle - Elemental Resistance - Wind<br />----<br />505 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927B60|FF8_FR.exe+1927838|2 Bytes|Battle - Elemental Resistance - Water<br />----<br />506 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927B62|FF8_FR.exe+192783A|2 Bytes|Battle - Elemental Resistance - Holy<br />----<br />507 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927B98|FF8_FR.exe+1927870|1 Byte|[Battle - Last Attacker](battlepositions.md)|
 # Ally 2
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -202,6 +245,26 @@
 |FF8_EN.exe+1927C4E|FF8_FR.exe+1927926|2 Bytes|Float Timer (64425 when not active)|
 |FF8_EN.exe+1927C50|FF8_FR.exe+1927928|2 Bytes|UNKNOWN 1 Timer (64425 when not active)|
 |FF8_EN.exe+1927C52|FF8_FR.exe+192792A|2 Bytes|UNKNOWN 2 Timer (64425 when not active)|
+|FF8_EN.exe+1927C9C|FF8_FR.exe+1927974|1 Byte|Battle - Level|
+|FF8_EN.exe+1927BEC|FF8_FR.exe+19278C4|1 Byte|Battle - Status|
+|FF8_EN.exe+1927C9D|FF8_FR.exe+1927975|1 Byte|Battle - Strength|
+|FF8_EN.exe+1927C9E|FF8_FR.exe+1927976|1 Byte|Battle - Vitality|
+|FF8_EN.exe+1927C9F|FF8_FR.exe+1927977|1 Byte|Battle - Magic|
+|FF8_EN.exe+1927CA0|FF8_FR.exe+1927978|1 Byte|Battle - Spirit|
+|FF8_EN.exe+1927CA1|FF8_FR.exe+1927979|1 Byte|Battle - Speed|
+|FF8_EN.exe+1927CA2|FF8_FR.exe+192797A|1 Byte|Battle - Luck|
+|FF8_EN.exe+1927CA3|FF8_FR.exe+192797B|1 Byte|Battle - Evasion|
+|FF8_EN.exe+1927CA4|FF8_FR.exe+192797C|1 Byte|Battle - Hit%|
+|FF8_EN.exe+1927CAA|FF8_FR.exe+1927982|1 Byte|Battle - Crisis Level|
+|FF8_EN.exe+1927C24|FF8_FR.exe+19278FC|2 Bytes|Battle - Elemental Resistance - Fire<br />----<br />500 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927C26|FF8_FR.exe+19278FE|2 Bytes|Battle - Elemental Resistance - Ice<br />----<br />501 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927C28|FF8_FR.exe+1927900|2 Bytes|Battle - Elemental Resistance - Thunder<br />----<br />502 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927C2A|FF8_FR.exe+1927902|2 Bytes|Battle - Elemental Resistance - Earth<br />----<br />503 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927C2C|FF8_FR.exe+1927904|2 Bytes|Battle - Elemental Resistance - Poison<br />----<br />504 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927C2E|FF8_FR.exe+1927906|2 Bytes|Battle - Elemental Resistance - Wind<br />----<br />505 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927C30|FF8_FR.exe+1927908|2 Bytes|Battle - Elemental Resistance - Water<br />----<br />506 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927C32|FF8_FR.exe+192790A|2 Bytes|Battle - Elemental Resistance - Holy<br />----<br />507 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927C68|FF8_FR.exe+1927940|1 Byte|[Battle - Last Attacker](battlepositions.md)|
 # Ally 3
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -256,6 +319,26 @@
 |FF8_EN.exe+1927D1E|FF8_FR.exe+19279F6|2 Bytes|Float Timer (64425 when not active)|
 |FF8_EN.exe+1927D20|FF8_FR.exe+19279F8|2 Bytes|UNKNOWN 1 Timer (64425 when not active)|
 |FF8_EN.exe+1927D22|FF8_FR.exe+19279FA|2 Bytes|UNKNOWN 2 Timer (64425 when not active)|
+|FF8_EN.exe+1927D6C|FF8_FR.exe+1927A44|1 Byte|Battle - Level|
+|FF8_EN.exe+1927CBC|FF8_FR.exe+1927994|1 Byte|Battle - Status|
+|FF8_EN.exe+1927D6D|FF8_FR.exe+1927A45|1 Byte|Battle - Strength|
+|FF8_EN.exe+1927D6E|FF8_FR.exe+1927A46|1 Byte|Battle - Vitality|
+|FF8_EN.exe+1927D6F|FF8_FR.exe+1927A47|1 Byte|Battle - Magic|
+|FF8_EN.exe+1927D70|FF8_FR.exe+1927A48|1 Byte|Battle - Spirit|
+|FF8_EN.exe+1927D71|FF8_FR.exe+1927A49|1 Byte|Battle - Speed|
+|FF8_EN.exe+1927D72|FF8_FR.exe+1927A4A|1 Byte|Battle - Luck|
+|FF8_EN.exe+1927D73|FF8_FR.exe+1927A4B|1 Byte|Battle - Evasion|
+|FF8_EN.exe+1927D74|FF8_FR.exe+1927A4C|1 Byte|Battle - Hit%|
+|FF8_EN.exe+1927D7A|FF8_FR.exe+1927A52|1 Byte|Battle - Crisis Level|
+|FF8_EN.exe+1927CF4|FF8_FR.exe+19279CC|2 Bytes|Battle - Elemental Resistance - Fire<br />----<br />500 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927CF6|FF8_FR.exe+19279CE|2 Bytes|Battle - Elemental Resistance - Ice<br />----<br />501 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927CF8|FF8_FR.exe+19279D0|2 Bytes|Battle - Elemental Resistance - Thunder<br />----<br />502 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927CFA|FF8_FR.exe+19279D2|2 Bytes|Battle - Elemental Resistance - Earth<br />----<br />503 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927CFC|FF8_FR.exe+19279D4|2 Bytes|Battle - Elemental Resistance - Poison<br />----<br />504 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927CFE|FF8_FR.exe+19279D6|2 Bytes|Battle - Elemental Resistance - Wind<br />----<br />505 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927D00|FF8_FR.exe+19279D8|2 Bytes|Battle - Elemental Resistance - Water<br />----<br />506 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927D02|FF8_FR.exe+19279DA|2 Bytes|Battle - Elemental Resistance - Holy<br />----<br />507 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927D38|FF8_FR.exe+1927A10|1 Byte|[Battle - Last Attacker](battlepositions.md)|
 # GF
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -288,6 +371,26 @@
 |FF8_EN.exe+1928F1C|FF8_FR.exe+1928BF4|1 Byte|[Draw 2 Spell ID](magicId.md)|
 |FF8_EN.exe+1928F20|FF8_FR.exe+1928BF8|1 Byte|[Draw 3 Spell ID](magicId.md)|
 |FF8_EN.exe+1928F24|FF8_FR.exe+1928BFC|1 Byte|[Draw 4 Spell ID](magicId.md)|
+|FF8_EN.exe+1927E3C|FF8_FR.exe+1927B14|1 Byte|Battle - Level|
+|FF8_EN.exe+1927D8C|FF8_FR.exe+1927A64|1 Byte|Battle - Status|
+|FF8_EN.exe+1927E3D|FF8_FR.exe+1927B15|1 Byte|Battle - Strength|
+|FF8_EN.exe+1927E3E|FF8_FR.exe+1927B16|1 Byte|Battle - Vitality|
+|FF8_EN.exe+1927E3F|FF8_FR.exe+1927B17|1 Byte|Battle - Magic|
+|FF8_EN.exe+1927E40|FF8_FR.exe+1927B18|1 Byte|Battle - Spirit|
+|FF8_EN.exe+1927E41|FF8_FR.exe+1927B19|1 Byte|Battle - Speed|
+|FF8_EN.exe+1927E42|FF8_FR.exe+1927B1A|1 Byte|Battle - Luck|
+|FF8_EN.exe+1927E43|FF8_FR.exe+1927B1B|1 Byte|Battle - Evasion|
+|FF8_EN.exe+1927E44|FF8_FR.exe+1927B1C|1 Byte|Battle - Hit%|
+|FF8_EN.exe+1927E4A|FF8_FR.exe+1927B22|1 Byte|Battle - Crisis Level|
+|FF8_EN.exe+1927DC4|FF8_FR.exe+1927A9C|2 Bytes|Battle - Elemental Resistance - Fire<br />----<br />500 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927DC6|FF8_FR.exe+1927A9E|2 Bytes|Battle - Elemental Resistance - Ice<br />----<br />501 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927DC8|FF8_FR.exe+1927AA0|2 Bytes|Battle - Elemental Resistance - Thunder<br />----<br />502 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927DCA|FF8_FR.exe+1927AA2|2 Bytes|Battle - Elemental Resistance - Earth<br />----<br />503 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927DCC|FF8_FR.exe+1927AA4|2 Bytes|Battle - Elemental Resistance - Poison<br />----<br />504 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927DCE|FF8_FR.exe+1927AA6|2 Bytes|Battle - Elemental Resistance - Wind<br />----<br />505 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927DD0|FF8_FR.exe+1927AA8|2 Bytes|Battle - Elemental Resistance - Water<br />----<br />506 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927DD2|FF8_FR.exe+1927AAA|2 Bytes|Battle - Elemental Resistance - Holy<br />----<br />507 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927E08|FF8_FR.exe+1927AE0|1 Byte|[Battle - Last Attacker](battlepositions.md)|
 # Enemy 2
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -299,6 +402,26 @@
 |FF8_EN.exe+1928F63|FF8_FR.exe+1928C3B|1 Byte|[Draw 2 Spell ID](magicId.md)|
 |FF8_EN.exe+1928F67|FF8_FR.exe+1928C3F|1 Byte|[Draw 3 Spell ID](magicId.md)|
 |FF8_EN.exe+1928F6B|FF8_FR.exe+1928C43|1 Byte|[Draw 4 Spell ID](magicId.md)|
+|FF8_EN.exe+1927F0C|FF8_FR.exe+1927BE4|1 Byte|Battle - Level|
+|FF8_EN.exe+1927E5C|FF8_FR.exe+1927B34|1 Byte|Battle - Status|
+|FF8_EN.exe+1927F0D|FF8_FR.exe+1927BE5|1 Byte|Battle - Strength|
+|FF8_EN.exe+1927F0E|FF8_FR.exe+1927BE6|1 Byte|Battle - Vitality|
+|FF8_EN.exe+1927F0F|FF8_FR.exe+1927BE7|1 Byte|Battle - Magic|
+|FF8_EN.exe+1927F10|FF8_FR.exe+1927BE8|1 Byte|Battle - Spirit|
+|FF8_EN.exe+1927F11|FF8_FR.exe+1927BE9|1 Byte|Battle - Speed|
+|FF8_EN.exe+1927F12|FF8_FR.exe+1927BEA|1 Byte|Battle - Luck|
+|FF8_EN.exe+1927F13|FF8_FR.exe+1927BEB|1 Byte|Battle - Evasion|
+|FF8_EN.exe+1927F14|FF8_FR.exe+1927BEC|1 Byte|Battle - Hit%|
+|FF8_EN.exe+1927F1A|FF8_FR.exe+1927BF2|1 Byte|Battle - Crisis Level|
+|FF8_EN.exe+1927E94|FF8_FR.exe+1927B6C|2 Bytes|Battle - Elemental Resistance - Fire<br />----<br />500 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927E96|FF8_FR.exe+1927B6E|2 Bytes|Battle - Elemental Resistance - Ice<br />----<br />501 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927E98|FF8_FR.exe+1927B70|2 Bytes|Battle - Elemental Resistance - Thunder<br />----<br />502 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927E9A|FF8_FR.exe+1927B72|2 Bytes|Battle - Elemental Resistance - Earth<br />----<br />503 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927E9C|FF8_FR.exe+1927B74|2 Bytes|Battle - Elemental Resistance - Poison<br />----<br />504 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927E9E|FF8_FR.exe+1927B76|2 Bytes|Battle - Elemental Resistance - Wind<br />----<br />505 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927EA0|FF8_FR.exe+1927B78|2 Bytes|Battle - Elemental Resistance - Water<br />----<br />506 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927EA2|FF8_FR.exe+1927B7A|2 Bytes|Battle - Elemental Resistance - Holy<br />----<br />507 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927ED8|FF8_FR.exe+1927BB0|1 Byte|[Battle - Last Attacker](battlepositions.md)|
 # Enemy 3
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -310,6 +433,26 @@
 |FF8_EN.exe+1928FAA|FF8_FR.exe+1928C82|1 Byte|[Draw 2 Spell ID](magicId.md)|
 |FF8_EN.exe+1928FAE|FF8_FR.exe+1928C86|1 Byte|[Draw 3 Spell ID](magicId.md)|
 |FF8_EN.exe+1928FB2|FF8_FR.exe+1928C8A|1 Byte|[Draw 4 Spell ID](magicId.md)|
+|FF8_EN.exe+1927FDC|FF8_FR.exe+1927CB4|1 Byte|Battle - Level|
+|FF8_EN.exe+1927F2C|FF8_FR.exe+1927C04|1 Byte|Battle - Status|
+|FF8_EN.exe+1927FDD|FF8_FR.exe+1927CB5|1 Byte|Battle - Strength|
+|FF8_EN.exe+1927FDE|FF8_FR.exe+1927CB6|1 Byte|Battle - Vitality|
+|FF8_EN.exe+1927FDF|FF8_FR.exe+1927CB7|1 Byte|Battle - Magic|
+|FF8_EN.exe+1927FE0|FF8_FR.exe+1927CB8|1 Byte|Battle - Spirit|
+|FF8_EN.exe+1927FE1|FF8_FR.exe+1927CB9|1 Byte|Battle - Speed|
+|FF8_EN.exe+1927FE2|FF8_FR.exe+1927CBA|1 Byte|Battle - Luck|
+|FF8_EN.exe+1927FE3|FF8_FR.exe+1927CBB|1 Byte|Battle - Evasion|
+|FF8_EN.exe+1927FE4|FF8_FR.exe+1927CBC|1 Byte|Battle - Hit%|
+|FF8_EN.exe+1927FEA|FF8_FR.exe+1927CC2|1 Byte|Battle - Crisis Level|
+|FF8_EN.exe+1927F64|FF8_FR.exe+1927C3C|2 Bytes|Battle - Elemental Resistance - Fire<br />----<br />500 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927F66|FF8_FR.exe+1927C3E|2 Bytes|Battle - Elemental Resistance - Ice<br />----<br />501 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927F68|FF8_FR.exe+1927C40|2 Bytes|Battle - Elemental Resistance - Thunder<br />----<br />502 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927F6A|FF8_FR.exe+1927C42|2 Bytes|Battle - Elemental Resistance - Earth<br />----<br />503 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927F6C|FF8_FR.exe+1927C44|2 Bytes|Battle - Elemental Resistance - Poison<br />----<br />504 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927F6E|FF8_FR.exe+1927C46|2 Bytes|Battle - Elemental Resistance - Wind<br />----<br />505 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927F70|FF8_FR.exe+1927C48|2 Bytes|Battle - Elemental Resistance - Water<br />----<br />506 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927F72|FF8_FR.exe+1927C4A|2 Bytes|Battle - Elemental Resistance - Holy<br />----<br />507 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1927FA8|FF8_FR.exe+1927C80|1 Byte|[Battle - Last Attacker](battlepositions.md)|
 # Enemy 4
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|
@@ -321,6 +464,26 @@
 |FF8_EN.exe+1928FF1|FF8_FR.exe+1928CC9|1 Byte|[Draw 2 Spell ID](magicId.md)|
 |FF8_EN.exe+1928FF5|FF8_FR.exe+1928CCD|1 Byte|[Draw 3 Spell ID](magicId.md)|
 |FF8_EN.exe+1928FFF|FF8_FR.exe+1928CD7|1 Byte|[Draw 4 Spell ID](magicId.md)|
+|FF8_EN.exe+19280AC|FF8_FR.exe+1927D84|1 Byte|Battle - Level|
+|FF8_EN.exe+1927FFC|FF8_FR.exe+1927CD4|1 Byte|Battle - Status|
+|FF8_EN.exe+19280AD|FF8_FR.exe+1927D85|1 Byte|Battle - Strength|
+|FF8_EN.exe+19280AE|FF8_FR.exe+1927D86|1 Byte|Battle - Vitality|
+|FF8_EN.exe+19280AF|FF8_FR.exe+1927D87|1 Byte|Battle - Magic|
+|FF8_EN.exe+19280B0|FF8_FR.exe+1927D88|1 Byte|Battle - Spirit|
+|FF8_EN.exe+19280B1|FF8_FR.exe+1927D89|1 Byte|Battle - Speed|
+|FF8_EN.exe+19280B2|FF8_FR.exe+1927D8A|1 Byte|Battle - Luck|
+|FF8_EN.exe+19280B3|FF8_FR.exe+1927D8B|1 Byte|Battle - Evasion|
+|FF8_EN.exe+19280B4|FF8_FR.exe+1927D8C|1 Byte|Battle - Hit%|
+|FF8_EN.exe+19280BA|FF8_FR.exe+1927D92|1 Byte|Battle - Crisis Level|
+|FF8_EN.exe+1928034|FF8_FR.exe+1927D0C|2 Bytes|Battle - Elemental Resistance - Fire<br />----<br />500 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1928036|FF8_FR.exe+1927D0E|2 Bytes|Battle - Elemental Resistance - Ice<br />----<br />501 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1928038|FF8_FR.exe+1927D10|2 Bytes|Battle - Elemental Resistance - Thunder<br />----<br />502 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+192803A|FF8_FR.exe+1927D12|2 Bytes|Battle - Elemental Resistance - Earth<br />----<br />503 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+192803C|FF8_FR.exe+1927D14|2 Bytes|Battle - Elemental Resistance - Poison<br />----<br />504 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+192803E|FF8_FR.exe+1927D16|2 Bytes|Battle - Elemental Resistance - Wind<br />----<br />505 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1928040|FF8_FR.exe+1927D18|2 Bytes|Battle - Elemental Resistance - Water<br />----<br />506 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1928042|FF8_FR.exe+1927D1A|2 Bytes|Battle - Elemental Resistance - Holy<br />----<br />507 = weak, 800 = neutral, 1000 = absorb|
+|FF8_EN.exe+1928078|FF8_FR.exe+1927D50|1 Byte|[Battle - Last Attacker](battlepositions.md)|
 # Squall
 |Offset (EN)|Offset (FR)|Length|Description|
 |----|----|----|----|

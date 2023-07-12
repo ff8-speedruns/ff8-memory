@@ -76,8 +76,8 @@
 |72|testno (???)|
 |73|start (???)|
 |74|start0 (Opening FMV)|
-|75|gover (???)|
-|76|ending (???)|
+|75|gover (Game Over Screen)|
+|76|ending (Ending FMV)|
 |77|test (???)|
 |78|test1 (???)|
 |79|test2 (???)|
@@ -99,7 +99,7 @@
 |95|testbl6 (???)|
 |96|testbl7 (???)|
 |97|testbl8 (???)|
-|98|testbl9 (???)|
+|98|testbl9 (Ultimecia Seal Menu)|
 |99|testbl13 (???)|
 |100|testbl14 (???)|
 |101|testmv (???)|
